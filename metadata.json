@@ -1,0 +1,6 @@
+{
+  "name": "PawMatch",
+  "description": "A premium social discovery app for dogs and their owners. Find same-breed dogs nearby, match with friendly pups, scroll dogs on a map view, schedule premium playdates, and chat with local dog lovers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
