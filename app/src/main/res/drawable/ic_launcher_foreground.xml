@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.82"
+        android:scaleY="0.82">
+        
+        <!-- Outer Paw Shape in Warm Cream for premium contrast -->
+        <path
+            android:fillColor="#FFF8F0"
+            android:pathData="M 54,82 C 33.5,68.5 30,53.5 43,44.5 C 49.5,40 54,46.5 54,46.5 C 54,46.5 58.5,40 65,44.5 C 78,53.5 74.5,68.5 54,82 Z" />
+        
+        <!-- Outer Toes in Warm Cream -->
+        <!-- Toe 1: Outer Left -->
+        <path
+            android:fillColor="#FFF8F0"
+            android:pathData="M 29,39 A 5.5,6.5 -15 1,1 28.9,39 Z" />
+        <!-- Toe 2: Inner Left -->
+        <path
+            android:fillColor="#FFF8F0"
+            android:pathData="M 43,28 A 7,8 -5 1,1 42.9,28 Z" />
+        <!-- Toe 3: Inner Right -->
+        <path
+            android:fillColor="#FFF8F0"
+            android:pathData="M 65,28 A 7,8 5 1,1 64.9,28 Z" />
+        <!-- Toe 4: Outer Right -->
+        <path
+            android:fillColor="#FFF8F0"
+            android:pathData="M 79,39 A 5.5,6.5 15 1,1 78.9,39 Z" />
+
+        <!-- Inner Heart Accent in Gold for high-end feel -->
+        <path
+            android:fillColor="#D5A43D"
+            android:pathData="M 54,74 C 40,64 38,54 46,48 C 50,45 54,49.5 54,49.5 C 54,49.5 58,45 62,48 C 70,54 68,64 54,74 Z" />
+            
+    </group>
+</vector>
