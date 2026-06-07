@@ -4,6 +4,7 @@ import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.*
 import androidx.compose.foundation.gestures.detectDragGestures
+import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
@@ -13,6 +14,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.material.icons.automirrored.filled.List
+import androidx.compose.material.icons.automirrored.filled.RotateRight
+import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.*
 import androidx.compose.material3.*
@@ -23,7 +28,6 @@ import androidx.compose.ui.BiasAlignment
 import androidx.compose.ui.Modifier
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.result.PickVisualMediaRequest
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.shadow
@@ -218,7 +222,7 @@ fun SplashScreen(viewModel: PawMatchViewModel) {
                 )
                 Spacer(modifier = Modifier.width(10.dp))
                 Icon(
-                    imageVector = Icons.Default.ArrowForward,
+                    imageVector = Icons.AutoMirrored.Filled.ArrowForward,
                     contentDescription = "Proceed arrow",
                     tint = Color.White,
                     modifier = Modifier.size(18.dp)
@@ -393,12 +397,7 @@ private fun saveBitmapToGallery(context: android.content.Context, bitmap: Bitmap
                 contentValues.put(android.provider.MediaStore.MediaColumns.IS_PENDING, 0)
                 resolver.update(imageUri, contentValues, null, null)
             }
-            
-            // Broadcast scan file to notify Android Media Scanner
-            val mediaScanIntent = android.content.Intent(android.content.Intent.ACTION_MEDIA_SCANNER_SCAN_FILE)
-            mediaScanIntent.data = imageUri
-            context.sendBroadcast(mediaScanIntent)
-            
+
             // Explicitly scan the newly created file via MediaScannerConnection
             try {
                 android.media.MediaScannerConnection.scanFile(
@@ -416,7 +415,8 @@ private fun saveBitmapToGallery(context: android.content.Context, bitmap: Bitmap
         t.printStackTrace()
     }
 
-    // Method B: Robust Legacy / General Fallback Compatibility Pathway (creates a copy straight in System media pictures directory)
+    // Method B: Robust Legacy / General Fallback Compatibility Pathway (pre-API29 devices)
+    @Suppress("DEPRECATION")
     try {
         val savedUriStr = android.provider.MediaStore.Images.Media.insertImage(
             resolver,
@@ -426,11 +426,14 @@ private fun saveBitmapToGallery(context: android.content.Context, bitmap: Bitmap
         )
         if (!savedUriStr.isNullOrEmpty()) {
             val legacyUri = Uri.parse(savedUriStr)
-            
-            val scanIntent = android.content.Intent(android.content.Intent.ACTION_MEDIA_SCANNER_SCAN_FILE)
-            scanIntent.data = legacyUri
-            context.sendBroadcast(scanIntent)
-            
+            // Use MediaScannerConnection for modern scan notification
+            try {
+                android.media.MediaScannerConnection.scanFile(
+                    context,
+                    arrayOf(legacyUri.toString()),
+                    arrayOf("image/jpeg")
+                ) { _, _ -> }
+            } catch (t: Throwable) { t.printStackTrace() }
             return legacyUri
         }
     } catch (t: Throwable) {
@@ -551,7 +554,7 @@ private fun loadBitmapFromUri(context: android.content.Context, uri: Uri): Bitma
  * This is required for Android photo picker URIs (content://media/picker_...)
  * which third-party apps (including the system crop tool) cannot access directly.
  */
-private fun copyUriToCache(context: android.content.Context, sourceUri: Uri): Uri? {
+private fun copyUriToCache(context: android.content.Context, sourceUri: Uri): String? {
     return try {
         val cacheFile = File(
             context.externalCacheDir ?: context.cacheDir,
@@ -561,8 +564,7 @@ private fun copyUriToCache(context: android.content.Context, sourceUri: Uri): Ur
             FileOutputStream(cacheFile).use { output -> input.copyTo(output) }
         }
         if (!cacheFile.exists() || cacheFile.length() == 0L) return null
-        val authority = "${context.packageName}.fileprovider"
-        androidx.core.content.FileProvider.getUriForFile(context, authority, cacheFile)
+        cacheFile.absolutePath
     } catch (t: Throwable) {
         t.printStackTrace()
         null
@@ -633,12 +635,10 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
     val setupBio by viewModel.setupBio.collectAsStateWithLifecycle()
     val setupImageUrl by viewModel.setupImageUrl.collectAsStateWithLifecycle()
     val userDog by viewModel.userDog.collectAsStateWithLifecycle()
-
-    var showPhotoPickerSelectionDialog by remember { mutableStateOf(false) }
     var showCropDialog by remember { mutableStateOf(false) }
     var cropSourceBitmap by remember { mutableStateOf<Bitmap?>(null) }
     var cropOutputFilePath by rememberSaveable { mutableStateOf<String?>(null) }
-    var tempCameraFilePath by rememberSaveable { mutableStateOf<String?>(null) }
+    var showProfileBottomSheet by remember { mutableStateOf(false) }
 
     val context = LocalContext.current
     val coroutineScope = rememberCoroutineScope()
@@ -705,67 +705,21 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
         }
     }
 
-    // Launches the OS crop intent. Falls back to our custom dialog if no crop app is available.
-    fun launchCropIntent(sourceUri: Uri) {
-        try {
-            val authority = "${context.packageName}.fileprovider"
-            val storageDir = context.externalCacheDir ?: context.cacheDir
-            val outputFile = File(storageDir, "crop_output_${System.currentTimeMillis()}.jpg")
-            cropOutputFilePath = outputFile.absolutePath
-            val outputUri = androidx.core.content.FileProvider.getUriForFile(context, authority, outputFile)
-
-            val cropIntent = android.content.Intent("com.android.camera.action.CROP").apply {
-                setDataAndType(sourceUri, "image/*")
-                putExtra("crop", "true")
-                putExtra("aspectX", 1)
-                putExtra("aspectY", 1)
-                putExtra("outputX", 800)
-                putExtra("outputY", 800)
-                putExtra("scale", true)
-                putExtra("scaleUpIfNeeded", true)
-                putExtra("return-data", false)
-                putExtra(android.provider.MediaStore.EXTRA_OUTPUT, outputUri)
-                putExtra("outputFormat", Bitmap.CompressFormat.JPEG.name)
-                addFlags(android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION)
-                addFlags(android.content.Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
-            }
-
-            // Grant permissions to all apps that can handle the crop intent
-            val resInfoList = context.packageManager.queryIntentActivities(
-                cropIntent, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY
-            )
-
-            if (resInfoList.isEmpty()) {
-                // No system crop app found - fall back to our built-in crop dialog
-                Toast.makeText(context, "Opening crop tool...", Toast.LENGTH_SHORT).show()
-                coroutineScope.launch(Dispatchers.IO) {
-                    val bitmap = try {
-                        context.contentResolver.openInputStream(sourceUri)?.use {
-                            android.graphics.BitmapFactory.decodeStream(it)
-                        }
-                    } catch (t: Throwable) { null }
-                    withContext(Dispatchers.Main) {
-                        if (bitmap != null) {
-                            cropSourceBitmap = bitmap
-                            showCropDialog = true
-                        } else {
-                            Toast.makeText(context, "Could not load photo for cropping.", Toast.LENGTH_SHORT).show()
-                        }
-                    }
+    // Launches the built-in custom crop dialog.
+    fun launchCropIntent(sourceFilePath: String) {
+        Toast.makeText(context, "Opening crop tool...", Toast.LENGTH_SHORT).show()
+        coroutineScope.launch(Dispatchers.IO) {
+            val bitmap = try {
+                android.graphics.BitmapFactory.decodeFile(sourceFilePath)
+            } catch (t: Throwable) { null }
+            withContext(Dispatchers.Main) {
+                if (bitmap != null) {
+                    cropSourceBitmap = bitmap
+                    showCropDialog = true
+                } else {
+                    Toast.makeText(context, "Could not load photo for cropping.", Toast.LENGTH_SHORT).show()
                 }
-                return
             }
-
-            for (resolveInfo in resInfoList) {
-                val pkg = resolveInfo.activityInfo.packageName
-                context.grantUriPermission(pkg, sourceUri, android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION or android.content.Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
-                context.grantUriPermission(pkg, outputUri, android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION or android.content.Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
-            }
-
-            cropIntentLauncher.launch(cropIntent)
-        } catch (e: Exception) {
-            e.printStackTrace()
-            Toast.makeText(context, "Crop failed: ${e.message}", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -775,14 +729,12 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
         onResult = { uri ->
             if (uri != null) {
                 Toast.makeText(context, "Opening crop tool...", Toast.LENGTH_SHORT).show()
-                // Copy to cache on a background thread so crop app has a FileProvider URI it can read.
-                // Android photo picker URIs (content://media/picker_...) are not accessible
-                // to third-party apps, so we must copy the bytes into our own cache first.
+                // Copy to cache on a background thread so we have a physical file to decode
                 coroutineScope.launch(Dispatchers.IO) {
-                    val cachedUri = copyUriToCache(context, uri)
+                    val cachedPath = copyUriToCache(context, uri)
                     withContext(Dispatchers.Main) {
-                        if (cachedUri != null) {
-                            launchCropIntent(cachedUri)
+                        if (cachedPath != null) {
+                            launchCropIntent(cachedPath)
                         } else {
                             Toast.makeText(context, "Could not read selected photo.", Toast.LENGTH_SHORT).show()
                         }
@@ -792,143 +744,79 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
         }
     )
 
-    // --- CAMERA LAUNCHER ---
-    val cameraLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.TakePicture(),
-        onResult = { success ->
-            try {
-                val path = tempCameraFilePath
-                val file = path?.let { File(it) }
-                if (success && file != null && file.exists()) {
-                    val authority = "${context.packageName}.fileprovider"
-                    val contentUri = try {
-                        androidx.core.content.FileProvider.getUriForFile(context, authority, file)
-                    } catch (e: Exception) { null }
-                    if (contentUri != null) {
-                        // Save original (uncropped) camera photo to gallery immediately
-                        coroutineScope.launch(Dispatchers.IO) {
-                            try {
-                                val bitmap = android.graphics.BitmapFactory.decodeFile(file.absolutePath)
-                                if (bitmap != null) {
-                                    saveBitmapToGallery(context, convertToSoftwareBitmap(bitmap))
-                                }
-                            } catch (t: Throwable) { t.printStackTrace() }
-                        }
-                        Toast.makeText(context, "Opening crop tool...", Toast.LENGTH_SHORT).show()
-                        launchCropIntent(contentUri)
-                    } else {
-                        Toast.makeText(context, "Failed to process captured photo.", Toast.LENGTH_SHORT).show()
-                    }
-                } else {
-                    // User pressed X / cancelled camera - return to profile screen silently
-                    tempCameraFilePath = null
-                }
-            } catch (t: Throwable) {
-                t.printStackTrace()
-            }
-        }
-    )
 
-    fun launchCamera() {
-        try {
-            val storageDir = context.externalCacheDir ?: context.cacheDir
-            val file = File(storageDir, "camera_capture_${System.currentTimeMillis()}.jpg")
-            tempCameraFilePath = file.absolutePath
-            val authority = "${context.packageName}.fileprovider"
-            val uri = androidx.core.content.FileProvider.getUriForFile(context, authority, file)
-            // Grant write permission to all camera apps
-            try {
-                val cameraIntent = android.content.Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE)
-                val resInfoList = context.packageManager.queryIntentActivities(cameraIntent, android.content.pm.PackageManager.MATCH_DEFAULT_ONLY)
-                for (resolveInfo in resInfoList) {
-                    context.grantUriPermission(resolveInfo.activityInfo.packageName, uri,
-                        android.content.Intent.FLAG_GRANT_WRITE_URI_PERMISSION or android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION)
-                }
-            } catch (ex: Exception) { ex.printStackTrace() }
-            cameraLauncher.launch(uri)
-        } catch (e: Exception) {
-            e.printStackTrace()
-            Toast.makeText(context, "Failed to launch Camera: ${e.message}", Toast.LENGTH_SHORT).show()
-        }
-    }
 
-    val cameraPermissionLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.RequestPermission(),
-        onResult = { isGranted ->
-            if (isGranted) {
-                launchCamera()
-            } else {
-                Toast.makeText(context, "Camera permission is required to click a photo.", Toast.LENGTH_LONG).show()
-            }
-        }
-    )
-
-    val keyboardController = LocalSoftwareKeyboardController.current
-
-    if (showPhotoPickerSelectionDialog) {
-        AlertDialog(
-            onDismissRequest = { showPhotoPickerSelectionDialog = false },
-            title = {
+    @OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+    if (showProfileBottomSheet) {
+        androidx.compose.material3.ModalBottomSheet(
+            onDismissRequest = { showProfileBottomSheet = false },
+            containerColor = Color.White
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = 24.dp, end = 24.dp, bottom = 48.dp, top = 8.dp),
+                verticalArrangement = Arrangement.spacedBy(24.dp)
+            ) {
                 Text(
-                    text = "Select Profile Photo",
-                    style = MaterialTheme.typography.titleLarge.copy(color = WarmBrown)
+                    text = "Profile photo",
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black
                 )
-            },
-            text = {
-                Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
-                    Text(
-                        text = "Customize your dog's profile picture using device photography or photo gallery.",
-                        style = MaterialTheme.typography.bodyMedium.copy(color = SoftBrown)
-                    )
-                    
-                    // Option 1: Click a photo
-                    Button(
-                        onClick = {
-                            showPhotoPickerSelectionDialog = false
-                            val hasCameraPermission = ContextCompat.checkSelfPermission(
-                                context,
-                                android.Manifest.permission.CAMERA
-                            ) == PackageManager.PERMISSION_GRANTED
-                            
-                            if (hasCameraPermission) {
-                                launchCamera()
-                            } else {
-                                cameraPermissionLauncher.launch(android.Manifest.permission.CAMERA)
-                            }
-                        },
-                        colors = ButtonDefaults.buttonColors(containerColor = Soapstone),
-                        shape = RoundedCornerShape(12.dp),
-                        modifier = Modifier.fillMaxWidth().height(48.dp)
+                
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(32.dp),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    // Gallery Button
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        modifier = Modifier.clickable { 
+                            showProfileBottomSheet = false
+                            photoPickerLauncher.launch("image/*") 
+                        }
                     ) {
-                        Icon(imageVector = Icons.Default.CameraAlt, contentDescription = null, tint = WarmBrown)
-                        Spacer(modifier = Modifier.width(12.dp))
-                        Text(text = "Click a photo", color = WarmBrown, fontWeight = FontWeight.SemiBold)
+                        Box(
+                            modifier = Modifier
+                                .size(64.dp)
+                                .clip(CircleShape)
+                                .border(1.dp, Color.LightGray.copy(alpha=0.5f), CircleShape)
+                                .background(Color.White),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(Icons.Default.Image, contentDescription = "Gallery", tint = Terracotta, modifier = Modifier.size(32.dp))
+                        }
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text("Gallery", style = MaterialTheme.typography.bodyMedium, color = Color.DarkGray)
                     }
 
-                    // Option 2: Upload a photo
-                    Button(
-                        onClick = {
-                            showPhotoPickerSelectionDialog = false
-                            photoPickerLauncher.launch("image/*")
-                        },
-                        colors = ButtonDefaults.buttonColors(containerColor = Soapstone),
-                        shape = RoundedCornerShape(12.dp),
-                        modifier = Modifier.fillMaxWidth().height(48.dp)
-                    ) {
-                        Icon(imageVector = Icons.Default.Image, contentDescription = null, tint = WarmBrown)
-                        Spacer(modifier = Modifier.width(12.dp))
-                        Text(text = "Upload a photo", color = WarmBrown, fontWeight = FontWeight.SemiBold)
+                    // Remove Photo Button
+                    if (setupImageUrl.isNotBlank() && setupImageUrl != "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=600") {
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            modifier = Modifier.clickable {
+                                showProfileBottomSheet = false
+                                viewModel.setupImageUrl.value = "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=600"
+                            }
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(64.dp)
+                                    .clip(CircleShape)
+                                    .border(1.dp, Color.LightGray.copy(alpha=0.5f), CircleShape)
+                                    .background(Color.White),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(Icons.Default.Delete, contentDescription = "Remove", tint = Color.Gray, modifier = Modifier.size(32.dp))
+                            }
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Text("Remove", style = MaterialTheme.typography.bodyMedium, color = Color.DarkGray)
+                        }
                     }
                 }
-            },
-            confirmButton = {
-                TextButton(onClick = { showPhotoPickerSelectionDialog = false }) {
-                    Text("Cancel", color = Terracotta)
-                }
-            },
-            containerColor = WarmCream,
-            shape = RoundedCornerShape(24.dp)
-        )
+            }
+        }
     }
 
     if (showCropDialog && cropSourceBitmap != null) {
@@ -965,7 +853,15 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
                             .size(260.dp)
                             .clip(RoundedCornerShape(16.dp))
                             .background(Soapstone)
-                            .border(1.dp, WarmCream, RoundedCornerShape(16.dp)),
+                            .border(1.dp, WarmCream, RoundedCornerShape(16.dp))
+                            .pointerInput(Unit) {
+                                detectTransformGestures { _, pan, zoomChange, rotationChange ->
+                                    zoom = (zoom * zoomChange).coerceIn(1f, 3f)
+                                    rotation = (rotation + rotationChange) % 360f
+                                    offsetX = (offsetX + pan.x).coerceIn(-1000f, 1000f)
+                                    offsetY = (offsetY + pan.y).coerceIn(-1000f, 1000f)
+                                }
+                            },
                         contentAlignment = Alignment.Center
                     ) {
                         Box(
@@ -984,13 +880,6 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
                                         translationX = offsetX
                                         translationY = offsetY
                                         rotationZ = rotation
-                                    }
-                                    .pointerInput(Unit) {
-                                        detectDragGestures { change, dragAmount ->
-                                            change.consume()
-                                            offsetX += dragAmount.x
-                                            offsetY += dragAmount.y
-                                        }
                                     },
                                 contentScale = ContentScale.Fit
                             )
@@ -1040,7 +929,7 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
                                 modifier = Modifier.size(32.dp)
                             ) {
                                 Icon(
-                                    imageVector = Icons.Default.RotateRight,
+                                    imageVector = Icons.AutoMirrored.Filled.RotateRight,
                                     contentDescription = "Rotate 90 degrees",
                                     tint = Terracotta,
                                     modifier = Modifier.size(20.dp)
@@ -1101,10 +990,10 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
                                 
                                 // 4. Save to app cache
                                 val file = File(context.cacheDir, "cropped_profile_${System.currentTimeMillis()}.jpg")
-                                val out = FileOutputStream(file)
-                                cropped.compress(Bitmap.CompressFormat.JPEG, 95, out)
-                                out.flush()
-                                out.close()
+                                FileOutputStream(file).use { out ->
+                                    cropped.compress(Bitmap.CompressFormat.JPEG, 95, out)
+                                    out.flush()
+                                }
                                 
                                 // 5. Update view model setup image URL and handle UI changes on main thread
                                 val fileUriStr = Uri.fromFile(file).toString()
@@ -1160,7 +1049,7 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
         bottomBar = {
             Box(
                 modifier = Modifier
-                    .fillModifierWithNavigationBars()
+                    .navigationBarsPadding()
                     .padding(24.dp)
             ) {
                 Button(
@@ -1237,7 +1126,7 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
                             .clip(CircleShape)
                             .background(Soapstone)
                             .border(2.dp, GoldAccent, CircleShape)
-                            .clickable { showPhotoPickerSelectionDialog = true },
+                            .clickable { showProfileBottomSheet = true },
                         contentAlignment = Alignment.Center
                     ) {
                         AsyncImage(
@@ -1259,7 +1148,7 @@ fun DogProfileSetupScreen(viewModel: PawMatchViewModel) {
                             .background(Terracotta)
                             .border(2.dp, Color.White, CircleShape)
                             .align(Alignment.BottomEnd)
-                            .clickable { showPhotoPickerSelectionDialog = true },
+                            .clickable { showProfileBottomSheet = true },
                         contentAlignment = Alignment.Center
                     ) {
                         Icon(
@@ -2076,7 +1965,7 @@ fun MapNearbyTab(viewModel: PawMatchViewModel) {
                     modifier = Modifier.height(48.dp)
                 ) {
                     Icon(
-                        imageVector = if (isMapMode) Icons.Default.List else Icons.Default.Map,
+                        imageVector = if (isMapMode) Icons.AutoMirrored.Filled.List else Icons.Default.Map,
                         contentDescription = "Map and List Layout toggle switcher",
                         tint = Color.White
                     )
@@ -2086,7 +1975,7 @@ fun MapNearbyTab(viewModel: PawMatchViewModel) {
             }
         }
 
-        Divider(color = Soapstone, thickness = 1.dp)
+        HorizontalDivider(color = Soapstone, thickness = 1.dp)
 
         // Switch panel layout rendering Map vs List
         if (isMapMode) {
@@ -2187,6 +2076,7 @@ fun RealNearbyMap(modifier: Modifier = Modifier) {
                 MapView(ctx).apply {
                     setTileSource(TileSourceFactory.MAPNIK)
                     setMultiTouchControls(true)
+                    @Suppress("DEPRECATION")
                     setBuiltInZoomControls(false)
                     isTilesScaledToDpi = true
 
@@ -2296,7 +2186,7 @@ fun MatchesTab(viewModel: PawMatchViewModel) {
             )
         }
 
-        Divider(color = Soapstone, thickness = 1.dp)
+        HorizontalDivider(color = Soapstone, thickness = 1.dp)
 
         if (matches.isEmpty()) {
             Box(
@@ -2459,7 +2349,7 @@ fun MeetupsTab(viewModel: PawMatchViewModel) {
             )
         }
 
-        Divider(color = Soapstone, thickness = 1.dp)
+        HorizontalDivider(color = Soapstone, thickness = 1.dp)
 
         if (meetups.isEmpty()) {
             Box(
@@ -2717,7 +2607,7 @@ fun DogDetailOverlayScreen(
                         }
 
                         Text(
-                            text = "${dog.gender} Â· ${dog.age} yrs old Â· ${dog.location}",
+                            text = "${dog.gender} · ${dog.age} yrs old · ${dog.location}",
                             style = MaterialTheme.typography.bodyLarge.copy(color = SoftBrown, fontWeight = FontWeight.SemiBold)
                         )
 
@@ -2891,7 +2781,7 @@ fun InAppChatOverlayScreen(
                 }
             }
 
-            Divider(color = Soapstone, thickness = 1.dp)
+            HorizontalDivider(color = Soapstone, thickness = 1.dp)
 
             // Dynamic Scrollable Chat Bubble timeline list
             LazyColumn(
@@ -2975,8 +2865,8 @@ fun InAppChatOverlayScreen(
                     modifier = Modifier.size(48.dp)
                 ) {
                     Icon(
-                        imageVector = Icons.Default.Send,
-                        contentDescription = "Send message bubble timeline controller button button button",
+                        imageVector = Icons.AutoMirrored.Filled.Send,
+                        contentDescription = "Send message button",
                         tint = Color.White
                     )
                 }

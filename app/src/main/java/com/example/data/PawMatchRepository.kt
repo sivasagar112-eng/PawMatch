@@ -146,24 +146,12 @@ class PawMatchRepository(private val db: AppDatabase) {
             db.dogDao().insertDogs(defaultDogs)
         }
 
-        // We also create a default user dog so the app is immediately alive and has beautiful context!
+        // Wipe the mock 'Bruno' profile from the user's cached local database
         val currentUserDog = db.dogDao().getUserDog().first()
-        if (currentUserDog == null) {
-            val firstUserDog = Dog(
-                name = "Bruno",
-                breed = "Golden Retriever",
-                age = 2,
-                gender = "Male",
-                location = "Altamount Road",
-                distance = 0.0,
-                imageUrl = "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=600",
-                bio = "Majestic Golden Retriever looking for neighbors of the same breed for healthy run-offs and play sessions.",
-                ownerName = "Siva S.",
-                ownerAvatarUrl = "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=150",
-                isUserDog = true
-            )
-            db.dogDao().insertDog(firstUserDog)
+        if (currentUserDog?.name == "Bruno") {
+            db.dogDao().deleteDog(currentUserDog)
         }
+
     }
 
     suspend fun deleteAllSwipes() {

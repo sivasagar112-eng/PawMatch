@@ -12,13 +12,15 @@ import retrofit2.http.Query
 import java.util.concurrent.TimeUnit
 
 interface DogApiService {
-    @GET("https://dog.ceo/api/breeds/list/all")
+    @GET("breeds/list/all")
     suspend fun getAllBreeds(): Response<DogBreedsResponse>
 
-    @GET("https://dog.ceo/api/breed/{breed}/images/random")
+    @GET("breed/{breed}/images/random")
     suspend fun getRandomBreedImage(@Path("breed") breed: String): Response<DogImageResponse>
+}
 
-    @GET("https://dog-api.kinduff.com/api/facts")
+interface DogFactsApiService {
+    @GET("api/facts")
     suspend fun getDogFacts(@Query("number") count: Int): Response<DogFactsResponse>
 }
 
@@ -55,4 +57,14 @@ object RetrofitClient {
             .build()
             .create(DogApiService::class.java)
     }
+
+    val dogFactsApiService: DogFactsApiService by lazy {
+        Retrofit.Builder()
+            .baseUrl("https://dog-api.kinduff.com/")
+            .client(okHttpClient)
+            .addConverterFactory(MoshiConverterFactory.create(moshi))
+            .build()
+            .create(DogFactsApiService::class.java)
+    }
 }
+

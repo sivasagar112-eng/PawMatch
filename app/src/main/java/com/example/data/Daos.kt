@@ -29,6 +29,9 @@ interface DogDao {
     @Update
     suspend fun updateDog(dog: Dog)
 
+    @Delete
+    suspend fun deleteDog(dog: Dog)
+
     @Query("UPDATE dogs SET isMatched = :matched WHERE id = :id")
     suspend fun setMatchedStatus(id: Int, matched: Boolean)
 

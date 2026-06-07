@@ -1,0 +1,289 @@
+--------- beginning of main
+06-07 14:00:14.072 23825 24352 E ActionQueryTaskListener: 1 onLoadBatchComplete exception: null BACKGROUND modules: [executorch] actions: [LOAD=[executorch],COMPLETE_SUCCESS=[executorch]]
+06-07 14:00:14.120   522   522 E lowmemorykiller: adj:1001 file_cache: 202480 free:24447
+06-07 14:00:14.120   522   522 E lowmemorykiller: device has enough memory 880812Kib, and freeMemory 139476Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.222   522   522 E lowmemorykiller: adj:1001 file_cache: 203209 free:23824
+06-07 14:00:14.222   522   522 E lowmemorykiller: device has enough memory 881296Kib, and freeMemory 136984Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.323   522   522 E lowmemorykiller: adj:1001 file_cache: 203347 free:23698
+06-07 14:00:14.324   522   522 E lowmemorykiller: device has enough memory 881344Kib, and freeMemory 136480Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.424   522   522 E lowmemorykiller: adj:1001 file_cache: 203620 free:23698
+06-07 14:00:14.425   522   522 E lowmemorykiller: device has enough memory 882436Kib, and freeMemory 136480Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.527   522   522 E lowmemorykiller: adj:1001 file_cache: 203675 free:23516
+06-07 14:00:14.528   522   522 E lowmemorykiller: device has enough memory 881928Kib, and freeMemory 135752Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.629   522   522 E lowmemorykiller: adj:1001 file_cache: 203953 free:23390
+06-07 14:00:14.629   522   522 E lowmemorykiller: device has enough memory 882536Kib, and freeMemory 135248Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.731   522   522 E lowmemorykiller: adj:1001 file_cache: 204221 free:23139
+06-07 14:00:14.731   522   522 E lowmemorykiller: device has enough memory 882604Kib, and freeMemory 134244Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.833   522   522 E lowmemorykiller: adj:1001 file_cache: 204369 free:22887
+06-07 14:00:14.833   522   522 E lowmemorykiller: device has enough memory 882188Kib, and freeMemory 133236Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.867   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 14:00:14.932   522   522 E lowmemorykiller: adj:1001 file_cache: 204620 free:22635
+06-07 14:00:14.932   522   522 E lowmemorykiller: device has enough memory 881932Kib, and freeMemory 131976Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:14.973 23825 24371 E ActionQueryTaskListener: 1 onTaskComplete [true,false,] BACKGROUND modules: [executorch] actions: [LOAD=[executorch],COMPLETE_SUCCESS=[executorch]]
+06-07 14:00:15.033   522   522 E lowmemorykiller: adj:1001 file_cache: 205762 free:21508
+06-07 14:00:15.034   522   522 E lowmemorykiller: device has enough memory 881992Kib, and freeMemory 127468Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:15.135   522   522 E lowmemorykiller: adj:1001 file_cache: 206378 free:20752
+06-07 14:00:15.135   522   522 E lowmemorykiller: device has enough memory 881432Kib, and freeMemory 124444Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:15.237   522   522 E lowmemorykiller: adj:1001 file_cache: 206780 free:20250
+06-07 14:00:15.237   522   522 E lowmemorykiller: device has enough memory 881032Kib, and freeMemory 122436Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:15.339   522   522 E lowmemorykiller: adj:1001 file_cache: 207017 free:20005
+06-07 14:00:15.339   522   522 E lowmemorykiller: device has enough memory 881000Kib, and freeMemory 121456Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:18.664 23825 24329 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 4935
+06-07 14:00:18.665 23825 24329 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+06-07 14:00:18.665 23825 24329 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+06-07 14:00:18.665 23825 24329 E FbnsAIDLClientManager: 	at X.09ih.call(Unknown Source:383)
+06-07 14:00:18.665 23825 24329 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 14:00:18.665 23825 24329 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 14:00:18.665 23825 24329 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 14:00:18.665 23825 24329 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 14:00:19.015   522   522 E lowmemorykiller: adj:1001 file_cache: 211546 free:19964
+06-07 14:00:19.015   522   522 E lowmemorykiller: device has enough memory 927048Kib, and freeMemory 139116Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.041  1235  1781 E md_thermal: interval=5 temp: 56100 51900 48900 49300
+06-07 14:00:19.116   522   522 E lowmemorykiller: adj:1001 file_cache: 212282 free:18914
+06-07 14:00:19.116   522   522 E lowmemorykiller: device has enough memory 925792Kib, and freeMemory 134916Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.218   522   522 E lowmemorykiller: adj:1001 file_cache: 212498 free:18917
+06-07 14:00:19.218   522   522 E lowmemorykiller: device has enough memory 926960Kib, and freeMemory 134928Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.320   522   522 E lowmemorykiller: adj:1001 file_cache: 213191 free:18453
+06-07 14:00:19.320   522   522 E lowmemorykiller: device has enough memory 928248Kib, and freeMemory 133732Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.422   522   522 E lowmemorykiller: adj:1001 file_cache: 213654 free:18451
+06-07 14:00:19.422   522   522 E lowmemorykiller: device has enough memory 930456Kib, and freeMemory 134084Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.524   522   522 E lowmemorykiller: adj:1001 file_cache: 213753 free:18458
+06-07 14:00:19.524   522   522 E lowmemorykiller: device has enough memory 930880Kib, and freeMemory 134112Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.625   522   522 E lowmemorykiller: adj:1001 file_cache: 213719 free:18913
+06-07 14:00:19.625   522   522 E lowmemorykiller: device has enough memory 934108Kib, and freeMemory 137984Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.663   522   522 E lowmemorykiller: adj:1001 file_cache: 213765 free:18857
+06-07 14:00:19.663   522   522 E lowmemorykiller: device has enough memory 934068Kib, and freeMemory 137760Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.671 23825 24351 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 4943
+06-07 14:00:19.672 23825 24351 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+06-07 14:00:19.672 23825 24351 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+06-07 14:00:19.672 23825 24351 E FbnsAIDLClientManager: 	at X.09ih.call(Unknown Source:383)
+06-07 14:00:19.672 23825 24351 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 14:00:19.672 23825 24351 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 14:00:19.672 23825 24351 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 14:00:19.672 23825 24351 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 14:00:19.729   522   522 E lowmemorykiller: adj:1001 file_cache: 214065 free:18544
+06-07 14:00:19.729   522   522 E lowmemorykiller: device has enough memory 935024Kib, and freeMemory 137516Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.832   522   522 E lowmemorykiller: adj:1001 file_cache: 214331 free:18360
+06-07 14:00:19.832   522   522 E lowmemorykiller: device has enough memory 936648Kib, and freeMemory 138076Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:19.938   522   522 E lowmemorykiller: adj:1001 file_cache: 213554 free:19954
+06-07 14:00:19.938   522   522 E lowmemorykiller: device has enough memory 939616Kib, and freeMemory 144544Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.040   522   522 E lowmemorykiller: adj:1001 file_cache: 214016 free:19237
+06-07 14:00:20.040   522   522 E lowmemorykiller: device has enough memory 938760Kib, and freeMemory 141836Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.095   522   522 E lowmemorykiller: adj:1001 file_cache: 214129 free:19237
+06-07 14:00:20.095   522   522 E lowmemorykiller: device has enough memory 939212Kib, and freeMemory 141836Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.140   522   522 E lowmemorykiller: adj:1001 file_cache: 214243 free:19229
+06-07 14:00:20.140   522   522 E lowmemorykiller: device has enough memory 939552Kib, and freeMemory 141836Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.242   522   522 E lowmemorykiller: adj:1001 file_cache: 214834 free:18669
+06-07 14:00:20.242   522   522 E lowmemorykiller: device has enough memory 939676Kib, and freeMemory 139596Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.343   522   522 E lowmemorykiller: adj:1001 file_cache: 215118 free:19650
+06-07 14:00:20.344   522   522 E lowmemorykiller: device has enough memory 949236Kib, and freeMemory 148020Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.445   522   522 E lowmemorykiller: adj:1001 file_cache: 215396 free:19161
+06-07 14:00:20.445   522   522 E lowmemorykiller: device has enough memory 947636Kib, and freeMemory 144804Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.546   522   522 E lowmemorykiller: adj:1001 file_cache: 215770 free:19295
+06-07 14:00:20.547   522   522 E lowmemorykiller: device has enough memory 948156Kib, and freeMemory 144332Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.648   522   522 E lowmemorykiller: adj:1001 file_cache: 215808 free:19744
+06-07 14:00:20.648   522   522 E lowmemorykiller: device has enough memory 949096Kib, and freeMemory 145624Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.743   522   522 E lowmemorykiller: adj:1001 file_cache: 216059 free:19436
+06-07 14:00:20.743   522   522 E lowmemorykiller: device has enough memory 949372Kib, and freeMemory 144392Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.749   522   522 E lowmemorykiller: adj:1001 file_cache: 216059 free:19436
+06-07 14:00:20.749   522   522 E lowmemorykiller: device has enough memory 949372Kib, and freeMemory 144392Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.824  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:20.851   522   522 E lowmemorykiller: adj:1001 file_cache: 216453 free:19121
+06-07 14:00:20.851   522   522 E lowmemorykiller: device has enough memory 944648Kib, and freeMemory 138092Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:20.952   522   522 E lowmemorykiller: adj:1001 file_cache: 216040 free:19001
+06-07 14:00:20.953   522   522 E lowmemorykiller: device has enough memory 944548Kib, and freeMemory 139644Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.026  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:21.054   522   522 E lowmemorykiller: adj:1001 file_cache: 216707 free:19031
+06-07 14:00:21.054   522   522 E lowmemorykiller: device has enough memory 947780Kib, and freeMemory 140404Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.156   522   522 E lowmemorykiller: adj:1001 file_cache: 216836 free:19177
+06-07 14:00:21.156   522   522 E lowmemorykiller: device has enough memory 949340Kib, and freeMemory 141244Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.175   522   522 E lowmemorykiller: adj:1001 file_cache: 216859 free:19177
+06-07 14:00:21.175   522   522 E lowmemorykiller: device has enough memory 949436Kib, and freeMemory 141244Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.257   522   522 E lowmemorykiller: adj:1001 file_cache: 217096 free:19187
+06-07 14:00:21.257   522   522 E lowmemorykiller: device has enough memory 950432Kib, and freeMemory 141284Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.360   522   522 E lowmemorykiller: adj:1001 file_cache: 217081 free:19225
+06-07 14:00:21.360   522   522 E lowmemorykiller: device has enough memory 950720Kib, and freeMemory 141632Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.466   522   522 E lowmemorykiller: adj:1001 file_cache: 217385 free:19158
+06-07 14:00:21.466   522   522 E lowmemorykiller: device has enough memory 951692Kib, and freeMemory 141380Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.567   522   522 E lowmemorykiller: adj:1001 file_cache: 217462 free:18654
+06-07 14:00:21.568   522   522 E lowmemorykiller: device has enough memory 949984Kib, and freeMemory 139364Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.669   522   522 E lowmemorykiller: adj:1001 file_cache: 217546 free:19182
+06-07 14:00:21.669   522   522 E lowmemorykiller: device has enough memory 953100Kib, and freeMemory 142144Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.771   522   522 E lowmemorykiller: adj:1001 file_cache: 217717 free:18744
+06-07 14:00:21.771   522   522 E lowmemorykiller: device has enough memory 951776Kib, and freeMemory 140128Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.872   522   522 E lowmemorykiller: adj:1001 file_cache: 217443 free:19312
+06-07 14:00:21.872   522   522 E lowmemorykiller: device has enough memory 952700Kib, and freeMemory 142148Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:21.974   522   522 E lowmemorykiller: adj:1001 file_cache: 205380 free:30093
+06-07 14:00:21.974   522   522 E lowmemorykiller: device has enough memory 947540Kib, and freeMemory 185272Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:22.076   522   522 E lowmemorykiller: adj:1001 file_cache: 206253 free:29036
+06-07 14:00:22.076   522   522 E lowmemorykiller: device has enough memory 946552Kib, and freeMemory 180792Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:22.092 23825 23941 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(331)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+06-07 14:00:22.178   522   522 E lowmemorykiller: adj:1001 file_cache: 207088 free:28040
+06-07 14:00:22.178   522   522 E lowmemorykiller: device has enough memory 945676Kib, and freeMemory 176568Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:22.287  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 14:00:22.288  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 14:00:23.023  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:23.424  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:24.051  1235  1781 E md_thermal: interval=5 temp: 54200 50800 48700 49100
+06-07 14:00:24.223  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:24.624  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:24.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:26.560   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 14:00:26.648 24390 24390 E .chromecast.app: Unknown bits set in runtime_flags: 0x40000000
+06-07 14:00:26.694 24390 24402 E .chromecast.app: Could not write anonymous vdex /system_ext/framework/oat/arm64/mediatek-framework.vdex: Could not open /system_ext/framework/oat/arm64/mediatek-framework.vdex for writing
+06-07 14:00:28.194   522   522 E lowmemorykiller: adj:1001 file_cache: 219994 free:18711
+06-07 14:00:28.195   522   522 E lowmemorykiller: device has enough memory 921704Kib, and freeMemory 101392Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:28.300   522   522 E lowmemorykiller: adj:1001 file_cache: 219794 free:19163
+06-07 14:00:28.300   522   522 E lowmemorykiller: device has enough memory 923172Kib, and freeMemory 103660Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:28.402   522   522 E lowmemorykiller: adj:1001 file_cache: 219889 free:18974
+06-07 14:00:28.402   522   522 E lowmemorykiller: device has enough memory 922796Kib, and freeMemory 102904Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:28.504   522   522 E lowmemorykiller: adj:1001 file_cache: 220513 free:18471
+06-07 14:00:28.504   522   522 E lowmemorykiller: device has enough memory 923284Kib, and freeMemory 100892Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:28.607   522   522 E lowmemorykiller: adj:1001 file_cache: 220518 free:18471
+06-07 14:00:28.607   522   522 E lowmemorykiller: device has enough memory 923304Kib, and freeMemory 100892Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:28.709   522   522 E lowmemorykiller: adj:1001 file_cache: 220809 free:18156
+06-07 14:00:28.709   522   522 E lowmemorykiller: device has enough memory 923228Kib, and freeMemory 99632Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:28.811   522   522 E lowmemorykiller: adj:1001 file_cache: 219540 free:19472
+06-07 14:00:28.811   522   522 E lowmemorykiller: device has enough memory 923480Kib, and freeMemory 104960Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:28.912   522   522 E lowmemorykiller: adj:1001 file_cache: 219602 free:19283
+06-07 14:00:28.912   522   522 E lowmemorykiller: device has enough memory 922720Kib, and freeMemory 103952Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:29.014   522   522 E lowmemorykiller: adj:1001 file_cache: 219647 free:19220
+06-07 14:00:29.014   522   522 E lowmemorykiller: device has enough memory 922396Kib, and freeMemory 103448Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:29.061  1235  1781 E md_thermal: interval=5 temp: 54700 50400 48400 48900
+06-07 14:00:29.115   522   522 E lowmemorykiller: adj:1001 file_cache: 219662 free:19196
+06-07 14:00:29.116   522   522 E lowmemorykiller: device has enough memory 920692Kib, and freeMemory 101684Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:29.217   522   522 E lowmemorykiller: adj:1001 file_cache: 219887 free:18705
+06-07 14:00:29.217   522   522 E lowmemorykiller: device has enough memory 923388Kib, and freeMemory 103480Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: Failed to get service from broker. 
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3255)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3238)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3180)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at bjqy.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):36)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at bjou.z(:com.google.android.gms@261934035@26.19.34 (260400-919740205):143)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at biuq.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):42)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:973)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at dbbh.mJ(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at dbbh.dispatchMessage(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:387)
+06-07 14:00:29.432 24390 24492 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 14:00:29.922   522   522 E lowmemorykiller: adj:1001 file_cache: 221788 free:17939
+06-07 14:00:29.923   522   522 E lowmemorykiller: device has enough memory 922612Kib, and freeMemory 95524Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.024   522   522 E lowmemorykiller: adj:1001 file_cache: 220881 free:19787
+06-07 14:00:30.024   522   522 E lowmemorykiller: device has enough memory 924980Kib, and freeMemory 103556Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.125   522   522 E lowmemorykiller: adj:1001 file_cache: 223276 free:18001
+06-07 14:00:30.125   522   522 E lowmemorykiller: device has enough memory 926192Kib, and freeMemory 95132Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.226   522   522 E lowmemorykiller: adj:1001 file_cache: 222289 free:19324
+06-07 14:00:30.226   522   522 E lowmemorykiller: device has enough memory 926528Kib, and freeMemory 99416Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.327   522   522 E lowmemorykiller: adj:1001 file_cache: 223087 free:18408
+06-07 14:00:30.327   522   522 E lowmemorykiller: device has enough memory 926056Kib, and freeMemory 95752Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.428   522   522 E lowmemorykiller: adj:1001 file_cache: 222942 free:18838
+06-07 14:00:30.428   522   522 E lowmemorykiller: device has enough memory 927552Kib, and freeMemory 97828Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.530   522   522 E lowmemorykiller: adj:1001 file_cache: 223206 free:18333
+06-07 14:00:30.530   522   522 E lowmemorykiller: device has enough memory 926456Kib, and freeMemory 95676Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.631   522   522 E lowmemorykiller: adj:1001 file_cache: 223698 free:18081
+06-07 14:00:30.631   522   522 E lowmemorykiller: device has enough memory 926660Kib, and freeMemory 93912Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.732   522   522 E lowmemorykiller: adj:1001 file_cache: 223185 free:18349
+06-07 14:00:30.732   522   522 E lowmemorykiller: device has enough memory 925452Kib, and freeMemory 94756Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.834   522   522 E lowmemorykiller: adj:1001 file_cache: 222782 free:19260
+06-07 14:00:30.834   522   522 E lowmemorykiller: device has enough memory 926980Kib, and freeMemory 97896Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:30.935   522   522 E lowmemorykiller: adj:1001 file_cache: 223767 free:18352
+06-07 14:00:30.935   522   522 E lowmemorykiller: device has enough memory 926416Kib, and freeMemory 93388Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:34.071  1235  1781 E md_thermal: interval=5 temp: 52700 50000 48200 48700
+06-07 14:00:35.111   522   522 E lowmemorykiller: adj:1001 file_cache: 223564 free:19582
+06-07 14:00:35.111   522   522 E lowmemorykiller: device has enough memory 928592Kib, and freeMemory 95484Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.213   522   522 E lowmemorykiller: adj:1001 file_cache: 223884 free:19472
+06-07 14:00:35.213   522   522 E lowmemorykiller: device has enough memory 929504Kib, and freeMemory 95484Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.314   522   522 E lowmemorykiller: adj:1001 file_cache: 224392 free:19048
+06-07 14:00:35.315   522   522 E lowmemorykiller: device has enough memory 930468Kib, and freeMemory 94852Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.416   522   522 E lowmemorykiller: adj:1001 file_cache: 223870 free:19448
+06-07 14:00:35.416   522   522 E lowmemorykiller: device has enough memory 926956Kib, and freeMemory 93404Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.518   522   522 E lowmemorykiller: adj:1001 file_cache: 223133 free:19259
+06-07 14:00:35.518   522   522 E lowmemorykiller: device has enough memory 923196Kib, and freeMemory 92592Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.606  3620  3668 E horae   : 0: back:44853,frame:43618,front:45351, 10, +(4407), 0 ,49758,46300,48857,48150,48613, target_temp:45351, algo:0
+06-07 14:00:35.620   522   522 E lowmemorykiller: adj:1001 file_cache: 222849 free:18900
+06-07 14:00:35.620   522   522 E lowmemorykiller: device has enough memory 920168Kib, and freeMemory 90700Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.722   522   522 E lowmemorykiller: adj:1001 file_cache: 221704 free:19089
+06-07 14:00:35.722   522   522 E lowmemorykiller: device has enough memory 916092Kib, and freeMemory 91204Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.823   522   522 E lowmemorykiller: adj:1001 file_cache: 220345 free:19215
+06-07 14:00:35.823   522   522 E lowmemorykiller: device has enough memory 911160Kib, and freeMemory 91708Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:35.925   522   522 E lowmemorykiller: adj:1001 file_cache: 219129 free:23583
+06-07 14:00:35.925   522   522 E lowmemorykiller: device has enough memory 932252Kib, and freeMemory 117664Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:36.027   522   522 E lowmemorykiller: adj:1001 file_cache: 219135 free:22348
+06-07 14:00:36.028   522   522 E lowmemorykiller: device has enough memory 938016Kib, and freeMemory 123404Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:36.131   522   522 E lowmemorykiller: adj:1001 file_cache: 219204 free:21487
+06-07 14:00:36.131   522   522 E lowmemorykiller: device has enough memory 934604Kib, and freeMemory 119840Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:37.375  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 14:00:37.375  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 14:00:39.084  1235  1781 E md_thermal: interval=5 temp: 51100 49300 48000 48500
+06-07 14:00:39.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:39.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:40.824  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:40.832   898   919 E android.hardware.gnss-service.mediatek: gpsinf_inject_best_location: flags:51, speed:0.000000, bearing:0.000000, h_accuracy:66.163597, v_accuracy:12.958831, s_accuracy:0.000000, b_accuracy:0.000000, timestamp:-1590387021 
+06-07 14:00:40.835  1259  1287 E mnl2hal : hal2mnl_hdlr: HAL2MNL_GPS_INJECT_BEST_LOCATION h_accuracy:66.163597, timestamp:-1590387021 
+06-07 14:00:40.893 24038 24257 E native  : E0000 00:00:1780821040.893154   24257 model-utils.cc:41] Not a valid Model flatbuffer
+06-07 14:00:40.893 24038 24257 E native  : E0000 00:00:1780821040.893764   24257 model-provider-from-fb.cc:105] Unable to initialize ModelProviderFromFlatbuffer
+06-07 14:00:41.024  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:41.297 24038 24206 E gle.android.gms: hiddenapi: Accessing hidden method Landroid/view/autofill/AutofillId;->getViewId()I (runtime_flags=0, domain=platform, api=max-target-o) from /data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk!classes3.dex (domain=app, TargetSdkVersion=37) using linking: denied
+06-07 14:00:41.337 24038 24206 E gle.android.gms: hiddenapi: Accessing hidden method Landroid/hardware/biometrics/BiometricPrompt$CryptoObject;->getKeyAgreement()Ljavax/crypto/KeyAgreement; (runtime_flags=0, domain=platform, api=blocked) from /data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk!classes3.dex (domain=app, TargetSdkVersion=37) using linking: denied
+06-07 14:00:41.624  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:41.725   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 14:00:41.824  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:42.023  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:42.226  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:43.258  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 14:00:43.258  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 14:00:43.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:43.625  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:44.025  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:44.096  1235  1781 E md_thermal: interval=5 temp: 51000 48800 47800 48200
+06-07 14:00:44.225  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:44.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:45.025  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:45.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:46.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:47.024  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:47.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:47.625  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:47.841   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 14:00:48.025  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:48.625  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:48.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:49.109  1235  1781 E md_thermal: interval=5 temp: 49500 48100 47500 47800
+06-07 14:00:52.625  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:52.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:00:54.120  1235  1781 E md_thermal: interval=5 temp: 48600 47500 47200 47500
+06-07 14:00:54.277  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 14:00:54.278  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 14:00:54.289  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 14:00:54.289  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 14:00:54.688   522   522 E lowmemorykiller: adj:1001 file_cache: 215773 free:22986
+06-07 14:00:54.689   522   522 E lowmemorykiller: device has enough memory 917492Kib, and freeMemory 116716Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:55.195   522   522 E lowmemorykiller: adj:1001 file_cache: 215735 free:23376
+06-07 14:00:55.195   522   522 E lowmemorykiller: device has enough memory 918668Kib, and freeMemory 118228Kib, disable killing(limit_killing:665600Kib)
+06-07 14:00:55.604  3620  3668 E horae   : 0: back:44398,frame:43250,front:44736, 10, +(2702), 0 ,47438,45900,47400,47102,47375, target_temp:44736, algo:0
+06-07 14:00:59.130  1235  1781 E md_thermal: interval=5 temp: 48400 47200 46900 47200
+06-07 14:01:04.143  1235  1781 E md_thermal: interval=5 temp: 48000 46800 46600 46900
+06-07 14:01:05.705   870 30722 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 14:01:09.156  1235  1781 E md_thermal: interval=5 temp: 47500 46500 46300 46600
+06-07 14:01:10.604  3620  3668 E horae   : 0: back:43878,frame:42732,front:44114, 10, +(2291), 0 ,46405,45400,46466,46249,46580, target_temp:44114, algo:0
+06-07 14:01:12.058   870 30722 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 14:01:12.583 23825 23941 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(331)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+06-07 14:01:14.025  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:14.168  1235  1781 E md_thermal: interval=5 temp: 47300 46300 46100 46400
+06-07 14:01:14.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:15.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:16.025  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:16.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:16.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:17.025  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:17.625  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:17.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:18.025  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:18.225  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 14:01:19.181  1235  1781 E md_thermal: interval=5 temp: 47000 46000 45900 46300
+06-07 14:01:20.403  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 14:01:20.403  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!

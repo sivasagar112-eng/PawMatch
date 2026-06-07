@@ -1,0 +1,740 @@
+--------- beginning of system
+06-07 13:37:42.686  1783  3393 E OplusAppQuickStart_AppQuickStartController: reject add, activityRecord:ActivityRecord{23bac34 u0 com.coloros.filemanager/com.oplus.filemanager.main.ui.SplashActivity t5670} or it task in black list
+06-07 13:37:42.766  1783  1783 E MBrainLocalService: notifyAppSwitch failed
+06-07 13:37:43.070  1783  1783 E MBrainLocalService: notifyAppSwitch failed
+06-07 13:37:43.082  1783  1891 E OplusThermalStats: Error getting package info: com.coloros.filemanager
+06-07 13:37:44.749 21409 21641 E ActivityThread: Failed to find provider info for com.oplus.dmp.server
+06-07 13:37:44.756 21409 21641 E ActivityThread: Failed to find provider info for com.oplus.dmp.server
+06-07 13:37:44.846  1783  1783 E MBrainLocalService: notifyAppSwitch failed
+06-07 13:37:44.861  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:44.861  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:44.872  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:44.873  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:44.873  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:45.230  1783  1857 E OplusAppQuickStart_AppQuickStartController: not start from launcher transition:TransitionRecord{6975efa id=21881 track=0 type=OPEN flags=0x0 state=1}
+06-07 13:37:45.436  1783  1953 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:37:45.459  1783  1953 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:37:45.934 22033 22033 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:45.935 22033 22033 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:45.935 22033 22033 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:37:45.961 21918 22074 E ActivityThread: Failed to find provider info for com.heytap.htms.cckit.provider
+06-07 13:37:46.535  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:46.535  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:46.539  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:46.539  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:46.539  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:47.272  1783  3265 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:37:47.275  1783  3265 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:37:47.591  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:47.591  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:47.594  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:47.594  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:47.594  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:48.143  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:48.143  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:48.146  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:48.146  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:48.146  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:48.687  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:48.687  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:48.693  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:48.693  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:48.693  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:49.222  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:49.222  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:49.225  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:49.225  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:49.225  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:49.839  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:49.839  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:49.843  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:49.843  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:49.843  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:50.183 20408 20408 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:50.183 20408 20408 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:37:50.299  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:50.299  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:50.302  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:50.302  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:50.302  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:50.836  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:50.836  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:50.839  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:50.840  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:50.840  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:51.386  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:51.386  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:51.399  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:51.400  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:51.400  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:51.440 20408 20408 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:51.440 20408 20408 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:37:51.925  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:51.925  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:51.932  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:51.932  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:51.932  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:52.165 22810 22810 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:52.165 22810 22810 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:52.166 22810 22810 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:37:52.518  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:52.518  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:52.521  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:52.522  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:52.522  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:52.675  1783  1857 E OplusAppQuickStart_AppQuickStartController: not start from launcher transition:TransitionRecord{3ef751e id=21882 track=0 type=OPEN flags=0x0 state=1}
+06-07 13:37:52.804 22738 22738 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+06-07 13:37:52.999  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:52.999  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:53.005  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:53.005  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:53.005  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:53.144 22738 22922 E ActivityThread: Failed to find provider info for com.google.android.apps.docs.storage
+06-07 13:37:53.538  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:53.538  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:53.542  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:53.542  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:53.542  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:53.953 21409 21561 E ActivityThread: Failed to find provider info for mk_ex
+06-07 13:37:54.086  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:54.086  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:54.089  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:54.089  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:54.089  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:54.253 21409 21793 E ActivityThread: Failed to find provider info for ocloudstatus
+06-07 13:37:55.779  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:55.779  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:55.785  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:55.786  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:55.786  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:56.942  1783  1857 E OplusAppQuickStart_AppQuickStartController: not start from launcher transition:TransitionRecord{4e5fcff id=21883 track=0 type=OPEN flags=0x0 state=1}
+06-07 13:37:57.363  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:57.363  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:57.373  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:57.374  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:57.374  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:57.722 23123 23433 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+06-07 13:37:57.843 23494 23494 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:57.844 23494 23494 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:37:57.854 23494 23494 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:37:59.838  1783  1954 E OplusAppQuickStart_AppQuickStartController: not start from launcher transition:TransitionRecord{558d22c id=21884 track=0 type=TO_FRONT flags=0x80 state=1}
+06-07 13:37:59.897  1783  1783 E MBrainLocalService: notifyAppSwitch failed
+06-07 13:37:59.923  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:37:59.923  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:37:59.933  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:59.934  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:59.934  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:37:59.939  1783  1891 E OplusThermalStats: Error getting package info: com.android.launcher
+06-07 13:38:00.238  1783  2020 E HandwritingModeController: Cannot get requestId: Handwriting was not initialized.
+06-07 13:38:00.260  1783  2020 E HandwritingModeController: Cannot get requestId: Handwriting was not initialized.
+06-07 13:38:00.288  1783  2020 E HandwritingModeController: Cannot get requestId: Handwriting was not initialized.
+06-07 13:38:00.625  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:38:00.625  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:38:00.633  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:00.633  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:00.633  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:01.583  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:38:01.583  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:38:02.256  1783  3328 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:38:02.323  1783  1907 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:38:02.342  1783  1783 E MBrainLocalService: notifyAppSwitch failed
+06-07 13:38:02.394  1783  2078 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:38:02.400  1783  2078 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:38:02.401  1783  2078 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:38:02.624  1783  2137 E UAH-Framework: invalid window type -1, return
+06-07 13:38:02.656  1783  1856 E OplusStorageManagerFeature: clear Ae Be key
+06-07 13:38:02.784  1783  1907 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:38:02.870  1783  1783 E ScreenIntentReceiver: notifyChange failed
+06-07 13:38:03.357  1783  1856 E OplusAppQuickStart_AppQuickStartController: not start from launcher transition:TransitionRecord{13dafbb id=21885 track=0 type=SLEEP flags=0x0 state=1}
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: writeF2fsRelatedNode failed for:gc_urgent
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: java.io.FileNotFoundException: /sys/fs/f2fs/sdc18/gc_urgent: open failed: EACCES (Permission denied)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:147)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileWriter.<init>(FileWriter.java:66)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.writeF2fsRelatedNode(OplusStorageManagerFeature.java:1149)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.onMessageDPolicyExpect(OplusStorageManagerFeature.java:1944)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.onStorageManagerMessageHandle(OplusStorageManagerFeature.java:1505)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:790)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.Linux.open(Native Method)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:574)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+06-07 13:38:03.684  1783  2025 E OplusStorageManagerFeature: 	... 11 more
+06-07 13:38:05.104  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:38:05.104  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:38:05.113  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:05.113  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:05.114  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:05.497  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:38:05.497  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:38:05.504  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:05.504  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:05.504  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:38:06.603 23805 23805 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:38:06.604 23805 23805 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:38:06.606 23805 23805 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:38:20.823  1783  1974 E JobScheduler.Quota: <0>com.winzo.platform has 0 EJ quota without running anything
+06-07 13:38:20.846  1783  1974 E JobScheduler.Quota: <0>com.winzo.platform has 0 EJ quota without running anything
+06-07 13:38:22.266  1783  2249 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:38:22.275  1783  2249 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:39:41.113  1783  1974 E JobScheduler.Quota: <0>com.winzo.platform has 0 EJ quota without running anything
+06-07 13:40:09.058  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.vincentb.MobControl
+06-07 13:40:09.059  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.sk.thumbnailmaker
+06-07 13:40:09.060  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.bstatement.minipassbook.banktransaction
+06-07 13:40:09.061  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.gold
+06-07 13:40:09.062  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.blockchainvault
+06-07 13:40:09.062  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.platform
+06-07 13:40:10.978 24600 24670 E ActivityThread: Failed to find provider info for com.heytap.htms.cckit.provider
+06-07 13:40:19.005  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.vincentb.MobControl
+06-07 13:40:19.006  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.sk.thumbnailmaker
+06-07 13:40:19.007  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.bstatement.minipassbook.banktransaction
+06-07 13:40:19.007  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.gold
+06-07 13:40:19.007  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.blockchainvault
+06-07 13:40:19.008  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.platform
+06-07 13:41:35.319 25179 25341 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+06-07 13:41:35.779  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:41:35.779  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:41:35.860  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:35.861  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:35.861  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:35.929  1783  1953 E ActivityManager: Attempting to schedule restart of ServiceRecord{d605f90 u0 com.heytap.htms/com.heytap.msp.cloudctrl.ipc.CloudCtrlService c:com.oppo.quicksearchbox} when found in map: null
+06-07 13:41:36.476 25188 25480 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+06-07 13:41:37.893  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:41:37.893  1783  2248 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:41:37.893  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:41:37.904  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:37.904  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:37.904  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:39.037  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:41:39.037  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:41:39.047  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:39.047  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:39.048  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:42.128  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:41:42.128  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:41:42.139  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:42.139  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:42.139  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:41:43.284 25239 25507 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: writeF2fsRelatedNode failed for:gc_max_sleep_time
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: java.io.FileNotFoundException: /sys/fs/f2fs/sdc18/gc_max_sleep_time: open failed: EACCES (Permission denied)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:147)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileWriter.<init>(FileWriter.java:66)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.writeF2fsRelatedNode(OplusStorageManagerFeature.java:1149)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.changeGcDpolicy(OplusStorageManagerFeature.java:1205)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.-$$Nest$mchangeGcDpolicy(Unknown Source:0)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature$5.run(OplusStorageManagerFeature.java:1047)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.Linux.open(Native Method)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:574)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+06-07 13:41:46.791  1783  2029 E OplusStorageManagerFeature: 	... 13 more
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: writeF2fsRelatedNode failed for:gc_min_sleep_time
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: java.io.FileNotFoundException: /sys/fs/f2fs/sdc18/gc_min_sleep_time: open failed: EACCES (Permission denied)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:147)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileWriter.<init>(FileWriter.java:66)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.writeF2fsRelatedNode(OplusStorageManagerFeature.java:1149)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.changeGcDpolicy(OplusStorageManagerFeature.java:1206)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.-$$Nest$mchangeGcDpolicy(Unknown Source:0)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature$5.run(OplusStorageManagerFeature.java:1047)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.Linux.open(Native Method)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:574)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+06-07 13:41:46.796  1783  2029 E OplusStorageManagerFeature: 	... 13 more
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: writeF2fsRelatedNode failed for:gc_urgent
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: java.io.FileNotFoundException: /sys/fs/f2fs/sdc18/gc_urgent: open failed: EACCES (Permission denied)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:147)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.io.FileWriter.<init>(FileWriter.java:66)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.writeF2fsRelatedNode(OplusStorageManagerFeature.java:1149)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.changeGcDpolicy(OplusStorageManagerFeature.java:1207)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.-$$Nest$mchangeGcDpolicy(Unknown Source:0)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature$5.run(OplusStorageManagerFeature.java:1047)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:349)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.Linux.open(Native Method)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:574)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+06-07 13:41:46.799  1783  2029 E OplusStorageManagerFeature: 	... 13 more
+06-07 13:41:47.304 26023 26270 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+06-07 13:41:50.243 26412 26412 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:41:50.246 26412 26412 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:41:50.254 26412 26412 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:41:50.666  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.vincentb.MobControl
+06-07 13:41:50.666  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.sk.thumbnailmaker
+06-07 13:41:50.668  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.bstatement.minipassbook.banktransaction
+06-07 13:41:50.668  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.gold
+06-07 13:41:50.668  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.blockchainvault
+06-07 13:41:50.669  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.platform
+06-07 13:42:02.238 26560 26648 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+06-07 13:42:10.666  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.vincentb.MobControl
+06-07 13:42:10.666  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.sk.thumbnailmaker
+06-07 13:42:10.667  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.bstatement.minipassbook.banktransaction
+06-07 13:42:10.667  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.gold
+06-07 13:42:10.667  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.blockchainvault
+06-07 13:42:10.668  1783  1974 E JobScheduler.Background: Couldn't determine stopped state for unknown package: com.winzo.platform
+06-07 13:42:16.400 26974 26996 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+06-07 13:42:38.140  1783  2033 E Orms_ManagerInner: cannot connect to orms core service!
+06-07 13:42:38.148  1783  2033 E DpcExtImpl[0]: execuce mBlockReasonList.add reason: android.service.fingerprint:WAKEUP
+06-07 13:42:38.167  1783  2033 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:42:38.324  1783 27073 E StorageManagerService: unlockSensitiveKey fail!
+06-07 13:42:38.562  1783  2033 E Biometrics_DEBUG: execute mBlockReasonList.clear
+06-07 13:42:38.794  1783  1857 E OplusAppQuickStart_AppQuickStartController: not start from launcher transition:TransitionRecord{4788056 id=21886 track=0 type=TO_BACK flags=0x102 state=1}
+06-07 13:42:38.981  1783  1907 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:42:39.022  1783  1783 E ScreenIntentReceiver: notifyChange failed
+06-07 13:42:39.256  1783  1783 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:42:39.270  1783  1783 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:42:39.273  1783  1783 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+06-07 13:42:39.544  2255  2255 E KeyguardViewMediator: Keyguard exit without a corresponding app to show.
+06-07 13:42:39.660  1783  1783 E ScreenIntentReceiver: notifyChange failed
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: writeF2fsRelatedNode failed for:discard_granularity
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: java.io.FileNotFoundException: /sys/fs/f2fs/sdc18/discard_granularity: open failed: EACCES (Permission denied)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:147)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileWriter.<init>(FileWriter.java:66)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.writeF2fsRelatedNode(OplusStorageManagerFeature.java:1149)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.onMessageDPolicyExpect(OplusStorageManagerFeature.java:1938)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.onStorageManagerMessageHandle(OplusStorageManagerFeature.java:1505)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:790)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.Linux.open(Native Method)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:574)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+06-07 13:42:39.746  1783  2025 E OplusStorageManagerFeature: 	... 11 more
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: writeF2fsRelatedNode failed for:gc_urgent
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: java.io.FileNotFoundException: /sys/fs/f2fs/sdc18/gc_urgent: open failed: EACCES (Permission denied)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:259)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:147)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at java.io.FileWriter.<init>(FileWriter.java:66)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.writeF2fsRelatedNode(OplusStorageManagerFeature.java:1149)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.onMessageDPolicyExpect(OplusStorageManagerFeature.java:1939)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.storage.OplusStorageManagerFeature.onStorageManagerMessageHandle(OplusStorageManagerFeature.java:1505)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:790)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: Caused by: android.system.ErrnoException: open failed: EACCES (Permission denied)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.Linux.open(Native Method)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:574)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+06-07 13:42:39.750  1783  2025 E OplusStorageManagerFeature: 	... 11 more
+06-07 13:42:39.773  1783  3328 E BiometricScheduler: Current operation is null,no need to start watchdog
+06-07 13:42:41.815  1783  1802 E OplusAppQuickStart_AppQuickStartController: notifyStartActivity intent:Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dd3boh.outertune/.MainActivity bnds=[849,1308][1055,1590] (has extras) }
+06-07 13:42:42.057  1783  1857 E OplusAppQuickStart_AppQuickStartController: notifyStartingWindowDrawn addAfterPrepareSurface for:ActivityRecord{cbd334e u0 com.dd3boh.outertune/.MainActivity
+06-07 13:42:42.231  1783  1783 E MBrainLocalService: notifyAppSwitch failed
+06-07 13:42:42.232  1783  1891 E OplusThermalStats: Error getting package info: com.dd3boh.outertune
+06-07 13:42:42.559 27233 27233 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:42:42.559 27233 27233 E OplusCustomizePackageManager: mIOplusCustomizePackageManagerService is null
+06-07 13:42:42.560 27233 27233 E OplusCustomizePackageManager: isOplusCertificatePackage Errorjava.lang.NullPointerException: Attempt to invoke interface method 'boolean android.os.customize.IOplusCustomizePackageManagerService.isOplusCertificatePackage(java.lang.String)' on a null object reference
+06-07 13:42:42.890  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:42:42.896  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:42:42.905  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:42:42.905  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:42:42.905  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:42:43.975  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:6,flags:0
+06-07 13:42:43.975  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:7,flags:0
+06-07 13:42:43.979  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:42:43.979  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+06-07 13:42:43.979  1783  2758 E OplusAthenaAm: AthenaAmManagerInternal transact code hello:4,flags:0
+--------- beginning of main
+06-07 13:42:48.350 27392 27412 E SoLoader: Waiting on SoSource BackupSoSource
+06-07 13:42:48.355 27392 27392 E SchedAssist: sysOpen failed with error=Permission denied
+06-07 13:42:48.355 27392 27392 E SchedAssist: open sharedFd failed with error=No such file or directory
+06-07 13:42:48.359 27392 27412 E SoLoader: Checking /data/app missing libraries.
+06-07 13:42:48.368 27392 27412 E SoLoader: No libraries missing from /data/app/~~ag0AEBrSIKE3CEvCA0VbNg==/com.facebook.services-y11TZDAE26EhwrxD14GLmg==/lib/arm64
+06-07 13:42:48.368 27392 27412 E SoLoader: Checking /data/data missing libraries.
+06-07 13:42:48.368 27392 27412 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+06-07 13:42:48.368 27392 27412 E SoLoader: Waiting on SoSource BackupSoSource
+06-07 13:42:48.381  1783  1801 E ScrollOptim [OplusPerfService]: isScrollOptimEnable: mSoptBean = ScrollOptimBean, mOptEnable=true, mCommonOnly=false, mPreAnimStrategy=1, mPreAnimBlacklist=[com.kyk.world], mPreAnimWhitelist=[], mInsertNum=1, mFrameInsertList={com.alibaba.intl.android.apps.poseidon={com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial=3}, com.google.android.apps.youtube.music={com.google.android.apps.youtube.music.activities.MusicActivity=3}, com.twitter.android={com.twitter.app.main.MainActivity=3}, com.facebook.katana={com.facebook.katana.LoginActivity=3}, com.sina.weibo={com.sina.weibo.VisitorMainTabActivity=3}, com.tencent.mm={com.tencent.mm.ui.AlbumUI=3, com.tencent.mm.plugin.sns.ui.SnsTimeLineUI=3}, com.quora.android={com.quora.android.components.activities.QuoraActivity=3}, com.taobao.idlefish={}, com.shopee.id={com.shopee.app.ui.home.HomeActivity=3}, com.instagram.android={com.instagram.mainactivity.InstagramMainActivity=3}, com.google.android.gm={com.google.android.gm.ConversationListActivityGmail=3}, tv.danmaku.bili={tv.danmaku.bili.MainActivityV2=3}, com.eterno={com.newshunt.appview.common.ui.activity.HomeActivity=3}, com.pinterest={com.pinterest.activity.task.activity.MainActivity=3}, com.taobao.taobao={com.taobao.android.detail2.core.framework.NewDetailActivity=3}, com.lazada.android={com.lazada.activities.EnterActivity=3}, com.google.android.youtube={com.google.android.apps.youtube.app.watchwhile.InternalWatchWhileActivity=3}, com.kyk.world={}, com.ss.android.ugc.aweme.lite={com.ss.android.ugc.aweme.splash.SplashActivity=3}}, mSCEnableList={com.sankuai.meituan=[com.meituan.android.pt.homepage.activity.MainActivity], com.dragon.read=[com.dragon.read.pages.main.MainFragmentActivity], com.xunmeng.pinduoduo=[com.xunmeng.pinduoduo.activity.NewPageActivity], com.tencent.mobileqq=[com.qzone.feed.ui.activity.QZoneFriendFeedActivity], com.tencent.qqlive=[com.tencent.qqlive.ona.activity.SplashHomeActivity], com.ct.client=[com.ct.client.activity.MainActivity]}
+06-07 13:42:48.382  1783  1801 E ScrollOptim [OplusPerfService]: isScrollOptimEnable: pkgName = com.facebook.services, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
+06-07 13:42:48.423  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:48.512  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:48.534  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:48.569  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:48.608  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:48.620  1382 23720 E Codec2-ComponentInterface: We have a failed config
+06-07 13:42:48.660 27435 27435 E book.appmanager: Unknown bits set in runtime_flags: 0x40000000
+06-07 13:42:48.682   522   522 E lowmemorykiller: adj:1001 file_cache: 190546 free:17388
+06-07 13:42:48.682   522   522 E lowmemorykiller: device has enough memory 777940Kib, and freeMemory 72060Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:48.702 27435 27446 E book.appmanager: Could not write anonymous vdex /system_ext/framework/oat/arm64/mediatek-framework.vdex: Could not open /system_ext/framework/oat/arm64/mediatek-framework.vdex for writing
+06-07 13:42:48.722   522   522 E lowmemorykiller: adj:1001 file_cache: 191266 free:16866
+06-07 13:42:48.722   522   522 E lowmemorykiller: device has enough memory 779664Kib, and freeMemory 70856Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:48.723  1016  1413 E GameAudioEffects: outputSelected: call getListValueByUid(fast-audio-effects) but return null
+06-07 13:42:48.761 27218 27304 E AudioTrackExtImpl: get fade type, but return null, uid 10184
+06-07 13:42:48.776  1016  3296 E AudioBoost: start  AudioUclampBoost pid:1016 tid:3296 sucess
+06-07 13:42:48.823   522   522 E lowmemorykiller: adj:1001 file_cache: 194038 free:15169
+06-07 13:42:48.823   522   522 E lowmemorykiller: device has enough memory 781044Kib, and freeMemory 63560Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:48.827  1016  3296 E AudioBoost: stop  AudioUclampBoost pid:1016 tid:3296 sucess
+06-07 13:42:48.854 27307 27307 E AppFeatureProviderUtils: getString: getStringForFeature return null
+06-07 13:42:48.858 27392 27392 E fbservices-stub:FbnsServiceDelegateV2: onBind invalid signature: Intent { act=com.facebook.push.fbns.ipc.IFbnsAIDLService cmp=com.facebook.services/com.facebook.oxygen.services.fbns.PreloadedFbnsService (has extras) mCallingUid=10328 }
+06-07 13:42:48.860   893  8836 E sixth_if_gift: property_check: sipa.timer is off, val:
+06-07 13:42:48.860   893  8836 E sixth_if_gift: property_check: sipa.pvdd.limit is off, val:
+06-07 13:42:48.860   893  8836 E sixth_if_gift: property_check: sipa.pcm.save is off, val:
+06-07 13:42:48.861   893  8836 E sixth_if_gift: property_check: sipa.proc.time is off, val:
+06-07 13:42:48.861   893  8836 E sixth_if_gift: property_check: sipa.hal.debug is off, val:
+06-07 13:42:48.918   893  8836 E AudioALSAPlaybackHandlerBase: getQueuedFramesInfo(), pcm_get_htimestamp or trylock fail, ret -1, pcm_get_error 
+06-07 13:42:48.919   941  6801 E PerformanceService: Failed to open /proc/waker_identify/rt_info (2): No such file or directory, Linux version 5.15.180
+06-07 13:42:48.921   893   856 E oppo_audiox_sw_effects: openCloseCrossFadeDone mCrossFadeEnable is already disable, do nothing.
+06-07 13:42:48.921   893   856 E oppo_audiox_sw_effects: crossFadeDone crossFadeEnable is already disable, do nothing.
+06-07 13:42:48.924   522   522 E lowmemorykiller: adj:1001 file_cache: 195165 free:13990
+06-07 13:42:48.924   522   522 E lowmemorykiller: device has enough memory 777308Kib, and freeMemory 57512Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:48.936   941  6801 E PerformanceService: Failed to open /proc/waker_identify/rt_info (2): No such file or directory, Linux version 5.15.180
+06-07 13:42:48.955 27307 27307 E CardWidget_BaseSeedlingCardStrategyProvider: (main) checkPermission error:android.uid.systemui:10189
+06-07 13:42:48.979  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:49.010  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:49.024   522   522 E lowmemorykiller: adj:1001 file_cache: 195565 free:11328
+06-07 13:42:49.024   522   522 E lowmemorykiller: device has enough memory 767484Kib, and freeMemory 46184Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.031  2255  6414 E ULELite : [JsCardParser.StatusBar503notification_sm] component's type is other, don't cast voice
+06-07 13:42:49.031  2255 13422 E ULELite : [JsCardParser.StatusBar504notification_lg] component's type is other, don't cast voice
+06-07 13:42:49.037   941  6801 E PerformanceService: Failed to open /proc/waker_identify/rt_info (2): No such file or directory, Linux version 5.15.180
+06-07 13:42:49.056  2255  2255 E PluginSeedling--StatusBar: StatusSeedlingInfo-->get no lg CardView, 268451924
+06-07 13:42:49.125   522   522 E lowmemorykiller: adj:1001 file_cache: 196610 free:4452
+06-07 13:42:49.125   522   522 E lowmemorykiller: device has enough memory 744644Kib, and freeMemory 19152Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.227 27435 27435 E SchedAssist: sysOpen failed with error=Permission denied
+06-07 13:42:49.227 27435 27435 E SchedAssist: open sharedFd failed with error=Permission denied
+06-07 13:42:49.227 27435 27435 E SchedAssist: open sharedFd failed with error=Permission denied
+06-07 13:42:49.227 27435 27435 E SchedAssist: open sharedFd failed with error=Permission denied
+06-07 13:42:49.227 27435 27435 E SchedAssist: open sharedFd failed with error=No such file or directory
+06-07 13:42:49.229   522   522 E lowmemorykiller: adj:1001 file_cache: 193961 free:8073
+06-07 13:42:49.229   522   522 E lowmemorykiller: device has enough memory 741320Kib, and freeMemory 32680Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.242  1783  2638 E ScrollOptim [OplusPerfService]: isScrollOptimEnable: mSoptBean = ScrollOptimBean, mOptEnable=true, mCommonOnly=false, mPreAnimStrategy=1, mPreAnimBlacklist=[com.kyk.world], mPreAnimWhitelist=[], mInsertNum=1, mFrameInsertList={com.alibaba.intl.android.apps.poseidon={com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial=3}, com.google.android.apps.youtube.music={com.google.android.apps.youtube.music.activities.MusicActivity=3}, com.twitter.android={com.twitter.app.main.MainActivity=3}, com.facebook.katana={com.facebook.katana.LoginActivity=3}, com.sina.weibo={com.sina.weibo.VisitorMainTabActivity=3}, com.tencent.mm={com.tencent.mm.ui.AlbumUI=3, com.tencent.mm.plugin.sns.ui.SnsTimeLineUI=3}, com.quora.android={com.quora.android.components.activities.QuoraActivity=3}, com.taobao.idlefish={}, com.shopee.id={com.shopee.app.ui.home.HomeActivity=3}, com.instagram.android={com.instagram.mainactivity.InstagramMainActivity=3}, com.google.android.gm={com.google.android.gm.ConversationListActivityGmail=3}, tv.danmaku.bili={tv.danmaku.bili.MainActivityV2=3}, com.eterno={com.newshunt.appview.common.ui.activity.HomeActivity=3}, com.pinterest={com.pinterest.activity.task.activity.MainActivity=3}, com.taobao.taobao={com.taobao.android.detail2.core.framework.NewDetailActivity=3}, com.lazada.android={com.lazada.activities.EnterActivity=3}, com.google.android.youtube={com.google.android.apps.youtube.app.watchwhile.InternalWatchWhileActivity=3}, com.kyk.world={}, com.ss.android.ugc.aweme.lite={com.ss.android.ugc.aweme.splash.SplashActivity=3}}, mSCEnableList={com.sankuai.meituan=[com.meituan.android.pt.homepage.activity.MainActivity], com.dragon.read=[com.dragon.read.pages.main.MainFragmentActivity], com.xunmeng.pinduoduo=[com.xunmeng.pinduoduo.activity.NewPageActivity], com.tencent.mobileqq=[com.qzone.feed.ui.activity.QZoneFriendFeedActivity], com.tencent.qqlive=[com.tencent.qqlive.ona.activity.SplashHomeActivity], com.ct.client=[com.ct.client.activity.MainActivity]}
+06-07 13:42:49.242  1783  2638 E ScrollOptim [OplusPerfService]: isScrollOptimEnable: pkgName = com.facebook.appmanager, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
+06-07 13:42:49.271  2255  2255 E LockScreenNotificationDispatcherImp: updateNotificationListOnKg size:0
+06-07 13:42:49.275  2255  2255 E ThemeUtils: View class androidx.constraintlayout.utils.widget.ImageFilterView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+06-07 13:42:49.284  2255  2255 E ThemeUtils: View class com.airbnb.lottie.LottieAnimationView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+06-07 13:42:49.302  2255  2255 E PluginSeedling--StatusBar: StatusSeedlingInfo-->get no lg CardView, 268451924
+06-07 13:42:49.302  2255  2255 E PluginSeedling--StatusBar: StatusSeedlingInfo-->get no lg CardView, 268451924
+06-07 13:42:49.326   522   522 E lowmemorykiller: adj:1001 file_cache: 192573 free:6117
+06-07 13:42:49.326   522   522 E lowmemorykiller: device has enough memory 728040Kib, and freeMemory 24960Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.389   633   633 E TlcKM   : lookup_operation: op 0x326f0159faf097e5 not found
+06-07 13:42:49.389   633   633 E TlcKM   : lookup_operation(session, operation_handle, &op) == -28
+06-07 13:42:49.426   522   522 E lowmemorykiller: adj:1001 file_cache: 189395 free:7390
+06-07 13:42:49.426   522   522 E lowmemorykiller: device has enough memory 720780Kib, and freeMemory 30360Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.527   522   522 E lowmemorykiller: adj:1001 file_cache: 185105 free:11020
+06-07 13:42:49.527   522   522 E lowmemorykiller: device has enough memory 717092Kib, and freeMemory 44468Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.572   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:42:49.608 27498 27498 E facebook.system: Unknown bits set in runtime_flags: 0x40000000
+06-07 13:42:49.628   522   522 E lowmemorykiller: adj:1001 file_cache: 184423 free:10367
+06-07 13:42:49.628   522   522 E lowmemorykiller: device has enough memory 712396Kib, and freeMemory 42740Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.642 27498 27509 E facebook.system: Could not write anonymous vdex /system_ext/framework/oat/arm64/mediatek-framework.vdex: Could not open /system_ext/framework/oat/arm64/mediatek-framework.vdex for writing
+06-07 13:42:49.727   522   522 E lowmemorykiller: adj:1001 file_cache: 183509 free:15750
+06-07 13:42:49.727   522   522 E lowmemorykiller: device has enough memory 736148Kib, and freeMemory 70288Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.762   522   522 E lowmemorykiller: adj:1001 file_cache: 181390 free:16895
+06-07 13:42:49.762   522   522 E lowmemorykiller: device has enough memory 732528Kib, and freeMemory 75140Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.862   522   522 E lowmemorykiller: adj:1001 file_cache: 181255 free:18187
+06-07 13:42:49.862   522   522 E lowmemorykiller: device has enough memory 746200Kib, and freeMemory 89232Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:49.889 27435 27496 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+06-07 13:42:49.963   522   522 E lowmemorykiller: adj:1001 file_cache: 181317 free:19707
+06-07 13:42:49.963   522   522 E lowmemorykiller: device has enough memory 764028Kib, and freeMemory 106812Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.064   522   522 E lowmemorykiller: adj:1001 file_cache: 181926 free:19222
+06-07 13:42:50.064   522   522 E lowmemorykiller: device has enough memory 760388Kib, and freeMemory 101240Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.164   522   522 E lowmemorykiller: adj:1001 file_cache: 183441 free:18428
+06-07 13:42:50.164   522   522 E lowmemorykiller: device has enough memory 760504Kib, and freeMemory 94788Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.265   522   522 E lowmemorykiller: adj:1001 file_cache: 184204 free:18589
+06-07 13:42:50.265   522   522 E lowmemorykiller: device has enough memory 762200Kib, and freeMemory 93440Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.366   522   522 E lowmemorykiller: adj:1001 file_cache: 184735 free:19165
+06-07 13:42:50.366   522   522 E lowmemorykiller: device has enough memory 770136Kib, and freeMemory 99236Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.466   522   522 E lowmemorykiller: adj:1001 file_cache: 185124 free:18417
+06-07 13:42:50.467   522   522 E lowmemorykiller: device has enough memory 763812Kib, and freeMemory 91352Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.567   522   522 E lowmemorykiller: adj:1001 file_cache: 185006 free:17904
+06-07 13:42:50.567   522   522 E lowmemorykiller: device has enough memory 769176Kib, and freeMemory 97188Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.668   522   522 E lowmemorykiller: adj:1001 file_cache: 184289 free:20237
+06-07 13:42:50.668   522   522 E lowmemorykiller: device has enough memory 778152Kib, and freeMemory 109032Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.769   522   522 E lowmemorykiller: adj:1001 file_cache: 185526 free:18973
+06-07 13:42:50.769   522   522 E lowmemorykiller: device has enough memory 777792Kib, and freeMemory 103724Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.835   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:42:50.842   522   522 E lowmemorykiller: adj:1001 file_cache: 185861 free:19099
+06-07 13:42:50.842   522   522 E lowmemorykiller: device has enough memory 779388Kib, and freeMemory 103976Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.866   522   522 E lowmemorykiller: adj:1001 file_cache: 185766 free:19760
+06-07 13:42:50.866   522   522 E lowmemorykiller: device has enough memory 781292Kib, and freeMemory 106260Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:50.967   522   522 E lowmemorykiller: adj:1001 file_cache: 185917 free:19108
+06-07 13:42:50.967   522   522 E lowmemorykiller: device has enough memory 779184Kib, and freeMemory 103812Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.067   522   522 E lowmemorykiller: adj:1001 file_cache: 189627 free:15605
+06-07 13:42:51.067   522   522 E lowmemorykiller: device has enough memory 778592Kib, and freeMemory 88560Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.168   522   522 E lowmemorykiller: adj:1001 file_cache: 191094 free:15662
+06-07 13:42:51.168   522   522 E lowmemorykiller: device has enough memory 786280Kib, and freeMemory 90324Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.269   522   522 E lowmemorykiller: adj:1001 file_cache: 188811 free:19798
+06-07 13:42:51.269   522   522 E lowmemorykiller: device has enough memory 790784Kib, and freeMemory 103428Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.369   522   522 E lowmemorykiller: adj:1001 file_cache: 189266 free:21668
+06-07 13:42:51.369   522   522 E lowmemorykiller: device has enough memory 798008Kib, and freeMemory 108760Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.470   522   522 E lowmemorykiller: adj:1001 file_cache: 186994 free:28317
+06-07 13:42:51.470   522   522 E lowmemorykiller: device has enough memory 814512Kib, and freeMemory 134212Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.527 22998 23139 E PackageUtils[u0]: checkPackageExist Exception: android.content.pm.PackageManager$NameNotFoundException: com.heytap.quicksearchbox
+06-07 13:42:51.573   522   522 E lowmemorykiller: adj:1001 file_cache: 189632 free:27013
+06-07 13:42:51.573   522   522 E lowmemorykiller: device has enough memory 823052Kib, and freeMemory 132188Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.673   522   522 E lowmemorykiller: adj:1001 file_cache: 192294 free:23800
+06-07 13:42:51.673   522   522 E lowmemorykiller: device has enough memory 818580Kib, and freeMemory 117068Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.774   522   522 E lowmemorykiller: adj:1001 file_cache: 195897 free:19191
+06-07 13:42:51.774   522   522 E lowmemorykiller: device has enough memory 806716Kib, and freeMemory 90764Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.875   522   522 E lowmemorykiller: adj:1001 file_cache: 194946 free:19952
+06-07 13:42:51.875   522   522 E lowmemorykiller: device has enough memory 817336Kib, and freeMemory 105188Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.922   522   522 E lowmemorykiller: adj:1001 file_cache: 195547 free:19358
+06-07 13:42:51.922   522   522 E lowmemorykiller: device has enough memory 817112Kib, and freeMemory 102560Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:51.974   522   522 E lowmemorykiller: adj:1001 file_cache: 195015 free:20237
+06-07 13:42:51.974   522   522 E lowmemorykiller: device has enough memory 819268Kib, and freeMemory 106844Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.075   522   522 E lowmemorykiller: adj:1001 file_cache: 195044 free:20128
+06-07 13:42:52.075   522   522 E lowmemorykiller: device has enough memory 820208Kib, and freeMemory 107668Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.175   522   522 E lowmemorykiller: adj:1001 file_cache: 194935 free:20171
+06-07 13:42:52.176   522   522 E lowmemorykiller: device has enough memory 820428Kib, and freeMemory 108324Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.277   522   522 E lowmemorykiller: adj:1001 file_cache: 195446 free:20069
+06-07 13:42:52.277   522   522 E lowmemorykiller: device has enough memory 822084Kib, and freeMemory 107676Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.378   522   522 E lowmemorykiller: adj:1001 file_cache: 195151 free:19575
+06-07 13:42:52.378   522   522 E lowmemorykiller: device has enough memory 818388Kib, and freeMemory 105160Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.480   522   522 E lowmemorykiller: adj:1001 file_cache: 194721 free:20408
+06-07 13:42:52.480   522   522 E lowmemorykiller: device has enough memory 820756Kib, and freeMemory 109120Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.581   522   522 E lowmemorykiller: adj:1001 file_cache: 194891 free:20324
+06-07 13:42:52.582   522   522 E lowmemorykiller: device has enough memory 821184Kib, and freeMemory 108868Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.683   522   522 E lowmemorykiller: adj:1001 file_cache: 195601 free:19467
+06-07 13:42:52.683   522   522 E lowmemorykiller: device has enough memory 820596Kib, and freeMemory 105440Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.784   522   522 E lowmemorykiller: adj:1001 file_cache: 195580 free:19788
+06-07 13:42:52.784   522   522 E lowmemorykiller: device has enough memory 822276Kib, and freeMemory 107204Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.886   522   522 E lowmemorykiller: adj:1001 file_cache: 195256 free:20084
+06-07 13:42:52.886   522   522 E lowmemorykiller: device has enough memory 821896Kib, and freeMemory 107884Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:52.988   522   522 E lowmemorykiller: adj:1001 file_cache: 195451 free:20158
+06-07 13:42:52.988   522   522 E lowmemorykiller: device has enough memory 823700Kib, and freeMemory 109144Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:53.059  2509  2509 E SmsApplication: com.android.mms lost android:read_cell_broadcasts:  (fixing)
+06-07 13:42:54.248 26688 27388 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 4989
+06-07 13:42:54.249 26688 27388 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+06-07 13:42:54.249 26688 27388 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+06-07 13:42:54.249 26688 27388 E FbnsAIDLClientManager: 	at X.09ih.call(Unknown Source:383)
+06-07 13:42:54.249 26688 27388 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 13:42:54.249 26688 27388 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:42:54.249 26688 27388 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:42:54.249 26688 27388 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:42:55.091   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:42:55.690  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.microsoft.appmanager; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.690  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.wellbeing; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.flipkart.android; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.instagram.android; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.webview; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.linkedin.android; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = in.amazon.mShop.android.shopping; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.chess; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.student.timbukdo; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.691  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.restore; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.692  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.fampay.in; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.692  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.tts; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.692  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.coloros.phonemanager; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.692  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.android.vending; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.692  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.nbu.files; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.692  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.android.chrome; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.693  4712 27544 E Battery : HighPowerHelper: ; pkgName = in.startv.hotstar; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.693  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.photos; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.693  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.nbu.paisa.user; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.693  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.ril.ajio; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.aistudio.pawmatch.nbvuxa; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.openai.chatgpt; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.docs; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.dts.freefiremax; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.chromecast.app; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.youtube; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.subscriptions.red; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.maps; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.694  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.apps.tachyon; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.695  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.spotify.music; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.695  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.community.oneroom; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.695  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.oplus.account; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.695  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.gms; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.695  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.videos; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.696  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.googlequicksearchbox; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.696  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.contacts; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.696  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.projection.gearhead; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.696  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.jio.myjio; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.696  4712 27544 E Battery : HighPowerHelper: ; pkgName = org.telegram.messenger; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.696  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.coloros.note; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.697  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.nivaroid.topfollow; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.697  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.whatsapp; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.697  4712 27544 E Battery : HighPowerHelper: ; pkgName = andes.oplus.documentsreader; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.697  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.facebook.system; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.697  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.safetycore; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.697  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.oplus.melody; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.697  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.truecaller; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.dialer; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.gm; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.contactkeys; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.inputmethod.latin; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.dd3boh.outertune; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = in.gov.uidai.pehchaan; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.meesho.supply; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.qqlabs.minimalistlauncher; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.priyanshismusic.app; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:55.698  4712 27544 E Battery : HighPowerHelper: ; pkgName = com.google.android.calendar; mCpuTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOn = 0 ms; mWakeLockTimeMsPerHourWhileScreenOff = 0 ms; mJobTimeMsPerHourWhileScreenOn = 0 ms; mJobTimeMsPerTwoHoursWhileScreenOn = 0 ms; mWiFiScanTimeMsPerHourWhileScreenOn = 0 ms; mCameraTimeMsPerHourWhileScreenOn = 0 ms; mFlashLightTimeMsPerHourWhileScreenOn = 0 ms; mGpsTimeMsPerHourWhileScreenOn = 0 ms; mAlarmCountPerHourWhileScreenOn = 0 ms
+06-07 13:42:56.253  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 13:42:56.253  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 13:42:57.509 26688 27547 E EmergencyPushPeriodicFetchWorker: Skipping fetch since app is backgrounded
+06-07 13:42:58.126   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:42:58.151 26688 26688 E SlowAppComponent: 0ms: FbnsInitBroadcastReceiver instantiating…
+06-07 13:42:58.151 26688 26688 E SlowAppComponent: Main thread was blocked for 25ms in the background starting with FbnsInitBroadcastReceiver
+06-07 13:42:58.946   522   522 E lowmemorykiller: adj:1001 file_cache: 207798 free:19038
+06-07 13:42:58.946   522   522 E lowmemorykiller: device has enough memory 876948Kib, and freeMemory 95132Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.047   522   522 E lowmemorykiller: adj:1001 file_cache: 207963 free:18895
+06-07 13:42:59.047   522   522 E lowmemorykiller: device has enough memory 877036Kib, and freeMemory 94560Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.148   522   522 E lowmemorykiller: adj:1001 file_cache: 208500 free:18645
+06-07 13:42:59.148   522   522 E lowmemorykiller: device has enough memory 876904Kib, and freeMemory 92400Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.249   522   522 E lowmemorykiller: adj:1001 file_cache: 209033 free:18181
+06-07 13:42:59.249   522   522 E lowmemorykiller: device has enough memory 877184Kib, and freeMemory 90544Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.351   522   522 E lowmemorykiller: adj:1001 file_cache: 208725 free:19282
+06-07 13:42:59.351   522   522 E lowmemorykiller: device has enough memory 880128Kib, and freeMemory 95152Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.452   522   522 E lowmemorykiller: adj:1001 file_cache: 209257 free:18660
+06-07 13:42:59.452   522   522 E lowmemorykiller: device has enough memory 879832Kib, and freeMemory 92664Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.553   522   522 E lowmemorykiller: adj:1001 file_cache: 209733 free:19049
+06-07 13:42:59.553   522   522 E lowmemorykiller: device has enough memory 883324Kib, and freeMemory 94236Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.654   522   522 E lowmemorykiller: adj:1001 file_cache: 210221 free:18923
+06-07 13:42:59.655   522   522 E lowmemorykiller: device has enough memory 884272Kib, and freeMemory 93732Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.756   522   522 E lowmemorykiller: adj:1001 file_cache: 210669 free:18367
+06-07 13:42:59.756   522   522 E lowmemorykiller: device has enough memory 883844Kib, and freeMemory 91508Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.857   522   522 E lowmemorykiller: adj:1001 file_cache: 210841 free:18556
+06-07 13:42:59.857   522   522 E lowmemorykiller: device has enough memory 885292Kib, and freeMemory 92264Kib, disable killing(limit_killing:665600Kib)
+06-07 13:42:59.959   522   522 E lowmemorykiller: adj:1001 file_cache: 210631 free:19475
+06-07 13:42:59.959   522   522 E lowmemorykiller: device has enough memory 888192Kib, and freeMemory 96500Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:01.382 27521 27534 E artd    : Unable to resolve path '/data/app/~~8tqSX_FKyRqFpF20pSZAmw==/com.truecaller-Y5SY_yAG6LZ_Y4M_Lc5M4g==/base.apk': No such file or directory
+06-07 13:43:04.359 26688 27548 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 5001
+06-07 13:43:04.360 26688 27548 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+06-07 13:43:04.360 26688 27548 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+06-07 13:43:04.360 26688 27548 E FbnsAIDLClientManager: 	at X.09ih.call(Unknown Source:383)
+06-07 13:43:04.360 26688 27548 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 13:43:04.360 26688 27548 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:43:04.360 26688 27548 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:43:04.360 26688 27548 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:43:06.487   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:43:08.686   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:43:08.732 27576 27576 E .chromecast.app: Unknown bits set in runtime_flags: 0x40000000
+06-07 13:43:08.756 26688 26803 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(331)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+06-07 13:43:08.757 27576 27589 E .chromecast.app: Could not write anonymous vdex /system_ext/framework/oat/arm64/mediatek-framework.vdex: Could not open /system_ext/framework/oat/arm64/mediatek-framework.vdex for writing
+06-07 13:43:09.118  3620  3668 E horae   : 0: back:40707,frame:39461,front:40811, 7, +(4640), 1 ,45451,42300,43588,42637,43537, target_temp:40811, algo:0
+06-07 13:43:09.422   522   522 E lowmemorykiller: adj:1001 file_cache: 214973 free:19862
+06-07 13:43:09.422   522   522 E lowmemorykiller: device has enough memory 894584Kib, and freeMemory 97256Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:09.523   522   522 E lowmemorykiller: adj:1001 file_cache: 215370 free:20116
+06-07 13:43:09.523   522   522 E lowmemorykiller: device has enough memory 894852Kib, and freeMemory 98504Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:09.623   522   522 E lowmemorykiller: adj:1001 file_cache: 217549 free:18217
+06-07 13:43:09.623   522   522 E lowmemorykiller: device has enough memory 896652Kib, and freeMemory 91588Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:09.724   522   522 E lowmemorykiller: adj:1001 file_cache: 217262 free:19106
+06-07 13:43:09.724   522   522 E lowmemorykiller: device has enough memory 899532Kib, and freeMemory 95616Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:09.825   522   522 E lowmemorykiller: adj:1001 file_cache: 218351 free:18545
+06-07 13:43:09.825   522   522 E lowmemorykiller: device has enough memory 901676Kib, and freeMemory 93404Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:09.926   522   522 E lowmemorykiller: adj:1001 file_cache: 218990 free:18161
+06-07 13:43:09.926   522   522 E lowmemorykiller: device has enough memory 902188Kib, and freeMemory 91364Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.027   522   522 E lowmemorykiller: adj:1001 file_cache: 217511 free:19799
+06-07 13:43:10.027   522   522 E lowmemorykiller: device has enough memory 902288Kib, and freeMemory 97380Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.129   522   522 E lowmemorykiller: adj:1001 file_cache: 217892 free:19533
+06-07 13:43:10.129   522   522 E lowmemorykiller: device has enough memory 902780Kib, and freeMemory 96348Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.230   522   522 E lowmemorykiller: adj:1001 file_cache: 219249 free:18845
+06-07 13:43:10.230   522   522 E lowmemorykiller: device has enough memory 905204Kib, and freeMemory 93344Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.332   522   522 E lowmemorykiller: adj:1001 file_cache: 219866 free:18158
+06-07 13:43:10.332   522   522 E lowmemorykiller: device has enough memory 905148Kib, and freeMemory 90596Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.432   522   522 E lowmemorykiller: adj:1001 file_cache: 218843 free:18599
+06-07 13:43:10.433   522   522 E lowmemorykiller: device has enough memory 902092Kib, and freeMemory 91856Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.502   522   522 E lowmemorykiller: adj:1001 file_cache: 217708 free:19464
+06-07 13:43:10.502   522   522 E lowmemorykiller: device has enough memory 901080Kib, and freeMemory 95384Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: Failed to get service from broker. 
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3255)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3238)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3180)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at bjqy.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):36)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at bjou.z(:com.google.android.gms@261934035@26.19.34 (260400-919740205):143)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at biuq.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):42)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:973)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at dbbh.mJ(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at dbbh.dispatchMessage(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:43:10.513 27576 27666 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:43:10.531   522   522 E lowmemorykiller: adj:1001 file_cache: 218089 free:19023
+06-07 13:43:10.531   522   522 E lowmemorykiller: device has enough memory 900840Kib, and freeMemory 93620Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.632   522   522 E lowmemorykiller: adj:1001 file_cache: 218899 free:18140
+06-07 13:43:10.632   522   522 E lowmemorykiller: device has enough memory 900444Kib, and freeMemory 90088Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.732   522   522 E lowmemorykiller: adj:1001 file_cache: 218661 free:18187
+06-07 13:43:10.732   522   522 E lowmemorykiller: device has enough memory 899832Kib, and freeMemory 90324Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.833   522   522 E lowmemorykiller: adj:1001 file_cache: 218249 free:18673
+06-07 13:43:10.833   522   522 E lowmemorykiller: device has enough memory 900128Kib, and freeMemory 92268Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:10.935   522   522 E lowmemorykiller: adj:1001 file_cache: 217727 free:18918
+06-07 13:43:10.935   522   522 E lowmemorykiller: device has enough memory 899020Kib, and freeMemory 93248Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:11.036   522   522 E lowmemorykiller: adj:1001 file_cache: 217120 free:19054
+06-07 13:43:11.036   522   522 E lowmemorykiller: device has enough memory 896988Kib, and freeMemory 93792Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:11.138   522   522 E lowmemorykiller: adj:1001 file_cache: 217144 free:18739
+06-07 13:43:11.138   522   522 E lowmemorykiller: device has enough memory 895824Kib, and freeMemory 92532Kib, disable killing(limit_killing:665600Kib)
+06-07 13:43:11.916  1235  1781 E md_thermal: interval=5 temp: 51500 45800 42700 43600
+06-07 13:43:13.281   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:43:16.926  1235  1781 E md_thermal: interval=5 temp: 50800 45400 42800 43500
+06-07 13:43:21.937  1235  1781 E md_thermal: interval=5 temp: 49100 45100 42800 43500
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: MspSdkException{code=-1,message=com.heytap.mspsdk.exception.MspProxyException: No target found for all actions}
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.proxy.h.c(RealIPCInterceptor.java:13)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.proxy.h.a(RealIPCInterceptor.java:2)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.proxy.h.b(RealIPCInterceptor.java:1)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.interceptor.c.b(StandardListChain.java:5)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.proxy.b.b(CompatCheckInterceptor.java:8)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.interceptor.c.b(StandardListChain.java:5)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.proxy.d.invoke(InnerInvocationHandler.java:23)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at java.lang.reflect.Proxy.invoke(Proxy.java:1006)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at $Proxy5.a(Unknown Source)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.oplus.statistic.rom.oneidsdk.c$d.a(OneIdOsTokenKitSdk.java:1)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.oplus.statistic.rom.oneidsdk.c.o(OneIdOsTokenKitSdk.java:2)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.oplus.statistic.rom.oneidsdk.c.n(OneIdOsTokenKitSdk.java:13)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.oplus.statistics.rom.application.DcsModule$b.run(DcsModule.kt:1)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at java.util.TimerThread.mainLoop(Timer.java:634)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at java.util.TimerThread.run(Timer.java:577)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: Caused by: com.opos.process.bridge.provider.BridgeExecuteException: No target found for all actions
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.opos.process.bridge.client.BaseServiceClient.getPackageAndAction(BaseServiceClient.java:32)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.opos.process.bridge.client.BaseServiceClient.callRemote(BaseServiceClient.java:21)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.opos.process.bridge.client.BaseClient.callForResult(BaseClient.java:2)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.opos.process.bridge.client.BaseServiceClient.callForResult(BaseServiceClient.java:2)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.opos.process.bridge.client.BaseClient.call(BaseClient.java:2)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.opos.process.bridge.client.BaseServiceClient.call(BaseServiceClient.java:2)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.oplus.statistic.rom.oneidsdk.a.a(OneIdModule$Client.java:2)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	at com.heytap.mspsdk.proxy.h.c(RealIPCInterceptor.java:6)
+06-07 13:43:24.694   797   881 E MSP-LOG-SDK-: 	... 14 more
+06-07 13:43:26.948  1235  1781 E md_thermal: interval=40 temp: 48800 44900 42800 43400
+06-07 13:43:29.139  3620  3639 E horae   : Entering notifyCallback, binder clients size 7
+06-07 13:43:29.212  4712  5435 E Battery : Thermal.HeatSourceController: heat source string is null or empty
+06-07 13:43:29.256  4712  5435 E Battery : ThermalControlConfig: HeatSourceLevel featureConfig is null
+06-07 13:43:29.442   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:43:33.407  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 13:43:33.407  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 13:43:39.296  4712  5472 E Battery : a: getAISleepDuration: predictResult is null.
+06-07 13:43:39.296  4712  5472 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+06-07 13:43:41.571   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!

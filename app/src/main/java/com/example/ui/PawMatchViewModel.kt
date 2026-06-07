@@ -76,12 +76,12 @@ class PawMatchViewModel(application: Application) : AndroidViewModel(application
     val isMapViewLayout: StateFlow<Boolean> = _isMapViewLayout.asStateFlow()
 
     // Profile Setup Temp state
-    val setupName = MutableStateFlow("Bruno")
-    val setupBreed = MutableStateFlow("Golden Retriever")
-    val setupAge = MutableStateFlow("2")
+    val setupName = MutableStateFlow("")
+    val setupBreed = MutableStateFlow("")
+    val setupAge = MutableStateFlow("")
     val setupGender = MutableStateFlow("Male")
-    val setupLocation = MutableStateFlow("Bandra, Mumbai")
-    val setupBio = MutableStateFlow("Majestic, active companion looking for pedigree same-breed dog run sessions nearby!")
+    val setupLocation = MutableStateFlow("")
+    val setupBio = MutableStateFlow("")
     val setupImageUrl = MutableStateFlow("https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=600")
 
     // Real API Backend variables
@@ -179,12 +179,12 @@ class PawMatchViewModel(application: Application) : AndroidViewModel(application
         }
 
         // Restore setup form states
-        setupName.value = sharedPrefs.getString("setup_name", "Bruno") ?: "Bruno"
-        setupBreed.value = sharedPrefs.getString("setup_breed", "Golden Retriever") ?: "Golden Retriever"
-        setupAge.value = sharedPrefs.getString("setup_age", "2") ?: "2"
+        setupName.value = sharedPrefs.getString("setup_name", "") ?: ""
+        setupBreed.value = sharedPrefs.getString("setup_breed", "") ?: ""
+        setupAge.value = sharedPrefs.getString("setup_age", "") ?: ""
         setupGender.value = sharedPrefs.getString("setup_gender", "Male") ?: "Male"
-        setupLocation.value = sharedPrefs.getString("setup_location", "Bandra, Mumbai") ?: "Bandra, Mumbai"
-        setupBio.value = sharedPrefs.getString("setup_bio", "Majestic, active companion looking for pedigree same-breed dog run sessions nearby!") ?: "Majestic, active companion looking for pedigree same-breed dog run sessions nearby!"
+        setupLocation.value = sharedPrefs.getString("setup_location", "") ?: ""
+        setupBio.value = sharedPrefs.getString("setup_bio", "") ?: ""
         setupImageUrl.value = sharedPrefs.getString("setup_image_url", "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=600") ?: "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=600"
 
         // Auto-save form inputs and active navigation states reactively
@@ -450,7 +450,7 @@ class PawMatchViewModel(application: Application) : AndroidViewModel(application
         viewModelScope.launch {
             try {
                 // Fetch dynamic dog fact from real REST backend
-                val response = RetrofitClient.dogApiService.getDogFacts(1)
+                val response = RetrofitClient.dogFactsApiService.getDogFacts(1)
                 if (response.isSuccessful && response.body()?.success == true) {
                     val fact = response.body()?.facts?.firstOrNull()
                     if (!fact.isNullOrBlank()) {

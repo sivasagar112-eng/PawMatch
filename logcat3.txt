@@ -1,0 +1,1523 @@
+--------- beginning of main
+06-07 13:49:35.440  3477  3811 W ClassLoaderConfiguration: 8 suppressed exceptions were found in BaseDexClassLoader.
+06-07 13:49:35.441  3477  3811 W ClassLoaderConfiguration: Dex file: /data/data/com.instagram.android/modules/pytorch_ccecc2878fbccddf90a14141c95928e08c800f19f25a9b804ff79f227c58ef70/dex/prog-9c37b64887fca54bcd5cba284300eec51ab73289.dex
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_arservicesforpersonsegmentation.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.455  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_config.xxhdpi.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.457  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_executorch.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_heliumcore.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.458  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_heliumiab.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.459  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_i18n_en_GB.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_pytorch.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.460  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: Suppressed exception:
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: java.io.IOException: Failed to open dex files from /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_spm.apk because: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFileNative(Native Method)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.openDexFile(DexFile.java:406)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:128)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexFile.<init>(DexFile.java:101)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.loadDexFile(DexPathList.java:438)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.makeDexElements(DexPathList.java:397)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.DexPathList.<init>(DexPathList.java:166)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:160)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:130)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:146)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:93)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:134)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:131)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ApplicationLoaders.getClassLoaderWithSharedLibraries(ApplicationLoaders.java:64)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1088)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1187)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.LoadedApk.getResources(LoadedApk.java:1439)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3486)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:3477)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8060)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2642)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:9500)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:600)
+06-07 13:49:35.461  3477  3811 W ClassLoaderConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1005)
+06-07 13:49:35.462  3477  3811 W DexLibLoader: DexStore loads dex files into dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/base.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_arservicesforpersonsegmentation.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_config.xxhdpi.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_executorch.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_heliumcore.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_heliumiab.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_i18n_en_GB.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_pytorch.apk", zip file "/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_spm.apk", dex file "/data/data/com.instagram.android/modules/pytorch_ccecc2878fbccddf90a14141c95928e08c800f19f25a9b804ff79f227c58ef70/dex/prog-9c37b64887fca54bcd5cba284300eec51ab73289.dex"],nativeLibraryDirectories=[/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/lib/arm64, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/base.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_arservicesforpersonsegmentation.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_config.xxhdpi.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_executorch.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_heliumcore.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_heliumiab.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_i18n_en_GB.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_pytorch.apk!/lib/arm64-v8a, /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_spm.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]], using vanilla class loader=true
+06-07 13:49:35.469   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:35.469   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:35.469   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:35.470   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:35.471   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 48.299 ThrottlingStatus: SEVERE
+06-07 13:49:35.472   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:35.478  3477  3811 W FbVoltronModuleLoader: loadSplitWithRetry: main split=pytorch
+06-07 13:49:35.478  3477  3811 W SoLoader: Registering application split pytorch split_pytorch.apk
+06-07 13:49:35.481  3477  3811 W SoLoader: No asset libraries in pytorch split_pytorch.apk
+06-07 13:49:35.482  3477  3811 W FbVoltronModuleLoader: Split registration failed even though file exists: pytorch -> /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/split_pytorch.apk
+06-07 13:49:35.483   522   522 E lowmemorykiller: adj:1001 file_cache: 203068 free:19212
+06-07 13:49:35.483   522   522 E lowmemorykiller: device has enough memory 858900Kib, and freeMemory 114552Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:35.483  3477  3811 W FbVoltronModuleLoader: Split loaded without native lib: pytorch
+06-07 13:49:35.484  3477  3811 E ActionQueryTaskListener: 0 onLoadBatchComplete exception: null BACKGROUND modules: [pytorch] actions: [LOAD=[pytorch],COMPLETE_SUCCESS=[pytorch]]
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.06pj.A02(:45)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.05qH.invoke(Unknown Source:131)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.09lq.invoke(Unknown Source:583)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.06rh.run(:4)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.02ck.run(:2)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.02cl.run(:16)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01ma.A00(:122)
+06-07 13:49:35.504  3477  3811 W IgMetaConfig: 	at X.01ma.run(:102)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.06pj.A02(:70)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.05qH.invoke(Unknown Source:131)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.09lq.invoke(Unknown Source:583)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.06rh.run(:4)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.02ck.run(:2)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.02cl.run(:16)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01ma.A00(:122)
+06-07 13:49:35.505  3477  3811 W IgMetaConfig: 	at X.01ma.run(:102)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.06pj.A02(:85)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.05qH.invoke(Unknown Source:131)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.09lq.invoke(Unknown Source:583)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.06rh.run(:4)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.02ck.run(:2)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.02cl.run(:16)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01ma.A00(:122)
+06-07 13:49:35.506  3477  3811 W IgMetaConfig: 	at X.01ma.run(:102)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.06pj.A02(:100)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.05qH.invoke(Unknown Source:131)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.09lq.invoke(Unknown Source:583)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.06rh.run(:4)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.02ck.run(:2)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.02cl.run(:16)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01ma.A00(:122)
+06-07 13:49:35.507  3477  3811 W IgMetaConfig: 	at X.01ma.run(:102)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.06pj.A02(:115)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.05qH.invoke(Unknown Source:131)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.09lq.invoke(Unknown Source:583)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.06rh.run(:4)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.02ck.run(:2)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.02cl.run(:16)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01ma.A00(:122)
+06-07 13:49:35.508  3477  3811 W IgMetaConfig: 	at X.01ma.run(:102)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.09ht.invoke(Unknown Source:372)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01wo.invoke(:85)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.06hy.A00(:297)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.02mn.<init>(:268435456)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.09lq.A06(Unknown Source:572)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.09lq.invoke(Unknown Source:5)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01wo.invoke(:85)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.02ml.A00(:53)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.07bA.invoke(:69)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at com.facebook.pando.primaryexecution.tigon.PandoTigonConfig.getHeaders(:10)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at com.facebook.pando.PandoGraphQLServiceJNI.initiateNative(Native Method)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at com.facebook.pando.PandoGraphQLServiceJNI.initiate(:50)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.09jy.invoke(Unknown Source:694)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.06rh.run(:8)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.02ck.run(:2)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.02cl.run(:16)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01ma.A00(:122)
+06-07 13:49:35.512  3477  3811 W IgMetaConfig: 	at X.01ma.run(:102)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.03fv.<init>(:9)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.06hy.A00(:1091)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.02mn.<init>(:268435456)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.09lq.A06(Unknown Source:572)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.09lq.invoke(Unknown Source:5)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01wo.invoke(:85)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.03Xd.getValue(Unknown Source:25)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.02ml.A00(:53)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.07bA.invoke(:69)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at com.facebook.pando.primaryexecution.tigon.PandoTigonConfig.getHeaders(:10)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at com.facebook.pando.PandoGraphQLServiceJNI.initiateNative(Native Method)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at com.facebook.pando.PandoGraphQLServiceJNI.initiate(:50)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.09jy.invoke(Unknown Source:694)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.06rh.run(:8)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.02ck.run(:2)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.02cl.run(:16)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01ma.A00(:122)
+06-07 13:49:35.515  3477  3811 W IgMetaConfig: 	at X.01ma.run(:102)
+06-07 13:49:35.516  3477  3811 W SoLoader: SoLoader already initialized
+06-07 13:49:35.532  3477  3811 E ActionQueryTaskListener: 0 onTaskComplete [true,false,] BACKGROUND modules: [pytorch] actions: [LOAD=[pytorch],COMPLETE_SUCCESS=[pytorch]]
+06-07 13:49:35.581  3477  3703 D nativeloader: Load /data/data/com.instagram.android/lib-compressed/libarfxmerged.so using class loader ns clns-8 (caller=/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/base.apk!classes3.dex): ok
+06-07 13:49:35.584   522   522 E lowmemorykiller: adj:1001 file_cache: 203590 free:19254
+06-07 13:49:35.584   522   522 E lowmemorykiller: device has enough memory 861772Kib, and freeMemory 115336Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:35.620  3477  3703 D nativeloader: Load /data/data/com.instagram.android/lib-compressed/libardmerged.so using class loader ns clns-8 (caller=/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/base.apk!classes3.dex): ok
+06-07 13:49:35.652  1783  2313 I Osense-PsiDetector: 844,116,3681,5631,35,188,141,567,1004,291,502,0,4,5428
+06-07 13:49:35.652  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:35.652   522   522 E lowmemorykiller: adj:1001 file_cache: 203311 free:19974
+06-07 13:49:35.652   522   522 E lowmemorykiller: device has enough memory 864448Kib, and freeMemory 119116Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:35.655  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:35.655  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:35.655  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:35.660  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370147, startAvail=838, startFreeMB=119, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=362, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=10
+06-07 13:49:35.661  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:35.661  1783  2310 I OsenseKillAction: KillAction: 362mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370147, purposeMemory=1200}]
+06-07 13:49:35.703  1783  1882 I ActivityManager: Test idle failed due to 475d1cf 3477:com.instagram.android/u0a328 not runnable because EMPTY
+06-07 13:49:35.784  3477  3703 D nativeloader: Load /data/data/com.instagram.android/lib-compressed/libtorchmerged.so using class loader ns clns-8 (caller=/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/base.apk!classes3.dex): ok
+06-07 13:49:35.787  3477  3703 E ActionQueryTaskListener: 1 onTaskStart BACKGROUND modules: [executorch] actions: [LOAD=[executorch],COMPLETE_SUCCESS=[executorch]]
+06-07 13:49:35.790  3477  3811 E ActionQueryTaskListener: 1 onLoadBatchStart BACKGROUND modules: [executorch] actions: [LOAD=[executorch],COMPLETE_SUCCESS=[executorch]]
+06-07 13:49:35.796  3477  3811 W FbVoltronModuleLoader: loadSplitWithRetry: main split=executorch
+06-07 13:49:35.796  3477  3811 W SoLoader: Registering application split executorch split_executorch.apk
+06-07 13:49:35.799  3477  3811 W SoLoader: Prepending SoSource executorch-asset-libs: SuperpackSoSource[root = /data/data/com.instagram.android/modules/executorch_bbe50f768cb1565da2eedfa41adcbde76334e5eb54e76e524bbaad2a8f427109/lib-compressed/arm64-v8a/986923712/asset-libs flags = 1 split = dynamic split:executorch compressedPath = assets/executorch/libs.spo identity = executorch]
+06-07 13:49:35.804  3477  3811 W FbVoltronModuleLoader: Split loaded: executorch
+06-07 13:49:35.805  3477  3811 E ActionQueryTaskListener: 1 onLoadBatchComplete exception: null BACKGROUND modules: [executorch] actions: [LOAD=[executorch],COMPLETE_SUCCESS=[executorch]]
+06-07 13:49:35.817  3477  3703 I Mantle  : IGMantleJni::initHybrid is called.
+06-07 13:49:35.821  3477  3703 I Mantle  : IGMantleJni::IGMantleJni is called.
+06-07 13:49:35.887   522   522 E lowmemorykiller: adj:1001 file_cache: 201196 free:21447
+06-07 13:49:35.887   522   522 E lowmemorykiller: device has enough memory 857512Kib, and freeMemory 120632Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:35.960  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+06-07 13:49:35.965  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:174590103839,totalTxBytes:54080459800,loopbackTxBytes:7235188,loopbackRxBytes:7228468 ,totalBytes:228656099983
+06-07 13:49:35.966   633   633 D TlcKM   : find_spare_operation_slot: allocate op 0xaae8f518e7323d8 to slot #0 (1 ops live)
+06-07 13:49:35.969   633   633 D TlcKM   : TEE_Begin exiting with 0
+06-07 13:49:35.975   633   633 D TlcKM   : TEE_Finish
+06-07 13:49:35.975   633   633 D TlcKM   : split_update_chunks
+06-07 13:49:35.984   633   633 D TlcKM   : release_operation_slot: release op slot #0 (handle 0xaae8f518e7323d8; 0 ops live)
+06-07 13:49:35.984   633   633 D TlcKM   : TEE_Finish exiting with 0
+06-07 13:49:35.985   633   633 D TlcKM   : TEE_Abort
+06-07 13:49:35.985   633   633 E TlcKM   : lookup_operation: op 0xaae8f518e7323d8 not found
+06-07 13:49:35.985   633   633 E TlcKM   : lookup_operation(session, operation_handle, &op) == -28
+06-07 13:49:35.985   633   633 D TlcKM   : TEE_Abort exiting with -28
+06-07 13:49:36.016   905   968 I sensors-hal-HfLooper: ambient light  4.000000
+06-07 13:49:36.090   522   522 E lowmemorykiller: adj:1001 file_cache: 201510 free:21013
+06-07 13:49:36.090   522   522 E lowmemorykiller: device has enough memory 856780Kib, and freeMemory 118644Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.103  1382  1779 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+06-07 13:49:36.114 31522   484 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 0
+06-07 13:49:36.191   522   522 E lowmemorykiller: adj:1001 file_cache: 201716 free:20784
+06-07 13:49:36.191   522   522 E lowmemorykiller: device has enough memory 856628Kib, and freeMemory 117636Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.293   522   522 E lowmemorykiller: adj:1001 file_cache: 201994 free:20595
+06-07 13:49:36.293   522   522 E lowmemorykiller: device has enough memory 856984Kib, and freeMemory 116880Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.358  1354  1474 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 8 guards. ResetFlags = 0x7
+06-07 13:49:36.361   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:36.363   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:36.368  3477  3751 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 4901
+06-07 13:49:36.371  3477  3751 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+06-07 13:49:36.371  3477  3751 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+06-07 13:49:36.371  3477  3751 E FbnsAIDLClientManager: 	at X.09ih.call(Unknown Source:383)
+06-07 13:49:36.371  3477  3751 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 13:49:36.371  3477  3751 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:49:36.371  3477  3751 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:49:36.371  3477  3751 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:49:36.382   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:36.384   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:36.394   522   522 E lowmemorykiller: adj:1001 file_cache: 202025 free:20712
+06-07 13:49:36.395   522   522 E lowmemorykiller: device has enough memory 857576Kib, and freeMemory 117348Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.397   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:36.399   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:36.410   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:36.411   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:36.436   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:36.470   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:36.471   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:36.471   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:36.471   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:36.472   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 48.192 ThrottlingStatus: SEVERE
+06-07 13:49:36.473   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:36.498   522   522 E lowmemorykiller: adj:1001 file_cache: 202093 free:20538
+06-07 13:49:36.498   522   522 E lowmemorykiller: device has enough memory 856144Kib, and freeMemory 115644Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.548  3477  3861 E ActionQueryTaskListener: 1 onTaskComplete [true,false,] BACKGROUND modules: [executorch] actions: [LOAD=[executorch],COMPLETE_SUCCESS=[executorch]]
+06-07 13:49:36.552  3477  3811 W SoLoader[NativeDeps]: Couldn't find libdynamic_executorch.so in native deps file
+06-07 13:49:36.553  3477  3811 W SoLoader[NativeDeps]: Falling back to custom ELF parsing when loading libdynamic_executorch.so, this can be slow
+06-07 13:49:36.571  3477  3811 D nativeloader: Load /data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/lib/arm64/libc++_shared.so using class loader ns clns-8 (caller=/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/base.apk!classes3.dex): ok
+06-07 13:49:36.583  3477  3811 W libc    : Access denied finding property "ro.hardware.chipname"
+06-07 13:49:36.599   522   522 E lowmemorykiller: adj:1001 file_cache: 202415 free:20964
+06-07 13:49:36.599   522   522 E lowmemorykiller: device has enough memory 857372Kib, and freeMemory 115584Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.618  1366  8695 D AALLightSensor: oldLux=4 [SA:-1 LA:-1] newLux=4 (oriLux: 4)
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 4911
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: 	at X.09ih.call(Unknown Source:383)
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:49:36.626  3477  3769 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:49:36.639  3477  3811 D nativeloader: Load /data/data/com.instagram.android/modules/executorch_bbe50f768cb1565da2eedfa41adcbde76334e5eb54e76e524bbaad2a8f427109/lib-compressed/arm64-v8a/986923712/asset-libs/libdynamic_executorch.so using class loader ns clns-8 (caller=/data/app/~~Ar-N8c9JZ-u6D6FW1z8lWg==/com.instagram.android-EhfXN96Vy2xE6iItF1z0mQ==/base.apk!classes3.dex): ok
+06-07 13:49:36.645  2334  2344 W weather.service: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+06-07 13:49:36.659  1783  1801 I LocationManagerService: incoming location from: network
+06-07 13:49:36.660  1783  1801 I LocationManagerService: incoming location from: network
+06-07 13:49:36.662   630 16187 I android.system.suspend-service: First holding wakelock name = PowerManagerService.WakeLocks
+06-07 13:49:36.701   522   522 E lowmemorykiller: adj:1001 file_cache: 205209 free:17704
+06-07 13:49:36.701   522   522 E lowmemorykiller: device has enough memory 854544Kib, and freeMemory 101580Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.701   630 16187 I android.system.suspend-service: Last release wakelock name = PowerManagerService.WakeLocks
+06-07 13:49:36.701   898   919 D GnssAidl: [14.09] injectLocation.
+06-07 13:49:36.702   630 16187 I android.system.suspend-service: mAutosuspendEnabled=1
+06-07 13:49:36.706   898   919 E android.hardware.gnss-service.mediatek: gpsinf_inject_best_location: flags:51, speed:0.000000, bearing:0.000000, h_accuracy:100.000000, v_accuracy:38.473438, s_accuracy:0.000000, b_accuracy:0.000000, timestamp:-1591051204 
+06-07 13:49:36.715  1259  1287 E mnl2hal : hal2mnl_hdlr: HAL2MNL_GPS_INJECT_BEST_LOCATION h_accuracy:100.000000, timestamp:-1591051204 
+--------- beginning of system
+06-07 13:49:36.727 21432 21432 I Quality : SlowSqliteOp:close,/data/user/0/com.google.android.gms/databases/phenotype.db,false,true,28
+06-07 13:49:36.730  1783  2305 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_IO_PSI, bundle: Bundle[{ioLevel=3}]
+06-07 13:49:36.731  1783  2305 I Osense-BaseDecisionMaker: OSense not supported scene! SCENE_RES_IO_PSI
+06-07 13:49:36.733   946   989 D vendor.oplus.hardware.charger-V6-service: ret_value:130, read content:,438,422,3827,3814,-143,500,2200,36,37,1,4,-1,4863,36,0,0,1,1,0,0,4435,0,0,0,3,0,0,0,-2740,0,1,1,0,0,60,60,60,0,0,0,0,0,0,0,0,0,0
+06-07 13:49:36.733   946   989 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-06-07-13-49-36
+06-07 13:49:36.734   946   989 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+06-07 13:49:36.843  1783  2313 I Osense-PsiDetector: 827,91,3685,5631,35,188,141,585,1012,293,509,0,4,5415
+06-07 13:49:36.843  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=3}]
+06-07 13:49:36.845   587   587 I Finsky:background: [2] Memory trim requested to level 40
+06-07 13:49:36.846 31548 31548 I Finsky  : [2] Memory trim requested to level 40
+06-07 13:49:36.854  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:36.854  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:36.859  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370148, startAvail=825, startFreeMB=90, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=375, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=10
+06-07 13:49:36.866 31548 31548 I Finsky  : [2] Flushing in-memory image cache
+06-07 13:49:36.870  1783  2310 I OsenseKillAction: KillAction: group process done, total=4ms, firstLoop=2ms, updateProcessInfo=2ms, idleList=0ms, curBg=0
+06-07 13:49:36.871  1783  2310 I OsenseKillAction: scanCchEmptyProc: +++++++ start double check +++++++
+06-07 13:49:36.871  1783  2310 I OsenseKillAction: scanCchEmptyProc: cch check done: killablePss=0kb, killableAnonRss=0mb, time=0ms, candidate cnt: 0
+06-07 13:49:36.871  1783  2310 I OsenseKillAction: scanNonUiProc: ----------start check non ui proc-----------
+06-07 13:49:36.871  1783  2310 I OsenseKillAction: scanNonUiProc: done check non ui proc: killablePss=0kb, killableAnonRss=0mb, time=0ms, collected proc num: 0
+06-07 13:49:36.871  1783  2310 I OsenseKillAction: scanOomAdj: skip scan oom adj for lowmem
+06-07 13:49:36.871  1783  2310 I OsenseKillAction: scanAllProc: skip scan all proc for lowmem
+06-07 13:49:36.871  1783  2310 I OsenseKillAction: KillAction: done execute kill, pi2app=0ms, monitor=0ms, kill=0ms, total=0ms, kill cnt=0, local cnt=0
+06-07 13:49:36.872  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end requestId=370148, endAvail=824mb, reclaimed: [pss=0mb, anonRss=0mb, swap=0mb, mem=0mb, Rss=0mb], timing: [total=14ms, update=2ms, readMem=4ms, group=4ms, cch=0ms, nonUi=0ms, oomadj=0ms, allProc=0ms, monitor=0ms, kill=0ms], sysinfo: [bgcount=0]
+06-07 13:49:36.872  1783  2310 I OsenseKillAction: KillAction: 375mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=824mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=3, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370148, purposeMemory=1200}]
+06-07 13:49:36.946   522   522 E lowmemorykiller: adj:1001 file_cache: 206601 free:13085
+06-07 13:49:36.946   522   522 E lowmemorykiller: device has enough memory 837828Kib, and freeMemory 79876Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:36.950  1783  2313 I Osense-PsiDetector: 816,75,3688,5631,35,188,141,597,1016,293,513,0,4,5414
+06-07 13:49:36.951  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:36.959  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:36.959  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:36.959  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:36.961  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370149, startAvail=834, startFreeMB=94, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=366, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:36.962 21432 32565 I .gms.persistent: Explicit concurrent mark compact GC freed 1520KB AllocSpace bytes, 1(20KB) LOS objects, 19% free, 32MB/40MB, paused 3.315ms,16.030ms total 520.049ms
+06-07 13:49:36.962  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:36.962  1783  2310 I OsenseKillAction: KillAction: 366mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370149, purposeMemory=1200}]
+06-07 13:49:37.047   522   522 E lowmemorykiller: adj:1001 file_cache: 206314 free:18587
+06-07 13:49:37.048   522   522 E lowmemorykiller: device has enough memory 859344Kib, and freeMemory 102036Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:37.151   522   522 E lowmemorykiller: adj:1001 file_cache: 206209 free:20067
+06-07 13:49:37.151   522   522 E lowmemorykiller: device has enough memory 865036Kib, and freeMemory 108148Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:37.221  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:37.227  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:37.252   522   522 E lowmemorykiller: adj:1001 file_cache: 206711 free:19563
+06-07 13:49:37.253   522   522 E lowmemorykiller: device has enough memory 865028Kib, and freeMemory 106132Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:37.362  1235  1781 E md_thermal: interval=5 temp: 52700 48000 45400 46200
+06-07 13:49:37.419  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:37.425  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:37.455   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:37.473   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:37.473   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:37.473   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:37.473   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:37.474   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 48.031 ThrottlingStatus: SEVERE
+06-07 13:49:37.474   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: Could not obtain MC: not_user_session session=X.04fk@6362bc4
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at X.01qx.A05(:16)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at X.01qx.A03(:8)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at X.01qx.A01(:2)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at X.02ei.A00(:8)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at X.02ei.A03(:3)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at X.06lf.run(:7)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at X.01mi.run(:25)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at android.os.Handler.handleCallback(Handler.java:973)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:37.529  3477  3691 W IgMetaConfig: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:49:37.550  3477  3799 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 4919
+06-07 13:49:37.551  3477  3799 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+06-07 13:49:37.551  3477  3799 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+06-07 13:49:37.551  3477  3799 E FbnsAIDLClientManager: 	at X.09ih.call(Unknown Source:383)
+06-07 13:49:37.551  3477  3799 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 13:49:37.551  3477  3799 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:49:37.551  3477  3799 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:49:37.551  3477  3799 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:49:37.552   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:37.555   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:37.567   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:37.568   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:37.619  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:37.625  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:37.655   522   522 E lowmemorykiller: adj:1001 file_cache: 206726 free:19539
+06-07 13:49:37.656   522   522 E lowmemorykiller: device has enough memory 864332Kib, and freeMemory 105376Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:38.018   905   968 I sensors-hal-HfLooper: ambient light  4.000000
+06-07 13:49:38.020  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:38.026  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:38.032  1783  2313 I Osense-PsiDetector: 843,102,3681,5631,35,188,141,568,1016,295,512,0,4,5406
+06-07 13:49:38.033  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:38.035  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:38.036  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:38.036  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:38.038  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370150, startAvail=843, startFreeMB=102, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=357, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:38.038  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:38.038  1783  2310 I OsenseKillAction: KillAction: 357mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370150, purposeMemory=1200}]
+06-07 13:49:38.165   522   522 E lowmemorykiller: adj:1001 file_cache: 206825 free:19437
+06-07 13:49:38.166   522   522 E lowmemorykiller: device has enough memory 863972Kib, and freeMemory 104620Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:38.469   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:38.476   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:38.476   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:38.476   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:38.477   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:38.478   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 47.806 ThrottlingStatus: SEVERE
+06-07 13:49:38.478   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:38.508  2968  8384 I romserver.UIService: UIService start getSelfProtect com.oplus.rom.server
+06-07 13:49:38.508  2968  8384 I romserver.UIService: com.coloros.alarmclock
+06-07 13:49:38.508  2968  8384 I romserver.UIService: com.oplus.camera
+06-07 13:49:38.542  2968  8384 D AntiTheftUtil: isSupportAntiTheft=false
+06-07 13:49:38.544  2968  8384 I romserver.SelfProtectUtils: pkgName already in self-protect list
+06-07 13:49:38.577   522   522 E lowmemorykiller: adj:1001 file_cache: 207364 free:18783
+06-07 13:49:38.577   522   522 E lowmemorykiller: device has enough memory 862852Kib, and freeMemory 101344Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:38.834  3477  3691 W stagram.android: JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.traffic.nts.providers.background.BackgroundV2TaskSchedulerCommonImpl
+06-07 13:49:38.883   522   522 E lowmemorykiller: adj:1001 file_cache: 207850 free:18312
+06-07 13:49:38.883   522   522 E lowmemorykiller: device has enough memory 862780Kib, and freeMemory 99328Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:39.019  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:39.026  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:39.361  1354  1474 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 8 guards. ResetFlags = 0x7
+06-07 13:49:39.479   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:39.480   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:39.480   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:39.480   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:39.481   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 47.52 ThrottlingStatus: SEVERE
+06-07 13:49:39.482   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:39.488   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:39.970  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+06-07 13:49:39.974  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:174590104255,totalTxBytes:54080460200,loopbackTxBytes:7235188,loopbackRxBytes:7228468 ,totalBytes:228656100799
+06-07 13:49:40.017   905   968 I sensors-hal-HfLooper: ambient light  5.000000
+06-07 13:49:40.038   946   981 D vendor.oplus.hardware.charger-V6-service: parallel fold conf file parse fail parallel_fold_state 2
+06-07 13:49:40.038   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:40.039   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:40.039   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:40.039   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:40.039   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:40.039   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:40.039   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:40.040   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:40.040   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:40.040   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:40.040   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:40.040   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:40.040   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:40.041   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:40.041   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:40.041   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:40.219  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:40.225  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:40.484   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:40.484   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:40.484   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:40.484   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:40.486   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 47.256 ThrottlingStatus: SEVERE
+06-07 13:49:40.486   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:40.499   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:40.619  1366  8695 D AALLightSensor: oldLux=4 [SA:-1 LA:-1] newLux=5 (oriLux: 5)
+06-07 13:49:40.619  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:40.625  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:40.704  1783  1882 I ActivityManager: Test idle failed due to 475d1cf 3477:com.instagram.android/u0a328 not runnable because EMPTY
+06-07 13:49:40.842   522   522 E lowmemorykiller: adj:1001 file_cache: 207507 free:18803
+06-07 13:49:40.842   522   522 E lowmemorykiller: device has enough memory 855580Kib, and freeMemory 93456Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:40.843  1783  2313 I Osense-PsiDetector: 836,92,3690,5631,35,188,141,578,1019,293,517,0,4,5385
+06-07 13:49:40.844  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:40.852  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:40.852  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:40.853  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:40.854  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370151, startAvail=835, startFreeMB=90, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=365, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:40.855  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:40.855  1783  2310 I OsenseKillAction: KillAction: 365mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370151, purposeMemory=1200}]
+06-07 13:49:40.890  1783  1882 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@b18cd5e3 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-07 13:49:40.919   871   871 D Zygote  : Forked child process 3868
+06-07 13:49:40.920  1783  1883 I ActivityManager: Start proc 3868:com.google.android.apps.chromecast.app/u0a267 for service {com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.systemcontrol.HomeControlService}
+06-07 13:49:40.943   522   522 E lowmemorykiller: adj:1001 file_cache: 206474 free:18055
+06-07 13:49:40.943   522   522 E lowmemorykiller: device has enough memory 846472Kib, and freeMemory 88448Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:40.963  3868  3868 E .chromecast.app: Unknown bits set in runtime_flags: 0x40000000
+06-07 13:49:40.964  3868  3868 I .chromecast.app: Using CollectorTypeCMC GC.
+06-07 13:49:40.986  3868  3868 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-07 13:49:41.008  3868  3868 D OplusActivityThreadExtImpl: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.SupressionGC [int, int]
+06-07 13:49:41.010  3868  3868 I OneTrace: Mark active for pid=3868? true
+06-07 13:49:41.010  3868  3868 D cutils-dev: otrace_set_tracing_enabled? true tag:0
+06-07 13:49:41.011  3868  3878 D cutils-dev: properties changed in otrace_seq_number_changed!
+06-07 13:49:41.015  3868  3878 E .chromecast.app: Could not write anonymous vdex /system_ext/framework/oat/arm64/mediatek-framework.vdex: Could not open /system_ext/framework/oat/arm64/mediatek-framework.vdex for writing
+06-07 13:49:41.020  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:41.026  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:41.027  1783  1801 D ActivityTaskManagerServiceExtImpl: preBindApplication record is null
+06-07 13:49:41.028  1783  1801 D RGBNormalizeServer: OplusRGBNormalize feature enabled ? false
+06-07 13:49:41.028  1783  1801 D ResourcesManagerCache: For package com.google.android.apps.chromecast.app we got cacheList [null] appInfoExt is null ? false hasFeature ? false
+06-07 13:49:41.042  3868  3877 D OplusAppHeapManager: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.updateProcessValue [int, int, int]
+06-07 13:49:41.042  1783  2624 I OplusHansManager : onUidActive(), uid=10267, pkgName=com.google.android.apps.chromecast.app, can enter SM
+06-07 13:49:41.042  1783  2624 I OplusHansManager : onUidActive() update stay time, uid=10267, pkgName=com.google.android.apps.chromecast.app, U stay=34
+06-07 13:49:41.043  1783  2573 I OplusHansManager : uid=10267, pkg=com.google.android.apps.chromecast.app enter SM
+06-07 13:49:41.044  1783  2573 I OplusHansManager : uid=10267, pkg=com.google.android.apps.chromecast.app R enter(), D stay=0
+06-07 13:49:41.044  3868  3868 D OplusActivityManager: get AMS extension: android.os.BinderProxy@79816a3
+06-07 13:49:41.044   522   522 E lowmemorykiller: adj:1001 file_cache: 205375 free:19687
+06-07 13:49:41.044   522   522 E lowmemorykiller: device has enough memory 849384Kib, and freeMemory 95756Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.053  3868  3868 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+06-07 13:49:41.056  3868  3868 D CompactWindowAppManager: initCompactApplicationInfo CompactMode: , NormalMode: 
+06-07 13:49:41.065  3868  3868 D OplusScrollToTopManager: setIsInWhiteList false
+06-07 13:49:41.067  3868  3868 D OplusViewDebugManager: OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@8016d59 [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS true]
+06-07 13:49:41.070  3868  3868 D OplusViewDragManager: For this package, DragConfig = null
+06-07 13:49:41.081  3868  3868 W libc    : Access denied finding property "ro.odm.prev.product.name"
+06-07 13:49:41.082  3868  3868 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+06-07 13:49:41.091  3868  3868 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+06-07 13:49:41.091  3868  3868 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-07 13:49:41.091  3868  3868 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-07 13:49:41.146   522   522 E lowmemorykiller: adj:1001 file_cache: 207582 free:17874
+06-07 13:49:41.146   522   522 E lowmemorykiller: device has enough memory 847160Kib, and freeMemory 84164Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.194  3868  3868 W .chromecast.app: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:41.198  3868  3868 W .chromecast.app: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:41.201  3868  3868 W .chromecast.app: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:41.203  3868  3868 D nativeloader: Configuring clns-7 for other apk /data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.app-yjal9Sma7uBzD3mWl9HmNQ==/base.apk:/data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.app-yjal9Sma7uBzD3mWl9HmNQ==/split_config.arm64_v8a.apk:/data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.app-yjal9Sma7uBzD3mWl9HmNQ==/split_config.en.apk:/data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.app-yjal9Sma7uBzD3mWl9HmNQ==/split_config.xxhdpi.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.app-yjal9Sma7uBzD3mWl9HmNQ==/lib/arm64:/data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.app-yjal9Sma7uBzD3mWl9HmNQ==/base.apk!/lib/arm64-v8a:/data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.app-yjal9Sma7uBzD3mWl9HmNQ==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~WrRhgkWg3SdnCkzRxPhNkQ==/com.google.android.apps.chromecast.a
+06-07 13:49:41.248   522   522 E lowmemorykiller: adj:1001 file_cache: 207520 free:18138
+06-07 13:49:41.248   522   522 E lowmemorykiller: device has enough memory 840692Kib, and freeMemory 78416Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.259  3868  3868 V GraphicsEnvironment: Currently set values for:
+06-07 13:49:41.259  3868  3868 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-07 13:49:41.259  3868  3868 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-07 13:49:41.259  3868  3868 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-07 13:49:41.259  3868  3868 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-07 13:49:41.263  3868  3868 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+06-07 13:49:41.275   522   522 E lowmemorykiller: adj:1001 file_cache: 207733 free:17893
+06-07 13:49:41.275   522   522 E lowmemorykiller: device has enough memory 840536Kib, and freeMemory 77436Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.276  1783  2305 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_IO_PSI, bundle: Bundle[{ioLevel=3}]
+06-07 13:49:41.276  1783  2305 I Osense-BaseDecisionMaker: OSense not supported scene! SCENE_RES_IO_PSI
+06-07 13:49:41.348   522   522 E lowmemorykiller: adj:1001 file_cache: 206536 free:18586
+06-07 13:49:41.348   522   522 E lowmemorykiller: device has enough memory 839080Kib, and freeMemory 80708Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.432 21432 21454 W OplusExSystemServiceHelper: checkOplusExSystemService intent getComponent is null
+06-07 13:49:41.449   522   522 E lowmemorykiller: adj:1001 file_cache: 206518 free:17488
+06-07 13:49:41.450   522   522 E lowmemorykiller: device has enough memory 836128Kib, and freeMemory 77828Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.486   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:41.487   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:41.487   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:41.487   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:41.488   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 47.05 ThrottlingStatus: SEVERE
+06-07 13:49:41.489   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:41.490  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.521   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:41.553   522   522 E lowmemorykiller: adj:1001 file_cache: 206245 free:18132
+06-07 13:49:41.554   522   522 E lowmemorykiller: device has enough memory 846860Kib, and freeMemory 89656Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.556 31549 31570 W System  : A resource failed to call close. 
+06-07 13:49:41.602  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.608  3868  3891 I FA      : App measurement initialized, version: 169006
+06-07 13:49:41.608  3868  3891 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+06-07 13:49:41.609  3868  3891 I FA      : To enable faster debug mode event logging run:
+06-07 13:49:41.609  3868  3891 I FA      :   adb shell setprop debug.firebase.analytics.app com.google.android.apps.chromecast.app
+06-07 13:49:41.617  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:41.624  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:41.642  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.644  3868  3895 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.645  3868  3895 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.655   522   522 E lowmemorykiller: adj:1001 file_cache: 208749 free:16746
+06-07 13:49:41.655   522   522 E lowmemorykiller: device has enough memory 852344Kib, and freeMemory 85120Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.664  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.681 31549 32357 W OplusExSystemServiceHelper: checkOplusExSystemService intent getComponent is null
+06-07 13:49:41.683  3868  3895 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.690  3868  3895 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.696 31549 31549 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms mCallingUid=10267 }
+06-07 13:49:41.696 31549 31549 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms mCallingUid=10267 }
+06-07 13:49:41.697  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.707  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.728  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.736   946   989 D vendor.oplus.hardware.charger-V6-service: ret_value:130, read content:,438,422,3827,3814,-362,500,2200,36,37,1,4,-1,4863,36,0,0,1,1,0,0,4435,0,0,0,3,0,0,0,-2740,0,1,1,0,0,60,60,60,0,0,0,0,0,0,0,0,0,0
+06-07 13:49:41.736   946   989 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-06-07-13-49-41
+06-07 13:49:41.737   946   989 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+06-07 13:49:41.756   522   522 E lowmemorykiller: adj:1001 file_cache: 205281 free:19770
+06-07 13:49:41.756   522   522 E lowmemorykiller: device has enough memory 850220Kib, and freeMemory 96940Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.777  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.778 31549  3843 I MdiSyncModule: (REDACTED) Receiving API connection from package '%s'...
+06-07 13:49:41.796 31549  3843 I MdiSyncModule: API connection successful!
+06-07 13:49:41.803  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.804 31549  3843 I MdiSyncModule: (REDACTED) Receiving API connection from package '%s'...
+06-07 13:49:41.807 31549  3843 I MdiSyncModule: API connection successful!
+06-07 13:49:41.817  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:41.823  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:41.829  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.832  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.836  3868  3921 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.837  3868  3922 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.858   522   522 E lowmemorykiller: adj:1001 file_cache: 201823 free:23028
+06-07 13:49:41.858   522   522 E lowmemorykiller: device has enough memory 846812Kib, and freeMemory 109100Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.860  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.876  3868  3922 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.877  3868  3868 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.884  1783  1801 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10267. pid: 3868
+06-07 13:49:41.890  3868  3926 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.911  2255  2255 D ControlsProviderLifecycleManager: onServiceConnected ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.systemcontrol.HomeControlService}
+06-07 13:49:41.922   522   522 E lowmemorykiller: adj:1001 file_cache: 202671 free:22520
+06-07 13:49:41.922   522   522 E lowmemorykiller: device has enough memory 847932Kib, and freeMemory 106828Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.923  1783  2313 I Osense-PsiDetector: 828,104,3672,5631,35,188,141,580,1004,265,526,0,4,5439
+06-07 13:49:41.928  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:41.939  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:41.940  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:41.941  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:41.943  1783  4773 D CompatChangeReporter: Compat change id reported: 311208629; UID 10109; state: ENABLED
+06-07 13:49:41.947  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370152, startAvail=828, startFreeMB=103, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=372, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:41.947  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:41.948  1783  2310 I OsenseKillAction: KillAction: 372mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370152, purposeMemory=1200}]
+06-07 13:49:41.960   522   522 E lowmemorykiller: adj:1001 file_cache: 203140 free:22141
+06-07 13:49:41.960   522   522 E lowmemorykiller: device has enough memory 847540Kib, and freeMemory 104560Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:41.972  3868  3915 W bnln    : Failed to create JWT helper. This is unexpected
+06-07 13:49:41.972  3868  3915 W bnln    : java.lang.NoSuchMethodException: apvn.getScopes []
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.lang.Class.getMethod(Class.java:2934)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.lang.Class.getMethod(Class.java:2434)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at bnll.<init>(PG:15)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at bnln.<clinit>(PG:27)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at ahtg.b(PG:83)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at adpm.run(PG:59)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:49:41.972  3868  3915 W bnln    : 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:49:41.974  3868  3915 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:41.987  3868  3915 W DynamiteModule: Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+06-07 13:49:41.990 21432 21454 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+06-07 13:49:41.995  3868  3915 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+06-07 13:49:42.002  3868  3915 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+06-07 13:49:42.016   905   968 I sensors-hal-HfLooper: ambient light  4.000000
+06-07 13:49:42.028  3868  3915 D nativeloader: Configuring clns-8 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/lib/arm64:/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+06-07 13:49:42.028  3868  3915 D nativeloader: Extending system_exposed_libraries: libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so:libmvpu_runtime_25.mtk.so:libmvpu_runtime_25_pub.mtk.so:libmvpu_engine_25_pub.mtk.so:libmvpu_pattern_25_pub.mtk.so:libmvpuop25_mtk_cv.mtk.so:libmvpuop25_mtk_nn.mtk.so:libaol_jni.oplus.so:libbleoffload_jni.oplus.so:libSloganJni.oplus.so:libsuperNight.oplus.so:libAPSClient-cmd-jni-extension.oplus.so:libsatellite_audio_jni.oplus.so:libortc_so.oplus.so:libsoundtouch.oplus.so:libsoundtouch_jni.oplus.so:libOplusStringJNI-extension.oplus.so:libapssuspend-jni.oplus.so
+06-07 13:49:42.049  3868  3915 D nativeloader: Configuring clns-9 for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/lib/arm64:/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+06-07 13:49:42.049  3868  3915 D nativeloader: Extending system_exposed_libraries: libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so:libmvpu_runtime_25.mtk.so:libmvpu_runtime_25_pub.mtk.so:libmvpu_engine_25_pub.mtk.so:libmvpu_pattern_25_pub.mtk.so:libmvpuop25_mtk_cv.mtk.so:libmvpuop25_mtk_nn.mtk.so:libaol_jni.oplus.so:libbleoffload_jni.oplus.so:libSloganJni.oplus.so:libsuperNight.oplus.so:libAPSClient-cmd-jni-extension.oplus.so:libsatellite_audio_jni.oplus.so:libortc_so.oplus.so:libsoundtouch.oplus.so:libsoundtouch_jni.oplus.so:libOplusStringJNI-extension.oplus.so:libapssuspend-jni.oplus.so
+06-07 13:49:42.055  3868  3915 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-07 13:49:42.055  3868  3915 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-07 13:49:42.058  3868  3935 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:42.060   522   522 E lowmemorykiller: adj:1001 file_cache: 204111 free:23000
+06-07 13:49:42.060   522   522 E lowmemorykiller: device has enough memory 855144Kib, and freeMemory 108084Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.087 31549  3843 W OplusExSystemServiceHelper: checkOplusExSystemService intent getComponent is null
+06-07 13:49:42.095 31549 31549 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms mCallingUid=10267 }
+06-07 13:49:42.096 31549 31549 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms mCallingUid=10267 }
+06-07 13:49:42.100  3868  3921 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:42.161   522   522 E lowmemorykiller: adj:1001 file_cache: 204484 free:20481
+06-07 13:49:42.161   522   522 E lowmemorykiller: device has enough memory 845992Kib, and freeMemory 97756Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.192 21432 21484 W OplusExSystemServiceHelper: checkOplusExSystemService intent getComponent is null
+06-07 13:49:42.263   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:42.265   522   522 E lowmemorykiller: adj:1001 file_cache: 205257 free:18721
+06-07 13:49:42.266   522   522 E lowmemorykiller: device has enough memory 842044Kib, and freeMemory 90716Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.266   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:42.271  1061  1073 D ccci_mdinit: (1):monitor_time_update_thread round:120812 ########
+06-07 13:49:42.280   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:42.281   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:42.296   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:42.298   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:42.312   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:42.313   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:42.355   522   522 E lowmemorykiller: adj:1001 file_cache: 205504 free:19191
+06-07 13:49:42.355   522   522 E lowmemorykiller: device has enough memory 844912Kib, and freeMemory 92596Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.356  1783  2305 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_IO_PSI, bundle: Bundle[{ioLevel=3}]
+06-07 13:49:42.357  1783  2305 I Osense-BaseDecisionMaker: OSense not supported scene! SCENE_RES_IO_PSI
+06-07 13:49:42.362  1354  1474 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 8 guards. ResetFlags = 0x7
+06-07 13:49:42.369   522   522 E lowmemorykiller: adj:1001 file_cache: 205482 free:19317
+06-07 13:49:42.370   522   522 E lowmemorykiller: device has enough memory 845328Kib, and freeMemory 93100Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.372  1235  1781 E md_thermal: interval=5 temp: 51300 47000 45300 45900
+06-07 13:49:42.418  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:42.424  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:42.471   522   522 E lowmemorykiller: adj:1001 file_cache: 206216 free:19133
+06-07 13:49:42.471   522   522 E lowmemorykiller: device has enough memory 847528Kib, and freeMemory 92364Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.488   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:42.488   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:42.488   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:42.489   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:42.490   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 47.035 ThrottlingStatus: SEVERE
+06-07 13:49:42.491   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:42.546   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:42.571   522   522 E lowmemorykiller: adj:1001 file_cache: 206331 free:20686
+06-07 13:49:42.571   522   522 E lowmemorykiller: device has enough memory 854200Kib, and freeMemory 98576Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.673   522   522 E lowmemorykiller: adj:1001 file_cache: 207587 free:19590
+06-07 13:49:42.673   522   522 E lowmemorykiller: device has enough memory 854840Kib, and freeMemory 94192Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.775   522   522 E lowmemorykiller: adj:1001 file_cache: 208534 free:18582
+06-07 13:49:42.775   522   522 E lowmemorykiller: device has enough memory 854596Kib, and freeMemory 90160Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.877   522   522 E lowmemorykiller: adj:1001 file_cache: 207787 free:19464
+06-07 13:49:42.878   522   522 E lowmemorykiller: device has enough memory 855136Kib, and freeMemory 93688Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:42.980   522   522 E lowmemorykiller: adj:1001 file_cache: 208688 free:18831
+06-07 13:49:42.980   522   522 E lowmemorykiller: device has enough memory 856092Kib, and freeMemory 90916Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.003   522   522 E lowmemorykiller: adj:1001 file_cache: 209237 free:18390
+06-07 13:49:43.003   522   522 E lowmemorykiller: device has enough memory 856280Kib, and freeMemory 89152Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.004  1783  2313 I Osense-PsiDetector: 836,86,3647,5631,36,188,141,564,1031,263,554,0,4,5451
+06-07 13:49:43.005  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:43.008  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:43.008  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:43.008  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:43.009  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370153, startAvail=836, startFreeMB=85, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=364, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:43.010  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:43.011  1783  2310 I OsenseKillAction: KillAction: 364mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370153, purposeMemory=1200}]
+06-07 13:49:43.018  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:43.024  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:43.081   522   522 E lowmemorykiller: adj:1001 file_cache: 208254 free:19211
+06-07 13:49:43.081   522   522 E lowmemorykiller: device has enough memory 855752Kib, and freeMemory 92436Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.183   522   522 E lowmemorykiller: adj:1001 file_cache: 208536 free:18988
+06-07 13:49:43.183   522   522 E lowmemorykiller: device has enough memory 856492Kib, and freeMemory 92048Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.284   522   522 E lowmemorykiller: adj:1001 file_cache: 209083 free:18566
+06-07 13:49:43.285   522   522 E lowmemorykiller: device has enough memory 857056Kib, and freeMemory 90424Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.386   522   522 E lowmemorykiller: adj:1001 file_cache: 209495 free:18403
+06-07 13:49:43.386   522   522 E lowmemorykiller: device has enough memory 856540Kib, and freeMemory 88260Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.418  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:43.423  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:43.436  1783  2305 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_IO_PSI, bundle: Bundle[{ioLevel=3}]
+06-07 13:49:43.436  1783  2305 I Osense-BaseDecisionMaker: OSense not supported scene! SCENE_RES_IO_PSI
+06-07 13:49:43.487   522   522 E lowmemorykiller: adj:1001 file_cache: 210338 free:18137
+06-07 13:49:43.488   522   522 E lowmemorykiller: device has enough memory 856832Kib, and freeMemory 85180Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.491   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:43.491   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:43.491   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:43.491   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:43.493   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 47.013 ThrottlingStatus: SEVERE
+06-07 13:49:43.493   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:43.520 31967 31967 I Process : Sending signal. PID: 31967 SIG: 9
+06-07 13:49:43.542   522   522 E lowmemorykiller: adj:1001 file_cache: 209958 free:18110
+06-07 13:49:43.543   522   522 E lowmemorykiller: device has enough memory 855708Kib, and freeMemory 85576Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.565   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:43.579  1783  3537 I ActivityManager: Death received, pid = 31967, processName = com.heytap.mcs.appservice for thread android.os.BinderProxy@aecc82e
+06-07 13:49:43.580   871   871 I Zygote  : Process 31967 exited due to signal 9 (Killed)
+06-07 13:49:43.583  1783  1884 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_31967
+06-07 13:49:43.584  1783  2389 I ActivityManager: Process com.heytap.mcs.appservice (pid 31967) has died: vis IMPF
+06-07 13:49:43.586  1783  2389 D OplusAppStartupConfigExt: RestartService prevent pkg com.heytap.mcs result = false
+06-07 13:49:43.587   522   522 E lowmemorykiller: adj:1001 file_cache: 209370 free:18972
+06-07 13:49:43.587   522   522 E lowmemorykiller: device has enough memory 856296Kib, and freeMemory 88516Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.588  1783  2389 D OplusAppStartupManager: prevent restart service, pkgName = com.heytap.mcs, scenePriority = -1
+06-07 13:49:43.592  1783  2389 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.heytap.mcs/com.heytap.mcs pid=31967 activityId:31967 state:3
+06-07 13:49:43.594  2530  2816 I ProcessManager: onProcessDied pid:31967, uid:1000
+06-07 13:49:43.594   925   925 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007858e709a0 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-07 13:49:43.595  2530  2816 D RunningProcessManager: genEmptyProcessInfo from pid = 31967
+06-07 13:49:43.595  2530  2816 D AppSceneEventManager: handleMessage: 101
+06-07 13:49:43.595  2530  2816 I DispatcherPolicy: onBaseEvent EventId=22	INPUT_PROCESS_DIED	TimeStamp =1780820383595	Intent =null	Content =null	Pid =31967	PkgName =null
+06-07 13:49:43.595   925   925 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.heytap.mcs actName: com.heytap.mcs pid: 31967 uid: 1000 state: 3
+06-07 13:49:43.595  2530  2816 I GamingScene: onInputEvent : INPUT_PROCESS_DIED
+06-07 13:49:43.595   925   925 I MTK_APPList: [notifyAPPstate] com.heytap.mcs/com.heytap.mcs, pid=31967, uid=1000, state:DEAD, fps:-1, win:0
+06-07 13:49:43.595   925   925 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+06-07 13:49:43.595   925   925 I MTK_APPList: [getForegroundAPPCount] 1
+06-07 13:49:43.595   925   925 I MTK_APPList: [notifyAPPstate] pack:com.heytap.mcs, pid:31967, STATE_DEAD
+06-07 13:49:43.595   925   925 I MTK_APPList: [notifyNetdUID] 10186
+06-07 13:49:43.596 23944 23944 I ActivityThread: Removing dead content provider:android.content.ContentProviderProxy@c507ef4
+06-07 13:49:43.598  2255 12374 I PluginSeedling--Base: SeedlingPluginService-->onStateChange: Bundle[{pkgName=android.uid.system:1000, pid=31967, uid=1000, state=onProcessDied}]
+06-07 13:49:43.598  2255 12374 D StateMonitor: isCapsuleProcessStateChanged. state:Bundle[{pkgName=android.uid.system:1000, pid=31967, uid=1000, state=onProcessDied}]
+06-07 13:49:43.599  2255 12374 D PluginSeedling--Engine: NoUMSStatusBarDataManager-->removeCardForProcessDied: android.uid.system:1000
+06-07 13:49:43.600   925   925 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-07 13:49:43.600   925   925 I MTK_APPList: [notifyPID] 22998
+06-07 13:49:43.602   925   925 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-07 13:49:43.653  3868  3915 D nativeloader: Configuring clns-10 for other apk /data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/lib/arm64:/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+06-07 13:49:43.690   522   522 E lowmemorykiller: adj:1001 file_cache: 209155 free:19167
+06-07 13:49:43.690   522   522 E lowmemorykiller: device has enough memory 866808Kib, and freeMemory 99888Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.792   522   522 E lowmemorykiller: adj:1001 file_cache: 208158 free:20021
+06-07 13:49:43.793   522   522 E lowmemorykiller: device has enough memory 866768Kib, and freeMemory 103836Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.854 31549 31549 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.ads.service.CACHE pkg=com.google.android.gms mCallingUid=10159 }
+06-07 13:49:43.857  1783  3537 I AppProfilerExtImpl: delay mem upgrade factor change for AS 10622
+06-07 13:49:43.894   522   522 E lowmemorykiller: adj:1001 file_cache: 208377 free:19769
+06-07 13:49:43.895   522   522 E lowmemorykiller: device has enough memory 866132Kib, and freeMemory 102324Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:43.934  3868  3915 D nativeloader: Load /data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk!/lib/arm64-v8a/libconscrypt_gmscore_jni.so using class loader ns clns-10 (caller=/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk): ok
+06-07 13:49:43.940  3868  3915 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 336 native methods...
+06-07 13:49:43.980  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+06-07 13:49:43.984  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:174590109107,totalTxBytes:54080462443,loopbackTxBytes:7235188,loopbackRxBytes:7228468 ,totalBytes:228656107894
+06-07 13:49:43.996   522   522 E lowmemorykiller: adj:1001 file_cache: 208839 free:19206
+06-07 13:49:43.996   522   522 E lowmemorykiller: device has enough memory 862692Kib, and freeMemory 97032Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:44.011  3868  3915 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+06-07 13:49:44.016   905   968 I sensors-hal-HfLooper: ambient light  4.000000
+06-07 13:49:44.018  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:44.024  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: Failed to get service from broker. 
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3255)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3238)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3180)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at bjqy.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):36)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at bjou.z(:com.google.android.gms@261934035@26.19.34 (260400-919740205):143)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at biuq.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):42)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:973)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at dbbh.mJ(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at dbbh.dispatchMessage(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:44.029  3868  3954 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:49:44.035  3868  3954 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: Failed to register com.google.android.gms.providerinstaller#com.google.android.apps.chromecast.app
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: glrp: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at glrr.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):13)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at hlmk.d(:com.google.android.gms@261934035@26.19.34 (260400-919740205):3)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at hlmm.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):139)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at hlou.execute(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at hlmu.f(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at hlmu.m(:com.google.android.gms@261934035@26.19.34 (260400-919740205):101)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at hlmu.q(:com.google.android.gms@261934035@26.19.34 (260400-919740205):16)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at gfco.hA(:com.google.android.gms@261934035@26.19.34 (260400-919740205):35)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at frkq.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):12)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at hlou.execute(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at frkr.b(:com.google.android.gms@261934035@26.19.34 (260400-919740205):18)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at frlg.b(:com.google.android.gms@261934035@26.19.34 (260400-919740205):34)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at frli.d(:com.google.android.gms@261934035@26.19.34 (260400-919740205):22)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at birw.e(:com.google.android.gms@261934035@26.19.34 (260400-919740205):9)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at biuo.q(:com.google.android.gms@261934035@26.19.34 (260400-919740205):48)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at biuo.d(:com.google.android.gms@261934035@26.19.34 (260400-919740205):10)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at biuo.g(:com.google.android.gms@261934035@26.19.34 (260400-919740205):191)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at biuo.onConnectionFailed(:com.google.android.gms@261934035@26.19.34 (260400-919740205):2)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at biuq.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):70)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at android.os.Handler.handleCallback(Handler.java:973)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at dbbh.mJ(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at dbbh.dispatchMessage(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: Caused by: biqb: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at bjog.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):15)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at birz.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	at birw.e(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 13:49:44.038  3868  3952 W FlagRegistrar: 	... 12 more
+06-07 13:49:44.040  3868  3953 W FlagStore: Unable to update local snapshot for com.google.android.gms.providerinstaller#com.google.android.apps.chromecast.app, may result in stale flags.
+06-07 13:49:44.040  3868  3953 W FlagStore: java.util.concurrent.ExecutionException: glrp: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlmu.j(:com.google.android.gms@261934035@26.19.34 (260400-919740205):21)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlnd.t(:com.google.android.gms@261934035@26.19.34 (260400-919740205):24)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlmu.get(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlrj.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):2)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlpz.s(:com.google.android.gms@261934035@26.19.34 (260400-919740205):10)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at glwz.d(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at glwd.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at java.lang.Thread.run(Thread.java:1564)
+06-07 13:49:44.040  3868  3953 W FlagStore: Caused by: glrp: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at glrr.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):13)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlmk.d(:com.google.android.gms@261934035@26.19.34 (260400-919740205):3)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlmm.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):139)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlou.execute(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlmu.f(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlmu.m(:com.google.android.gms@261934035@26.19.34 (260400-919740205):101)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlmu.q(:com.google.android.gms@261934035@26.19.34 (260400-919740205):16)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at gfco.hA(:com.google.android.gms@261934035@26.19.34 (260400-919740205):35)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frkq.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):12)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlou.execute(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frkr.b(:com.google.android.gms@261934035@26.19.34 (260400-919740205):18)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frlg.b(:com.google.android.gms@261934035@26.19.34 (260400-919740205):34)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frln.B(:com.google.android.gms@261934035@26.19.34 (260400-919740205):17)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frki.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):60)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at hlou.execute(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frkj.b(:com.google.android.gms@261934035@26.19.34 (260400-919740205):8)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frlg.b(:com.google.android.gms@261934035@26.19.34 (260400-919740205):34)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at frli.d(:com.google.android.gms@261934035@26.19.34 (260400-919740205):22)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at birw.e(:com.google.android.gms@261934035@26.19.34 (260400-919740205):9)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at biuo.q(:com.google.android.gms@261934035@26.19.34 (260400-919740205):48)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at biuo.d(:com.google.android.gms@261934035@26.19.34 (260400-919740205):10)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at biuo.g(:com.google.android.gms@261934035@26.19.34 (260400-919740205):191)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at biuo.onConnectionFailed(:com.google.android.gms@261934035@26.19.34 (260400-919740205):2)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at biuq.run(:com.google.android.gms@261934035@26.19.34 (260400-919740205):70)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at android.os.Handler.handleCallback(Handler.java:973)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at dbbh.mJ(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at dbbh.dispatchMessage(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at android.os.Looper.loopOnce(Looper.java:282)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at android.os.Looper.loop(Looper.java:387)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-07 13:49:44.040  3868  3953 W FlagStore: Caused by: biqb: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at bjog.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):15)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at birz.a(:com.google.android.gms@261934035@26.19.34 (260400-919740205):1)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	at birw.e(:com.google.android.gms@261934035@26.19.34 (260400-919740205):5)
+06-07 13:49:44.040  3868  3953 W FlagStore: 	... 12 more
+06-07 13:49:44.041 31522  3947 E ignored : java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.content.Context.getSystemService(java.lang.String)' on a null object reference
+06-07 13:49:44.056  3868  3956 W System  : ClassLoader referenced unknown path: 
+06-07 13:49:44.057  3868  3956 D nativeloader: Configuring clns-11 for other apk . target_sdk_version=37, uses_libraries=, library_path=/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/lib/arm64:/data/app/~~e8W5T8Yfol1vJOkyr0rxaw==/com.google.android.gms-dSGOlWjyjPbadhRdgmjOSA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+06-07 13:49:44.083   522   522 E lowmemorykiller: adj:1001 file_cache: 209452 free:18954
+06-07 13:49:44.083   522   522 E lowmemorykiller: device has enough memory 863380Kib, and freeMemory 95268Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:44.084  1783  2313 I Osense-PsiDetector: 843,92,3648,5631,36,188,141,562,1033,256,562,0,4,5440
+06-07 13:49:44.085  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:44.087  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:44.088  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:44.088  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:44.089  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370154, startAvail=842, startFreeMB=92, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=358, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:44.090  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:44.090  1783  2310 I OsenseKillAction: KillAction: 358mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370154, purposeMemory=1200}]
+06-07 13:49:44.096   522   522 E lowmemorykiller: adj:1001 file_cache: 209646 free:18732
+06-07 13:49:44.096   522   522 E lowmemorykiller: device has enough memory 862956Kib, and freeMemory 94260Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:44.156  1783  2624 I OplusHansManager : notify state machine event=SM_EVENT_LCD_OFF_UNIFIED_FREEZE to uids=[10267, 10328]
+06-07 13:49:44.162 21432 21432 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService mCallingUid=10109 }
+06-07 13:49:44.166  3868  3915 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:44.174  3868  3915 W PhenotypeFlag: Setting enableAutoSubpackage on SharedPrefs-backed flags
+06-07 13:49:44.198   522   522 E lowmemorykiller: adj:1001 file_cache: 210616 free:17778
+06-07 13:49:44.198   522   522 E lowmemorykiller: device has enough memory 862240Kib, and freeMemory 89860Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:44.212  1783  2573 I OplusHansManager : uid=10267, pkg=com.google.android.apps.chromecast.app M enter(), R stay=3
+06-07 13:49:44.212  1783  2573 I OplusHansManager : uid=10267, pkg=com.google.android.apps.chromecast.app F enter(), M stay=0
+06-07 13:49:44.215  1783  2573 I OplusHansManager : freeze uid: 10267 com.google.android.apps.chromecast.app pids: [3868] scene: LcdOff
+06-07 13:49:44.216  1783  2577 I OplusHansManager : p_BC uid=10267 pkg=com.google.android.apps.chromecast.app
+06-07 13:49:44.217  1783  2577 I OplusBinderProxy: proxyBinder uid: 10267 pkg: com.google.android.apps.chromecast.app proxy: true calling: OFreezer
+06-07 13:49:44.217  1783  2573 I OplusHansManager : uid=10328, pkg=com.instagram.android M enter(), R stay=18
+06-07 13:49:44.217  1783  2573 I OplusHansManager : uid=10328, pkg=com.instagram.android F enter(), M stay=0
+06-07 13:49:44.219  1783  2573 I OplusHansManager : freeze uid: 10328 com.instagram.android pids: [3477] scene: LcdOff
+06-07 13:49:44.220  1783  2577 I OplusHansManager : p_BC uid=10328 pkg=com.instagram.android
+06-07 13:49:44.220  1783  2577 I OplusBinderProxy: proxyBinder uid: 10328 pkg: com.instagram.android proxy: true calling: OFreezer
+06-07 13:49:44.226  6705  6724 D IHansComunication: HANS sendMessageToKernel: threadId = 492276968560, netLinkSetup = 1, type = PKG, targetUid = 10328, pkgCmd = ADD_ONE_UID
+06-07 13:49:44.226  1783  2624 I OplusHansManager : unfreeze uid: 10328 com.instagram.android pids: [3477] reason: ExecutingComponent scene: LcdOff
+06-07 13:49:44.227  1783  2573 I OplusHansManager : uid=10328, pkg=com.instagram.android F exit(), F stay=0, reason=ExecutingComponent
+06-07 13:49:44.227  1783  2577 I OplusHansManager : up_BC uid=10328 pkg=com.instagram.android
+06-07 13:49:44.227  1783  2577 I OplusBinderProxy: proxyBinder uid: 10328 pkg: com.instagram.android proxy: false calling: OFreezer
+06-07 13:49:44.300   522   522 E lowmemorykiller: adj:1001 file_cache: 209538 free:19479
+06-07 13:49:44.300   522   522 E lowmemorykiller: device has enough memory 864872Kib, and freeMemory 96412Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:44.403   522   522 E lowmemorykiller: adj:1001 file_cache: 208268 free:20603
+06-07 13:49:44.403   522   522 E lowmemorykiller: device has enough memory 864596Kib, and freeMemory 101216Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:44.492   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:44.493   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:44.493   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:44.493   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:44.494   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 46.975 ThrottlingStatus: SEVERE
+06-07 13:49:44.495   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:44.582   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:44.602   522   522 E lowmemorykiller: adj:1001 file_cache: 208349 free:20262
+06-07 13:49:44.603   522   522 E lowmemorykiller: device has enough memory 862400Kib, and freeMemory 98948Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:44.633  3477  3662 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(331)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+06-07 13:49:44.819  1366  8695 D AALLightSensor: oldLux=4 [SA:-1 LA:-1] newLux=5 (oriLux: 5)
+06-07 13:49:44.820  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:44.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:45.043   946   981 D vendor.oplus.hardware.charger-V6-service: parallel fold conf file parse fail parallel_fold_state 2
+06-07 13:49:45.043   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:45.044   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:45.044   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:45.044   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:45.045   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:45.045   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:45.045   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:45.046   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:45.046   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:45.046   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:45.046   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:45.047   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:45.047   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:45.047   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:45.047   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:45.047   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:45.214   522   522 E lowmemorykiller: adj:1001 file_cache: 208927 free:19427
+06-07 13:49:45.214   522   522 E lowmemorykiller: device has enough memory 861524Kib, and freeMemory 95504Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:45.218  6705  6724 D IHansComunication: HANS sendMessageToKernel: threadId = 492276968560, netLinkSetup = 1, type = FROZEN_TRANS, targetUid = 10267, pkgCmd = PKG_CMD_MAX
+06-07 13:49:45.272  1783  2313 I Osense-PsiDetector: 841,93,3642,5631,36,188,141,559,1030,255,560,0,4,5430
+06-07 13:49:45.272  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:45.275  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:45.275  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:45.275  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:45.277  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370155, startAvail=841, startFreeMB=93, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=359, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:45.278  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:45.278  1783  2310 I OsenseKillAction: KillAction: 359mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370155, purposeMemory=1200}]
+06-07 13:49:45.367  1354  1474 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 8 guards. ResetFlags = 0x7
+06-07 13:49:45.418  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:45.424  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:45.495   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:45.495   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:45.495   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:45.495   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:45.496   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 46.853 ThrottlingStatus: SEVERE
+06-07 13:49:45.497   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:45.519   522   522 E lowmemorykiller: adj:1001 file_cache: 209283 free:18986
+06-07 13:49:45.519   522   522 E lowmemorykiller: device has enough memory 861184Kib, and freeMemory 93740Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:45.598   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:45.619   522   522 E lowmemorykiller: adj:1001 file_cache: 209313 free:18860
+06-07 13:49:45.619   522   522 E lowmemorykiller: device has enough memory 860800Kib, and freeMemory 93236Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:45.819  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:45.822   522   522 E lowmemorykiller: adj:1001 file_cache: 209649 free:18545
+06-07 13:49:45.822   522   522 E lowmemorykiller: device has enough memory 860884Kib, and freeMemory 91976Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:45.825  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:45.994   632  1761 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+06-07 13:49:46.018   905   968 I sensors-hal-HfLooper: ambient light  5.000000
+06-07 13:49:46.030   522   522 E lowmemorykiller: adj:1001 file_cache: 209728 free:18356
+06-07 13:49:46.030   522   522 E lowmemorykiller: device has enough memory 860444Kib, and freeMemory 91220Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:46.232   522   522 E lowmemorykiller: adj:1001 file_cache: 209394 free:18982
+06-07 13:49:46.232   522   522 E lowmemorykiller: device has enough memory 862116Kib, and freeMemory 94228Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:46.335   522   522 E lowmemorykiller: adj:1001 file_cache: 209317 free:18926
+06-07 13:49:46.335   522   522 E lowmemorykiller: device has enough memory 861376Kib, and freeMemory 93796Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:46.497   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:46.498   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:46.498   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:46.498   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:46.499   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 46.659 ThrottlingStatus: SEVERE
+06-07 13:49:46.500   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:46.612   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:46.695  1783  1859 D AES     : AEEIOCTL_GET/SET_SF_STATE IOCTL,cmd= 1074294797, lParam=0. 
+06-07 13:49:46.696  1783  1859 D AES     : AEEIOCTL_RT_MON_Kick IOCTL,cmd= 2147774474, lParam=300. 
+06-07 13:49:46.738   946   989 D vendor.oplus.hardware.charger-V6-service: ret_value:130, read content:,435,424,3807,3791,-381,500,2200,36,37,1,4,-1,4863,36,0,0,1,1,0,0,4435,0,0,0,3,0,0,0,-2740,0,1,1,0,0,60,60,60,0,0,0,0,0,0,0,0,0,0
+06-07 13:49:46.739   946   989 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-06-07-13-49-46
+06-07 13:49:46.739   946   989 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+06-07 13:49:46.820  1366  8695 D AAL     : onALIChanged: 5 -> 4
+06-07 13:49:46.826  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:47.110   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:47.113   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:47.127   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:47.128   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:47.138   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:47.140   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:47.149   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:47.151   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:47.219  1366  8695 D AAL     : onALIChanged: 4 -> 5
+06-07 13:49:47.225  1366  8695 E AAL     : IOCTL_MTK_AAL_EVENTCTL error: -1
+06-07 13:49:47.385  1235  1781 E md_thermal: interval=5 temp: 48600 46500 45100 45700
+06-07 13:49:47.502   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:47.502   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:47.502   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:47.502   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:47.503   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 46.475 ThrottlingStatus: SEVERE
+06-07 13:49:47.504   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:47.623  1783  2765 I AppProfilerExtImpl: delay mem downgrade factor change for AS 6857
+06-07 13:49:47.628   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:47.991  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+06-07 13:49:47.996  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:174590116203,totalTxBytes:54080468211,loopbackTxBytes:7235188,loopbackRxBytes:7228468 ,totalBytes:228656120758
+06-07 13:49:48.018   905   968 I sensors-hal-HfLooper: ambient light  5.000000
+06-07 13:49:48.372  1354  1474 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 8 guards. ResetFlags = 0x7
+06-07 13:49:48.505   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:48.506   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:48.506   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:48.506   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:48.507   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 46.281 ThrottlingStatus: SEVERE
+06-07 13:49:48.508   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:48.598  1783  1882 I ActivityManager: Test idle failed due to 475d1cf 3477:com.instagram.android/u0a328 not runnable because EMPTY
+06-07 13:49:48.646   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:48.819  1366  8695 D AALLightSensor: oldLux=5 [SA:-1 LA:-1] newLux=5 (oriLux: 5)
+06-07 13:49:49.295  2255  4769 I PluginSeedling--Origin: OSenseManager-->isMEMHighPressure oldState:false newState: false isMEMHighPressure:false
+06-07 13:49:49.510   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:49.510   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:49.510   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:49.510   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:49.511   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 46.099 ThrottlingStatus: SEVERE
+06-07 13:49:49.512   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:49.660   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:50.018   905   968 I sensors-hal-HfLooper: ambient light  5.000000
+06-07 13:49:50.048   946   981 D vendor.oplus.hardware.charger-V6-service: parallel fold conf file parse fail parallel_fold_state 2
+06-07 13:49:50.048   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:50.049   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:50.049   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:50.049   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:50.050   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:50.050   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:50.050   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:50.050   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:50.050   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:50.051   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:50.051   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:50.051   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:50.051   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:50.052   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:50.052   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:50.052   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:50.514   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:50.514   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:50.514   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:50.514   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:50.515   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 45.944 ThrottlingStatus: SEVERE
+06-07 13:49:50.516   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:50.676   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:50.891  1783  1882 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@d3b6d525 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-07 13:49:50.891  2426  2462 W ocessService0:0: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+06-07 13:49:50.921   871   871 D Zygote  : Forked child process 3971
+06-07 13:49:50.923  1783  1883 I ActivityManager: Start proc 3971:com.android.chrome/u0a137 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}
+06-07 13:49:50.964  3971  3971 E .android.chrome: Unknown bits set in runtime_flags: 0x40000000
+06-07 13:49:50.964  3971  3971 I .android.chrome: Using CollectorTypeCMC GC.
+06-07 13:49:50.987  3971  3971 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-07 13:49:51.007  3971  3971 D OplusActivityThreadExtImpl: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.SupressionGC [int, int]
+06-07 13:49:51.008  3971  3971 I OneTrace: Mark active for pid=3971? true
+06-07 13:49:51.008  3971  3971 D cutils-dev: otrace_set_tracing_enabled? true tag:0
+06-07 13:49:51.010  3971  3981 D cutils-dev: properties changed in otrace_seq_number_changed!
+06-07 13:49:51.014  3971  3981 E .android.chrome: Could not write anonymous vdex /system_ext/framework/oat/arm64/mediatek-framework.vdex: Could not open /system_ext/framework/oat/arm64/mediatek-framework.vdex for writing
+06-07 13:49:51.023  1783  2765 D ActivityTaskManagerServiceExtImpl: preBindApplication record is null
+06-07 13:49:51.023  1783  2765 D RGBNormalizeServer: OplusRGBNormalize feature enabled ? false
+06-07 13:49:51.023  1783  2765 D ResourcesManagerCache: For package com.android.chrome we got cacheList [null] appInfoExt is null ? false hasFeature ? false
+06-07 13:49:51.038  3971  3971 D OplusActivityManager: get AMS extension: android.os.BinderProxy@79816a3
+06-07 13:49:51.038  3971  3980 D OplusAppHeapManager: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.updateProcessValue [int, int, int]
+06-07 13:49:51.044  3971  3979 W OplusExSystemServiceHelper: checkOplusExSystemService intent getComponent is null
+06-07 13:49:51.046  3971  3971 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+06-07 13:49:51.050  3971  3971 D CompactWindowAppManager: initCompactApplicationInfo CompactMode: , NormalMode: 
+06-07 13:49:51.059  3971  3971 D OplusScrollToTopManager: setIsInWhiteList false
+06-07 13:49:51.062  3971  3971 D OplusViewDebugManager: OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@8016d59 [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS true]
+06-07 13:49:51.065  3971  3971 D OplusSmartLoopDragManager: For this package, DragConfig = null
+06-07 13:49:51.080  3971  3971 D OplusSmartLoopDragManager: For this package,smartloop DragConfig = [PackageDragConfig:mPackageName com.android.chrome,mSkipEventTrack 0,[ActivityDragConfig:mActivityName=org.chromium.chrome.browser.customtabs.CustomTabActivity,mViewBlackList=null,mTargetViews=AppCompatImageView,TextViewWithLeading,mEvaluateJs=null,mSkipCovered=0,mSkipEventTrack=0,DragType=31,PressTimeOut=0,TouchSlop=0,BitmapConfig=0,BitmapScale=0.0,LogState=1,DataTrackState=1],DragType=31,PressTimeOut=1000,TouchSlop=24,BitmapConfig=4,BitmapScale=1.0,LogState=1,DataTrackState=1]
+06-07 13:49:51.081  3971  3971 D OplusSmartLoopDragManager: setRomBinder = android.os.BinderProxy@c8b79ff
+06-07 13:49:51.082  3971  3971 D OplusViewDragManager: For this package, DragConfig = null
+06-07 13:49:51.096  3971  3971 W libc    : Access denied finding property "ro.odm.prev.product.name"
+06-07 13:49:51.097  3971  3971 W libc    : Access denied finding property "ro.vendor.oplus.gundam"
+06-07 13:49:51.113  3971  3971 W .android.chrome: Failed to find entry 'classes.dex': Entry not found
+06-07 13:49:51.119  3971  3971 D nativeloader: Configuring clns-7 for other apk /data/app/~~FmQqw96lcJ9pFPC4iRSXqg==/com.google.android.trichromelibrary_777821733-dbsspMHNQ4ltvQjsd2Cb7A==/base.apk. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/lib/arm64:/data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/base.apk!/lib/arm64-v8a:/data/app/~~FmQqw96lcJ9pFPC4iRSXqg==/com.google.android.trichromelibrary_777821733-dbsspMHNQ4ltvQjsd2Cb7A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.android.chrome
+06-07 13:49:51.120  3971  3971 D nativeloader: Extending system_exposed_libraries: libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so:libmvpu_runtime_25.mtk.so:libmvpu_runtime_25_pub.mtk.so:libmvpu_engine_25_pub.mtk.so:libmvpu_pattern_25_pub.mtk.so:libmvpuop25_mtk_cv.mtk.so:libmvpuop25_mtk_nn.mtk.so:libaol_jni.oplus.so:libbleoffload_jni.oplus.so:libSloganJni.oplus.so:libsuperNight.oplus.so:libAPSClient-cmd-jni-extension.oplus.so:libsatellite_audio_jni.oplus.so:libortc_so.oplus.so:libsoundtouch.oplus.so:libsoundtouch_jni.oplus.so:libOplusStringJNI-extension.oplus.so:libapssuspend-jni.oplus.so
+06-07 13:49:51.127  3971  3971 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-07 13:49:51.127  3971  3971 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-07 13:49:51.163  3971  3971 D nativeloader: Configuring clns-8 for other apk /data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/lib/arm64:/data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/base.apk!/lib/arm64-v8a:/data/app/~~FmQqw96lcJ9pFPC4iRSXqg==/com.google.android.trichromelibrary_777821733-dbsspMHNQ4ltvQjsd2Cb7A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.android.chrome
+06-07 13:49:51.219  3971  3971 V GraphicsEnvironment: Currently set values for:
+06-07 13:49:51.219  3971  3971 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-07 13:49:51.219  3971  3971 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-07 13:49:51.220  3971  3971 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-07 13:49:51.220  3971  3971 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-07 13:49:51.225  3971  3971 I LoadedApk: No resource references to update in package com.google.android.trichromelibrary
+06-07 13:49:51.226  3971  3971 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+06-07 13:49:51.246  3971  3971 I cr_SplitCompatApp: version=148.0.7778.217 (777821733) minSdkVersion=29 processName=com.android.chrome isIsolatedProcess=false splits=chrome,config.en,dev_ui,on_demand,stack_unwinder,test_dummy
+06-07 13:49:51.300  3971  3971 I cr_LibraryLoader: Loading monochrome_64 from within /data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/base.apk
+06-07 13:49:51.316  3971  3971 D nativeloader: Load /data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/base.apk!/lib/arm64-v8a/libchromium_android_linker.so using class loader ns clns-8 (caller=/data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/base.apk): ok
+06-07 13:49:51.317  3971  3971 I cr_Linker: loadLibraryImplLocked: monochrome_64, relroMode=1
+06-07 13:49:51.319  1783  2313 I Osense-PsiDetector: 837,89,3626,5631,36,188,141,553,1032,254,561,0,4,5435
+06-07 13:49:51.320  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=3}]
+06-07 13:49:51.323  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:51.324  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:51.328  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370156, startAvail=837, startFreeMB=89, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=363, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:51.328  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:51.328  1783  2310 I OsenseKillAction: KillAction: 363mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=3, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370156, purposeMemory=1200}]
+06-07 13:49:51.373  1354  1474 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 8 guards. ResetFlags = 0x7
+06-07 13:49:51.426   522   522 E lowmemorykiller: adj:1001 file_cache: 210427 free:16179
+06-07 13:49:51.427   522   522 E lowmemorykiller: device has enough memory 852348Kib, and freeMemory 80304Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:51.428  1783  2313 I Osense-PsiDetector: 832,77,3621,5631,36,188,141,553,1041,254,567,0,4,5435
+06-07 13:49:51.429  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:51.434  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:51.435  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:51.435  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:51.436  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370157, startAvail=833, startFreeMB=80, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=367, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:51.436  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:51.436  1783  2310 I OsenseKillAction: KillAction: 367mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370157, purposeMemory=1200}]
+06-07 13:49:51.438  3971  3971 D nativeloader: Load /data/app/~~FmQqw96lcJ9pFPC4iRSXqg==/com.google.android.trichromelibrary_777821733-dbsspMHNQ4ltvQjsd2Cb7A==/base.apk!/lib/arm64-v8a/libmonochrome_64.so using class loader ns clns-8 (caller=/data/app/~~rzx-2HVgE1riM1Z4xrVJMQ==/com.android.chrome-BrYMoUNXASNKMMOMIJupWQ==/base.apk): ok
+06-07 13:49:51.519  3971  3971 I cr_LibraryLoader: Successfully loaded native library
+06-07 13:49:51.519   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:51.519   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:51.519   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:51.520   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:51.521   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 45.811 ThrottlingStatus: SEVERE
+06-07 13:49:51.522   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:51.528   522   522 E lowmemorykiller: adj:1001 file_cache: 211048 free:17624
+06-07 13:49:51.528   522   522 E lowmemorykiller: device has enough memory 858360Kib, and freeMemory 83832Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:51.531  3971  3971 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms, 0 samples were dropped.
+06-07 13:49:51.630   522   522 E lowmemorykiller: adj:1001 file_cache: 210554 free:18576
+06-07 13:49:51.630   522   522 E lowmemorykiller: device has enough memory 858616Kib, and freeMemory 86128Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:51.643   522   522 E lowmemorykiller: adj:1001 file_cache: 210611 free:18765
+06-07 13:49:51.643   522   522 E lowmemorykiller: device has enough memory 859600Kib, and freeMemory 86884Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:51.703   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:51.707  3971  3971 I cr_CombinedPProvider: #linkNativeInternal() 0
+06-07 13:49:51.708  3971  3971 I cr_PolicyProvider: #setManagerAndSource() 0
+06-07 13:49:51.714  3971  3971 I cr_PolicyCacheProvider: #refresh() true
+06-07 13:49:51.733   522   522 E lowmemorykiller: adj:1001 file_cache: 211493 free:18576
+06-07 13:49:51.733   522   522 E lowmemorykiller: device has enough memory 863380Kib, and freeMemory 87136Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:51.740   946   989 D vendor.oplus.hardware.charger-V6-service: ret_value:130, read content:,437,422,3832,3826,-450,500,2200,36,37,1,4,-1,4863,36,0,0,1,1,0,0,4435,0,0,0,3,0,0,0,-2740,0,1,1,0,0,60,60,60,0,0,0,0,0,0,0,0,0,0
+06-07 13:49:51.741   946   989 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-06-07-13-49-51
+06-07 13:49:51.742   946   989 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+06-07 13:49:51.834   522   522 E lowmemorykiller: adj:1001 file_cache: 209535 free:19773
+06-07 13:49:51.834   522   522 E lowmemorykiller: device has enough memory 863304Kib, and freeMemory 94948Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:51.935   522   522 E lowmemorykiller: adj:1001 file_cache: 210775 free:18540
+06-07 13:49:51.935   522   522 E lowmemorykiller: device has enough memory 863648Kib, and freeMemory 90332Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:51.971  1783  3537 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10137. pid: 3971
+06-07 13:49:52.001  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: isConnected:true,isSwitchOn:true
+06-07 13:49:52.007  2255  2477 I SystemUi--Statusbar: OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:174590116347,totalTxBytes:54080468339,loopbackTxBytes:7235188,loopbackRxBytes:7228468 ,totalBytes:228656121030
+06-07 13:49:52.016   905   968 I sensors-hal-HfLooper: ambient light  5.000000
+06-07 13:49:52.036   522   522 E lowmemorykiller: adj:1001 file_cache: 211080 free:18558
+06-07 13:49:52.036   522   522 E lowmemorykiller: device has enough memory 864996Kib, and freeMemory 90460Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:52.138   522   522 E lowmemorykiller: adj:1001 file_cache: 210666 free:19062
+06-07 13:49:52.138   522   522 E lowmemorykiller: device has enough memory 865356Kib, and freeMemory 92476Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:52.240   522   522 E lowmemorykiller: adj:1001 file_cache: 210699 free:19125
+06-07 13:49:52.240   522   522 E lowmemorykiller: device has enough memory 865488Kib, and freeMemory 92476Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:52.247   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:52.250   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:52.262   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:52.264   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:52.273   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:52.275   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:52.282   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:52.283   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:52.342   522   522 E lowmemorykiller: adj:1001 file_cache: 211087 free:18621
+06-07 13:49:52.342   522   522 E lowmemorykiller: device has enough memory 865024Kib, and freeMemory 90460Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:52.398  1235  1781 E md_thermal: interval=5 temp: 48100 45800 44900 45400
+06-07 13:49:52.400  1783  2313 I Osense-PsiDetector: 844,88,3588,5631,37,188,141,519,1048,245,579,0,4,5440
+06-07 13:49:52.401  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=3}]
+06-07 13:49:52.404  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:52.404  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:52.406  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370158, startAvail=844, startFreeMB=88, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=356, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=11
+06-07 13:49:52.425  1783  2310 I OsenseKillAction: KillAction: group process done, total=8ms, firstLoop=3ms, updateProcessInfo=5ms, idleList=0ms, curBg=0
+06-07 13:49:52.425  1783  2310 I OsenseKillAction: scanCchEmptyProc: +++++++ start double check +++++++
+06-07 13:49:52.426  1783  2310 I OsenseKillAction: scanCchEmptyProc: cch check done: killablePss=0kb, killableAnonRss=0mb, time=0ms, candidate cnt: 0
+06-07 13:49:52.426  1783  2310 I OsenseKillAction: scanNonUiProc: ----------start check non ui proc-----------
+06-07 13:49:52.426  1783  2310 I OsenseKillAction: scanNonUiProc: done check non ui proc: killablePss=0kb, killableAnonRss=0mb, time=0ms, collected proc num: 0
+06-07 13:49:52.426  1783  2310 I OsenseKillAction: scanOomAdj: skip scan oom adj for lowmem
+06-07 13:49:52.426  1783  2310 I OsenseKillAction: scanAllProc: skip scan all proc for lowmem
+06-07 13:49:52.426  1783  2310 I OsenseKillAction: KillAction: done execute kill, pi2app=0ms, monitor=0ms, kill=0ms, total=0ms, kill cnt=0, local cnt=0
+06-07 13:49:52.427  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end requestId=370158, endAvail=844mb, reclaimed: [pss=0mb, anonRss=0mb, swap=0mb, mem=0mb, Rss=0mb], timing: [total=22ms, update=3ms, readMem=7ms, group=8ms, cch=0ms, nonUi=0ms, oomadj=0ms, allProc=0ms, monitor=0ms, kill=0ms], sysinfo: [bgcount=0]
+06-07 13:49:52.427  1783  2310 I OsenseKillAction: KillAction: 356mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=844mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=3, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370158, purposeMemory=1200}]
+06-07 13:49:52.508  1783  2313 I Osense-PsiDetector: 844,87,3588,5631,37,188,141,520,1048,245,579,0,4,5440
+06-07 13:49:52.509  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=4}]
+06-07 13:49:52.512  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:52.512  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:52.512  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_LEAK, bundle: Bundle[{memLevel=4}]
+06-07 13:49:52.514  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370159, startAvail=844, startFreeMB=87, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=356, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=1
+06-07 13:49:52.514  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:52.514  1783  2310 I OsenseKillAction: KillAction: 356mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=4, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370159, purposeMemory=1200}]
+06-07 13:49:52.522   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:52.522   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:52.522   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:52.522   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:52.523   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 45.803 ThrottlingStatus: SEVERE
+06-07 13:49:52.524   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:52.645   522   522 E lowmemorykiller: adj:1001 file_cache: 210853 free:18727
+06-07 13:49:52.646   522   522 E lowmemorykiller: device has enough memory 864512Kib, and freeMemory 90884Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:52.709  1783  2765 I ActivityManager: Killing 2334:com.coloros.weather.service/u0a167 (adj 905): empty #5
+06-07 13:49:52.723   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:52.748   522   522 E lowmemorykiller: adj:1001 file_cache: 210674 free:19036
+06-07 13:49:52.748   522   522 E lowmemorykiller: device has enough memory 865560Kib, and freeMemory 92648Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:52.756  1783  1884 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10167/pid_2334
+06-07 13:49:52.757   871   871 I Zygote  : Process 2334 exited due to signal 9 (Killed)
+06-07 13:49:52.758  1783  4701 I ActivityManager: Death received, pid = 2334, processName = com.coloros.weather.service for thread android.os.BinderProxy@d6f39bc
+06-07 13:49:52.760  1783  2384 D OplusAppStartupConfigExt: RestartService prevent pkg com.coloros.weather.service result = false
+06-07 13:49:52.760  1783  2384 D OplusAppStartupManager: prevent restart service, pkgName = com.coloros.weather.service, scenePriority = -1
+06-07 13:49:52.762  1783  2384 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.coloros.weather.service/com.coloros.weather.service pid=2334 activityId:2334 state:3
+06-07 13:49:52.764   925   925 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007858e709a0 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-07 13:49:52.764   925   925 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.coloros.weather.service actName: com.coloros.weather.service pid: 2334 uid: 10167 state: 3
+06-07 13:49:52.764   925   925 I MTK_APPList: [notifyAPPstate] com.coloros.weather.service/com.coloros.weather.service, pid=2334, uid=10167, state:DEAD, fps:-1, win:0
+06-07 13:49:52.764   925   925 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+06-07 13:49:52.764   925   925 I MTK_APPList: [getForegroundAPPCount] 1
+06-07 13:49:52.765   925   925 I MTK_APPList: [notifyAPPstate] pack:com.coloros.weather.service, pid:2334, STATE_DEAD
+06-07 13:49:52.765   925   925 I MTK_APPList: [notifyNetdUID] 10186
+06-07 13:49:52.767  2255  7110 I PluginSeedling--Base: SeedlingPluginService-->onStateChange: Bundle[{pkgName=com.coloros.weather.service, pid=2334, uid=10167, state=onProcessDied}]
+06-07 13:49:52.767  2255  7110 D StateMonitor: isCapsuleProcessStateChanged. state:Bundle[{pkgName=com.coloros.weather.service, pid=2334, uid=10167, state=onProcessDied}]
+06-07 13:49:52.767  2255  7110 D PluginSeedling--Engine: NoUMSStatusBarDataManager-->removeCardForProcessDied: com.coloros.weather.service
+06-07 13:49:52.765  6847 11584 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_process_died info:pid:2334,uid:10167
+06-07 13:49:52.767  2530  2816 I ProcessManager: onProcessDied pid:2334, uid:10167
+06-07 13:49:52.768  2530  2816 D RunningProcessManager: genEmptyProcessInfo from pid = 2334
+06-07 13:49:52.769  2530  2816 D AppSceneEventManager: handleMessage: 101
+06-07 13:49:52.769  2530  2816 I DispatcherPolicy: onBaseEvent EventId=22	INPUT_PROCESS_DIED	TimeStamp =1780820392768	Intent =null	Content =null	Pid =2334	PkgName =null
+06-07 13:49:52.769  2530  2816 I GamingScene: onInputEvent : INPUT_PROCESS_DIED
+06-07 13:49:52.769   925   925 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-07 13:49:52.769   925   925 I MTK_APPList: [notifyPID] 22998
+06-07 13:49:52.772   925   925 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-07 13:49:52.772  6847  6941 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=-1ms what=1 obj=com.oplus.atlas.OplusAtlasEvent@91ccee2 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+06-07 13:49:52.772  6847  7011 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=-1ms what=1 obj=com.oplus.atlas.OplusAtlasEvent@91ccee2 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+06-07 13:49:52.772  1783  1854 D DisplayManagerService: Drop pending events for gone uid 10167
+06-07 13:49:52.819  1366  8695 D AALLightSensor: oldLux=5 [SA:-1 LA:-1] newLux=5 (oriLux: 5)
+06-07 13:49:52.950   522   522 E lowmemorykiller: adj:1001 file_cache: 210986 free:18423
+06-07 13:49:52.950   522   522 E lowmemorykiller: device has enough memory 864804Kib, and freeMemory 90644Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:52.964 25216 25216 I adbd    : adbd_auth: loading keys from /data/misc/adb/adb_keys
+06-07 13:49:53.053   522   522 E lowmemorykiller: adj:1001 file_cache: 210758 free:19187
+06-07 13:49:53.053   522   522 E lowmemorykiller: device has enough memory 867152Kib, and freeMemory 93904Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:53.155   522   522 E lowmemorykiller: adj:1001 file_cache: 210903 free:19091
+06-07 13:49:53.155   522   522 E lowmemorykiller: device has enough memory 867228Kib, and freeMemory 93400Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:53.257   522   522 E lowmemorykiller: adj:1001 file_cache: 210605 free:18521
+06-07 13:49:53.257   522   522 E lowmemorykiller: device has enough memory 863756Kib, and freeMemory 91120Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:53.328  2956  2986 W .htms:cloudctrl: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+06-07 13:49:53.358   522   522 E lowmemorykiller: adj:1001 file_cache: 209750 free:19655
+06-07 13:49:53.358   522   522 E lowmemorykiller: device has enough memory 864872Kib, and freeMemory 95656Kib, disable killing(limit_killing:665600Kib)
+06-07 13:49:53.481  1783  2313 I Osense-PsiDetector: 842,91,3596,5631,37,188,141,514,1043,245,573,0,4,5415
+06-07 13:49:53.482  1783  2304 I Osense-BaseDecisionMaker: notifySceneToAthenaPolicy: SCENE_RES_MEM_PSI_NORMAL, bundle: Bundle[{memLevel=3}]
+06-07 13:49:53.484  1783  2304 I Osense-BaseDecisionMaker: scene: SCENE_RES_MEM_PSI_NORMAL, excutingPolicy: clear
+06-07 13:49:53.484  1783  2304 D Osense-BaseDecisionMaker: invoke clear policy,type: cached
+06-07 13:49:53.486  1783  2310 I OsenseKillAction: KillAction: [atomic clean] start name=lowmem, requestId=370160, startAvail=842, startFreeMB=91, purposeAvailMB=1200, purposeFreeMB=-1, anonRssTarget=358, minBgCount=0, swapTarget=0, scene=SCENE_RES_MEM_PSI_NORMAL, type=cached, qb=false, cchOnly=true, urgency=false, hoggingCpuPids={}, invalid-cnt=1
+06-07 13:49:53.487  1783  2310 I OsenseKillAction: KillAction: [atomic clean] end: skip for no-killable-cached-process
+06-07 13:49:53.487  1783  2310 I OsenseKillAction: KillAction: 358mb more anonRss to reclaim, 0mb more swapMb to reclaim, <skip> mem guard, cur avail=0mb, bundle: Bundle[{appcareThreshold=0, triggerMemory=1000, qbmode=false, memLevel=3, type=cached, level=1, scene=SCENE_RES_MEM_PSI_NORMAL, requestId=370160, purposeMemory=1200}]
+06-07 13:49:53.524   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:53.525   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:53.525   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:53.525   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:53.526   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 45.733 ThrottlingStatus: SEVERE
+06-07 13:49:53.527   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:53.600  1783  1882 I ActivityManager: Test idle failed due to 475d1cf 3477:com.instagram.android/u0a328 not runnable because EMPTY
+06-07 13:49:53.735   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:53.885  3123  3374 D ContactsProvider: performBackgroundTask: task id: 20
+06-07 13:49:53.906  3123  3374 D ContactsProvider: performBackgroundTask: task id: 24
+06-07 13:49:54.016   905   968 I sensors-hal-HfLooper: ambient light  5.000000
+06-07 13:49:54.231  3123  3123 I Quality : SlowSqliteOp:close,/data/user/0/com.android.providers.contacts/databases/profile.db,false,false,10
+06-07 13:49:54.238  1783  2573 I OplusHansManager : uid=10328, pkg=com.instagram.android F enter(), M stay=10
+06-07 13:49:54.240  1783  2573 I OplusHansManager : freeze uid: 10328 com.instagram.android pids: [3477] scene: LcdOff
+06-07 13:49:54.242  6705  6724 D IHansComunication: HANS sendMessageToKernel: threadId = 492276968560, netLinkSetup = 1, type = PKG, targetUid = 10328, pkgCmd = ADD_ONE_UID
+06-07 13:49:54.243  1783  2624 I OplusHansManager : unfreeze uid: 10328 com.instagram.android pids: [3477] reason: ExecutingComponent scene: LcdOff
+06-07 13:49:54.243  1783  2573 I OplusHansManager : uid=10328, pkg=com.instagram.android F exit(), F stay=0, reason=ExecutingComponent
+06-07 13:49:54.244  1783  2577 I OplusHansManager : p_BC uid=10328 pkg=com.instagram.android
+06-07 13:49:54.244  1783  2577 I OplusBinderProxy: proxyBinder uid: 10328 pkg: com.instagram.android proxy: true calling: OFreezer
+06-07 13:49:54.244  1783  2577 I OplusHansManager : up_BC uid=10328 pkg=com.instagram.android
+06-07 13:49:54.244  1783  2577 I OplusBinderProxy: proxyBinder uid: 10328 pkg: com.instagram.android proxy: false calling: OFreezer
+06-07 13:49:54.376  1354  1474 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 8 guards. ResetFlags = 0x7
+06-07 13:49:54.440  3123  3123 I Quality : SlowSqliteOp:close,/data/user/0/com.android.providers.contacts/databases/contacts2.db,false,false,10
+06-07 13:49:54.483 31522  4000 E ignored : java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.content.Context.getSystemService(java.lang.String)' on a null object reference
+06-07 13:49:54.527   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:54.527   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:54.527   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:54.527   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:54.528   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 45.638 ThrottlingStatus: SEVERE
+06-07 13:49:54.528   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:54.573  3123  3123 I Quality : SlowSqliteOp:close,/data/user/0/com.android.providers.contacts/databases/profile.db,false,false,130
+06-07 13:49:54.750   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:54.872   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:54.873   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:54.883   946   946 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+06-07 13:49:54.885   946   946 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+06-07 13:49:55.053   946   981 D vendor.oplus.hardware.charger-V6-service: parallel fold conf file parse fail parallel_fold_state 2
+06-07 13:49:55.053   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: scale_chg Start!!!
+06-07 13:49:55.054   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 0, 3]
+06-07 13:49:55.055   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 2, 6]
+06-07 13:49:55.055   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 1, 4]
+06-07 13:49:55.055   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 3, 5]
+06-07 13:49:55.055   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 4, 5]
+06-07 13:49:55.055   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 5, 3]
+06-07 13:49:55.055   946   981 D vendor.oplus.hardware.charger-V6-service: [0, 6, 0]
+06-07 13:49:55.528   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg: Get from client TYPE=thermal_hal_notify NAME=SKIN
+06-07 13:49:55.528   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:name.c_str():SKIN
+06-07 13:49:55.528   906   921 W android.hardware.thermal@2.0-service.mtk: parseMsg:tz notify:SKIN
+06-07 13:49:55.528   906   921 I android.hardware.thermal@2.0-service.mtk: Wait to accept a connection
+06-07 13:49:55.529   906   921 I android.hardware.thermal@2.0-impl: Sending notification:  Type: SKIN Name: SKIN CurrentValue: 45.624 ThrottlingStatus: SEVERE
+06-07 13:49:55.530   906   921 I android.hardware.thermal@2.0-impl: sendThermalChangedCallback
+06-07 13:49:55.768   870 18334 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+06-07 13:49:55.890  1783 11375 I AppSearchIcing: icing-search-engine.cc:2486: Persisting data to disk with mode 3
+06-07 13:49:55.919  3123  3374 D ContactsProvider: performBackgroundTask: task id: 21
+06-07 13:49:55.920  3123  3374 D ContactsProvider: performBackgroundTask GET_QUICKSEARCH_VALUE
+06-07 13:49:55.943  1783 11375 I AppSearchIcing: icing-search-engine.cc:2501: PersistToDisk completed.
+06-07 13:49:55.955  3123  3374 D ContactsProvider: performBackgroundTask: task id: 27
+06-07 13:49:55.959  3123  3374 D ContactsProvider: performBackgroundTask: task id: 28
+06-07 13:49:55.961  3123  3374 D ContactsProvider: performBackgroundTask: task id: 33
+06-07 13:49:55.964  3123  3374 I ContactNumberHashHelper: start updateExistNumberHash
+06-07 13:49:55.969  3123  3374 D ContactNumberHashHelper: updateExistNumberHash hasUpdated
